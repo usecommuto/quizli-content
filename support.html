@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizli — Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #FAF6EE;
+            color: #1A1A1A;
+            line-height: 1.6;
+            padding: 24px;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 28px; font-weight: 800; margin-bottom: 4px; }
+        .subtitle { font-size: 15px; color: #8A7F6F; margin-bottom: 32px; }
+        .email-card {
+            background: #FFFFFF;
+            border: 1px solid #E5DDD0;
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            margin-bottom: 36px;
+        }
+        .email-card p { font-size: 15px; color: #4A4A4A; margin-bottom: 16px; }
+        .email-btn {
+            display: inline-block;
+            background: #C8522E;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            padding: 14px 32px;
+            border-radius: 14px;
+        }
+        .email-btn:hover { background: #A8421E; }
+        h2 { font-size: 20px; font-weight: 800; margin-bottom: 20px; }
+        .faq { margin-bottom: 16px; }
+        .faq summary {
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 16px;
+            background: #FFFFFF;
+            border: 1px solid #E5DDD0;
+            border-radius: 14px;
+            list-style: none;
+        }
+        .faq summary::-webkit-details-marker { display: none; }
+        .faq summary::before { content: "+ "; color: #C8522E; font-weight: 800; }
+        .faq[open] summary::before { content: "− "; }
+        .faq[open] summary { border-radius: 14px 14px 0 0; border-bottom: none; }
+        .faq .answer {
+            font-size: 15px;
+            color: #4A4A4A;
+            padding: 16px;
+            background: #FFFFFF;
+            border: 1px solid #E5DDD0;
+            border-top: none;
+            border-radius: 0 0 14px 14px;
+        }
+        .footer {
+            margin-top: 48px;
+            padding-top: 20px;
+            border-top: 1px solid #E5DDD0;
+            font-size: 13px;
+            color: #8A7F6F;
+            text-align: center;
+        }
+        .footer a { color: #C8522E; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h1>Support</h1>
+    <p class="subtitle">Need help with Quizli? Check the FAQs below or get in touch.</p>
+
+    <div class="email-card">
+        <p>Can't find what you need? Send us an email and we'll get back to you as soon as possible.</p>
+        <a href="mailto:usecommuto@gmail.com?subject=Quizli%20Support" class="email-btn">Email Us</a>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <details class="faq">
+        <summary>How does the daily quiz work?</summary>
+        <div class="answer">Every day you get 5 new London trivia questions. Everyone gets the same questions each day, so you can compare scores with friends. The quiz resets at midnight.</div>
+    </details>
+
+    <details class="faq">
+        <summary>What happens if I miss a day?</summary>
+        <div class="answer">Your streak will reset to zero unless you have a Streak Freeze active. You can buy Streak Freezes in the app to protect your streak — they activate automatically when you miss a day.</div>
+    </details>
+
+    <details class="faq">
+        <summary>What is the Bonus Round?</summary>
+        <div class="answer">The Bonus Round is a one-time purchase that unlocks 5 extra questions each day, on top of your regular daily quiz. It's a great way to get more trivia practice and earn a higher daily score.</div>
+    </details>
+
+    <details class="faq">
+        <summary>How do I restore my purchases?</summary>
+        <div class="answer">Go to Settings (gear icon on the home screen) and tap "Restore purchases". This will restore any previous purchases linked to your Apple ID, including the Bonus Round unlock.</div>
+    </details>
+
+    <details class="faq">
+        <summary>How does the leaderboard work?</summary>
+        <div class="answer">Quizli uses Apple's Game Center for leaderboards. Make sure you're signed in to Game Center in your iPhone Settings. Your daily score is submitted automatically after you complete the quiz.</div>
+    </details>
+
+    <details class="faq">
+        <summary>Can I play offline?</summary>
+        <div class="answer">Yes! Quizli works fully offline. Questions are stored on your device. The app will check for new questions when you're online, but you can always play without an internet connection.</div>
+    </details>
+
+    <details class="faq">
+        <summary>How do I change my profile or avatar?</summary>
+        <div class="answer">Tap your profile icon on the home screen. From there you can change your display name, choose an avatar, and customise your profile ring colour.</div>
+    </details>
+
+    <details class="faq">
+        <summary>Is my data private?</summary>
+        <div class="answer">Absolutely. Quizli stores all data locally on your device. We don't collect any personal information, and we don't use any analytics or tracking. Read our full <a href="privacy.html">Privacy Policy</a> for details.</div>
+    </details>
+
+    <details class="faq">
+        <summary>The app isn't loading or is crashing</summary>
+        <div class="answer">Try closing and reopening the app. If that doesn't work, restart your iPhone. If the problem persists, make sure you're running the latest version from the App Store, and email us with details about the issue.</div>
+    </details>
+
+    <details class="faq">
+        <summary>I have a question suggestion!</summary>
+        <div class="answer">We'd love to hear it! Email us at <a href="mailto:usecommuto@gmail.com?subject=Quizli%20Question%20Suggestion">usecommuto@gmail.com</a> with your question idea and we'll consider adding it to the game.</div>
+    </details>
+
+    <div class="footer">
+        <a href="privacy.html">Privacy Policy</a> · Quizli — Daily London Trivia
+    </div>
+</body>
+</html>
