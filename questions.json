@@ -658,5 +658,865 @@
         "category": "History",
         "difficulty": 1,
         "explanation": "The Grenfell Tower fire on 14 June 2017 in North Kensington claimed 72 lives. It led to a nationwide review of building safety regulations."
+    },
+    {
+        "id": "q041",
+        "type": "multipleChoice",
+        "question": "Which London borough is home to Brixton Market?",
+        "options": ["Southwark", "Lambeth", "Lewisham", "Wandsworth"],
+        "correctIndex": 1,
+        "category": "Geography",
+        "difficulty": 1,
+        "explanation": "Brixton Market is in the London Borough of Lambeth. The covered market dates back to the 1870s and is famous for its Caribbean food and vibrant atmosphere."
+    },
+    {
+        "id": "q042",
+        "type": "multipleChoice",
+        "question": "What is the deepest station on the London Underground?",
+        "options": ["Bank", "Angel", "Hampstead", "Covent Garden"],
+        "correctIndex": 2,
+        "category": "Tube",
+        "difficulty": 3,
+        "explanation": "Hampstead station on the Northern line is 58.5 metres below ground, making it the deepest station on the network. It has the deepest lift shaft on the Underground."
+    },
+    {
+        "id": "q043",
+        "type": "multipleChoice",
+        "question": "Which museum on Exhibition Road houses the natural history collections?",
+        "options": ["Science Museum", "V&A", "Natural History Museum", "Imperial War Museum"],
+        "correctIndex": 2,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "The Natural History Museum on Exhibition Road in South Kensington has over 80 million specimens. Its iconic Romanesque building opened in 1881."
+    },
+    {
+        "id": "q044",
+        "type": "multipleChoice",
+        "question": "Which London street is known for its medical specialists?",
+        "options": ["Harley Street", "Fleet Street", "Threadneedle Street", "Whitehall"],
+        "correctIndex": 0,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Harley Street in Marylebone has been associated with private medical practice since the 19th century. It has over 1,500 medical specialists today."
+    },
+    {
+        "id": "q045",
+        "type": "multipleChoice",
+        "question": "Which plague killed roughly a quarter of London's population in 1665?",
+        "options": ["Black Death", "Great Plague", "Sweating Sickness", "Cholera outbreak"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 2,
+        "explanation": "The Great Plague of 1665 killed an estimated 100,000 Londoners — about 25% of the population. It was the last major outbreak of bubonic plague in England."
+    },
+    {
+        "id": "q046",
+        "type": "multipleChoice",
+        "question": "What does 'mandem' mean in London slang?",
+        "options": ["A demand", "A group of male friends", "A manager", "A mandate"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Mandem' is MLE slang for a group of male friends or associates. The female equivalent is 'galdem'."
+    },
+    {
+        "id": "q047",
+        "type": "multipleChoice",
+        "question": "Which London football club plays at Selhurst Park?",
+        "options": ["Millwall", "Charlton Athletic", "Crystal Palace", "Wimbledon"],
+        "correctIndex": 2,
+        "category": "Football",
+        "difficulty": 2,
+        "explanation": "Crystal Palace have played at Selhurst Park in south London since 1924. The ground is known for its intimidating atmosphere, especially the Holmesdale Road end."
+    },
+    {
+        "id": "q048",
+        "type": "multipleChoice",
+        "question": "Which London venue is known as 'the home of cricket'?",
+        "options": ["The Oval", "Lord's", "Edgbaston", "Trent Bridge"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 1,
+        "explanation": "Lord's Cricket Ground in St John's Wood has been the home of cricket since 1814. It's owned by the Marylebone Cricket Club (MCC) and hosts international Test matches."
+    },
+    {
+        "id": "q049",
+        "type": "multipleChoice",
+        "question": "What colour is the Central line on the Tube map?",
+        "options": ["Blue", "Red", "Green", "Yellow"],
+        "correctIndex": 1,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Central line is shown in red on the Tube map. It's one of the oldest deep-level tube lines, opening in 1900 as the Central London Railway."
+    },
+    {
+        "id": "q050",
+        "type": "multipleChoice",
+        "question": "Which architect designed the dome of St Paul's Cathedral?",
+        "options": ["Inigo Jones", "Christopher Wren", "John Nash", "Robert Adam"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 1,
+        "explanation": "Sir Christopher Wren designed the current St Paul's Cathedral after the Great Fire of 1666 destroyed the medieval original. It took 35 years to build."
+    },
+    {
+        "id": "q051",
+        "type": "multipleChoice",
+        "question": "Which London park is the largest Royal Park?",
+        "options": ["Hyde Park", "Regent's Park", "Richmond Park", "Greenwich Park"],
+        "correctIndex": 2,
+        "category": "Geography",
+        "difficulty": 2,
+        "explanation": "Richmond Park covers 2,500 acres, making it the largest Royal Park in London. It's home to over 600 free-roaming red and fallow deer."
+    },
+    {
+        "id": "q052",
+        "type": "multipleChoice",
+        "question": "What does 'ends' mean in London slang?",
+        "options": ["The final stop", "Your neighbourhood", "The weekend", "Money"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Ends' refers to your local area or neighbourhood. 'My ends' means 'where I'm from'. It's widely used in London youth culture."
+    },
+    {
+        "id": "q053",
+        "type": "multipleChoice",
+        "question": "Which building at 30 St Mary Axe is nicknamed 'The Gherkin'?",
+        "options": ["Leadenhall Building", "Swiss Re Tower", "Walkie Talkie", "Cheesegrater"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "The Swiss Re Tower at 30 St Mary Axe, designed by Norman Foster, opened in 2004. Its distinctive cucumber shape earned it the nickname 'The Gherkin'."
+    },
+    {
+        "id": "q054",
+        "type": "multipleChoice",
+        "question": "Which London market is the city's oldest food market, dating back to 1014?",
+        "options": ["Smithfield Market", "Leadenhall Market", "Borough Market", "Billingsgate Market"],
+        "correctIndex": 2,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Borough Market near London Bridge has traded in some form since 1014. Today it's one of the UK's most renowned food markets with over 100 stalls."
+    },
+    {
+        "id": "q055",
+        "type": "multipleChoice",
+        "question": "Which tube line connects Heathrow Airport to central London?",
+        "options": ["Central", "Victoria", "Piccadilly", "Metropolitan"],
+        "correctIndex": 2,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Piccadilly line serves all Heathrow terminals. The journey from Heathrow to central London takes about 50 minutes on the Tube."
+    },
+    {
+        "id": "q056",
+        "type": "multipleChoice",
+        "question": "What was the name of the serial killer who terrorised Whitechapel in 1888?",
+        "options": ["The Ripper", "Jack the Ripper", "The Whitechapel Strangler", "Spring-Heeled Jack"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 1,
+        "explanation": "Jack the Ripper murdered at least five women in Whitechapel in 1888. Despite extensive investigation, the killer's identity has never been confirmed."
+    },
+    {
+        "id": "q057",
+        "type": "multipleChoice",
+        "question": "Which London skyscraper is nicknamed 'The Walkie Talkie'?",
+        "options": ["The Shard", "One Canada Square", "20 Fenchurch Street", "22 Bishopsgate"],
+        "correctIndex": 2,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "20 Fenchurch Street, designed by Rafael Viñoly, is nicknamed 'The Walkie Talkie' due to its distinctive top-heavy shape. Its Sky Garden offers free panoramic views."
+    },
+    {
+        "id": "q058",
+        "type": "multipleChoice",
+        "question": "Which London area is famous for its annual carnival celebrating Caribbean culture?",
+        "options": ["Brixton", "Notting Hill", "Peckham", "Hackney"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 1,
+        "explanation": "The Notting Hill Carnival takes place every August bank holiday. It's Europe's largest street festival, celebrating Caribbean culture with parades, music, and food."
+    },
+    {
+        "id": "q059",
+        "type": "multipleChoice",
+        "question": "Which West Ham United stadium hosted athletics at the 2012 Olympics?",
+        "options": ["Upton Park", "London Stadium", "Crystal Palace Athletics", "Lee Valley"],
+        "correctIndex": 1,
+        "category": "Football",
+        "difficulty": 2,
+        "explanation": "The London Stadium in Stratford was built for the 2012 Olympics. West Ham moved there from Upton Park (the Boleyn Ground) in 2016."
+    },
+    {
+        "id": "q060",
+        "type": "multipleChoice",
+        "question": "What does 'wagwan' mean in London slang?",
+        "options": ["Go away", "What's going on?", "A type of food", "Watch out"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Wagwan' comes from Jamaican Patois 'what a gwaan' meaning 'what's going on?' or 'what's up?'. It's a common greeting in London."
+    },
+    {
+        "id": "q061",
+        "type": "multipleChoice",
+        "question": "Which London bridge is the oldest still standing?",
+        "options": ["Tower Bridge", "Westminster Bridge", "Richmond Bridge", "London Bridge"],
+        "correctIndex": 2,
+        "category": "Landmarks",
+        "difficulty": 3,
+        "explanation": "Richmond Bridge, built in 1777, is the oldest surviving Thames bridge in London. It's a Grade II listed stone arch bridge connecting Richmond and Twickenham."
+    },
+    {
+        "id": "q062",
+        "type": "multipleChoice",
+        "question": "Which tube line is coloured brown on the map?",
+        "options": ["Bakerloo", "District", "Metropolitan", "Overground"],
+        "correctIndex": 0,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Bakerloo line is shown in brown. Its name is a portmanteau of 'Baker Street' and 'Waterloo', its two key stations when it opened in 1906."
+    },
+    {
+        "id": "q063",
+        "type": "multipleChoice",
+        "question": "Which famous department store on Brompton Road closed in 2024?",
+        "options": ["Selfridges", "Liberty", "Harrods", "Harvey Nichols"],
+        "correctIndex": 2,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Harrods on Brompton Road in Knightsbridge is one of the world's most famous department stores. Founded in 1849, its food halls are particularly iconic."
+    },
+    {
+        "id": "q064",
+        "type": "multipleChoice",
+        "question": "In which century was the Tower of London first used as a prison?",
+        "options": ["11th century", "12th century", "14th century", "16th century"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 3,
+        "explanation": "The Tower was first used as a prison in 1100 when Ranulf Flambard, Bishop of Durham, was imprisoned. It held prisoners until 1952."
+    },
+    {
+        "id": "q065",
+        "type": "multipleChoice",
+        "question": "Which London district is known for its leather goods and fashion wholesale?",
+        "options": ["Shoreditch", "Brick Lane", "Carnaby Street", "Petticoat Lane"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Brick Lane in the East End is famous for its curry houses, vintage shops, and street art. It was historically the centre of London's Bangladeshi community."
+    },
+    {
+        "id": "q066",
+        "type": "multipleChoice",
+        "question": "How many zones does the London Underground system have?",
+        "options": ["6", "8", "9", "10"],
+        "correctIndex": 2,
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "The London Underground fare system has 9 zones, with Zone 1 in central London. However, most of the network operates within Zones 1-6."
+    },
+    {
+        "id": "q067",
+        "type": "multipleChoice",
+        "question": "Which famous London prison was located in Wandsworth?",
+        "options": ["Brixton Prison", "Pentonville Prison", "Wandsworth Prison", "Holloway Prison"],
+        "correctIndex": 2,
+        "category": "History",
+        "difficulty": 2,
+        "explanation": "HMP Wandsworth, opened in 1851, is one of the largest prisons in the UK. It's a Category B men's prison and has housed many notable inmates."
+    },
+    {
+        "id": "q068",
+        "type": "multipleChoice",
+        "question": "What does 'peak' mean in London slang?",
+        "options": ["The best", "Unfortunate or bad", "Exciting", "Jealous"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 2,
+        "explanation": "'Peak' in London slang means unfortunate, bad, or harsh — the opposite of its standard English meaning. 'That's peak' means 'that's really bad'."
+    },
+    {
+        "id": "q069",
+        "type": "multipleChoice",
+        "question": "Which London club won the Champions League in 2012?",
+        "options": ["Arsenal", "Chelsea", "Tottenham Hotspur", "Manchester City"],
+        "correctIndex": 1,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "Chelsea won the Champions League in 2012, beating Bayern Munich on penalties in Munich. Didier Drogba scored the equaliser and the winning penalty."
+    },
+    {
+        "id": "q070",
+        "type": "multipleChoice",
+        "question": "Which river runs through Greenwich and into the Thames?",
+        "options": ["River Lea", "River Ravensbourne", "River Fleet", "River Wandle"],
+        "correctIndex": 1,
+        "category": "Geography",
+        "difficulty": 3,
+        "explanation": "The River Ravensbourne flows through Bromley and Lewisham before joining the Thames at Deptford Creek, near Greenwich. It's about 11 miles long."
+    },
+    {
+        "id": "q071",
+        "type": "multipleChoice",
+        "question": "Which London venue hosts the annual Proms concerts every summer?",
+        "options": ["Barbican Centre", "Southbank Centre", "Royal Albert Hall", "Wigmore Hall"],
+        "correctIndex": 2,
+        "category": "Music",
+        "difficulty": 1,
+        "explanation": "The BBC Proms have been held at the Royal Albert Hall since 1941. The Last Night of the Proms is a major cultural event featuring Land of Hope and Glory."
+    },
+    {
+        "id": "q072",
+        "type": "multipleChoice",
+        "question": "What is the name of the observation deck at the top of The Shard?",
+        "options": ["Sky Garden", "The View", "Cloud Nine", "The View from The Shard"],
+        "correctIndex": 3,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "The View from The Shard is on floors 68-72, at 244 metres high. It offers 360-degree views up to 40 miles on a clear day."
+    },
+    {
+        "id": "q073",
+        "type": "multipleChoice",
+        "question": "Which monarch established Greenwich as a royal palace?",
+        "options": ["Henry VII", "Henry VIII", "Elizabeth I", "James I"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 3,
+        "explanation": "Henry VIII was born at Greenwich Palace and made it one of his principal residences. He married Catherine of Aragon and Anne of Cleves there."
+    },
+    {
+        "id": "q074",
+        "type": "multipleChoice",
+        "question": "What does 'allow it' mean in London slang?",
+        "options": ["Permission granted", "Forget about it / let it go", "I agree", "Allow me to explain"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Allow it' means 'forget about it', 'leave it alone', or 'stop it'. It's used to dismiss something or tell someone to drop a subject."
+    },
+    {
+        "id": "q075",
+        "type": "multipleChoice",
+        "question": "Which tube station serves Wembley Stadium?",
+        "options": ["Wembley Central", "Wembley Park", "Wembley Stadium", "North Wembley"],
+        "correctIndex": 1,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "Wembley Park on the Metropolitan and Jubilee lines is the main tube station for Wembley Stadium. On event days it handles huge crowds via a special walkway."
+    },
+    {
+        "id": "q076",
+        "type": "multipleChoice",
+        "question": "Which South London area is known for its vibrant Nigerian community?",
+        "options": ["Brixton", "Peckham", "Lewisham", "Croydon"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Peckham is home to one of London's largest Nigerian and West African communities. Rye Lane is famous for its African food shops, restaurants, and fabric stores."
+    },
+    {
+        "id": "q077",
+        "type": "multipleChoice",
+        "question": "How tall is The Shard in metres?",
+        "options": ["245m", "280m", "310m", "350m"],
+        "correctIndex": 2,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "The Shard stands at 310 metres (1,016 feet) tall with 95 storeys. Designed by Renzo Piano, it was completed in 2012."
+    },
+    {
+        "id": "q078",
+        "type": "multipleChoice",
+        "question": "Which London band released the album 'A Rush of Blood to the Head'?",
+        "options": ["Blur", "Coldplay", "Radiohead", "Muse"],
+        "correctIndex": 1,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "Coldplay, formed at UCL in London, released 'A Rush of Blood to the Head' in 2002. Frontman Chris Martin grew up to become one of the world's biggest rock stars."
+    },
+    {
+        "id": "q079",
+        "type": "multipleChoice",
+        "question": "Which historic ship is permanently moored near Tower Bridge?",
+        "options": ["Cutty Sark", "HMS Victory", "HMS Belfast", "Golden Hinde"],
+        "correctIndex": 2,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "HMS Belfast, a WWII light cruiser, has been moored on the Thames near Tower Bridge since 1971. It's now a museum ship operated by the Imperial War Museums."
+    },
+    {
+        "id": "q080",
+        "type": "multipleChoice",
+        "question": "Which North London derby involves Arsenal and Tottenham?",
+        "options": ["The Derby", "The North London Derby", "The Capital Derby", "The Emirates Derby"],
+        "correctIndex": 1,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "The North London Derby between Arsenal and Tottenham is one of football's fiercest rivalries. The clubs are separated by about 4 miles in north London."
+    },
+    {
+        "id": "q081",
+        "type": "multipleChoice",
+        "question": "Which famous London clock is located at the Royal Observatory?",
+        "options": ["Big Ben", "Shepherd Gate Clock", "The Liberty Clock", "Fortnum's Clock"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 3,
+        "explanation": "The Shepherd Gate Clock at the Royal Observatory Greenwich was the first clock to show Greenwich Mean Time directly to the public. It has a 24-hour dial."
+    },
+    {
+        "id": "q082",
+        "type": "multipleChoice",
+        "question": "What does 'dead' mean when a Londoner says 'that's dead'?",
+        "options": ["Boring or not happening", "Very funny", "Extremely good", "Scary"],
+        "correctIndex": 0,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Dead' in London slang means boring, empty, or not worth attending. 'This party is dead' means there's nothing happening."
+    },
+    {
+        "id": "q083",
+        "type": "multipleChoice",
+        "question": "Which London square is famous for its annual Christmas lights and is home to the Norwegian Christmas tree?",
+        "options": ["Leicester Square", "Trafalgar Square", "Piccadilly Circus", "Parliament Square"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 1,
+        "explanation": "Trafalgar Square has received a Christmas tree from Norway every year since 1947, as a thank-you gift for Britain's support during WWII."
+    },
+    {
+        "id": "q084",
+        "type": "multipleChoice",
+        "question": "Which tube line runs from Brixton to Walthamstow Central?",
+        "options": ["Northern", "Central", "Victoria", "Jubilee"],
+        "correctIndex": 2,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Victoria line runs from Brixton in the south to Walthamstow Central in the north-east. It's one of the most-used lines on the network."
+    },
+    {
+        "id": "q085",
+        "type": "multipleChoice",
+        "question": "Which London museum houses the Rosetta Stone?",
+        "options": ["Victoria and Albert Museum", "British Museum", "National Gallery", "Museum of London"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "The Rosetta Stone has been in the British Museum since 1802. The stone, dating from 196 BC, was key to deciphering Egyptian hieroglyphs."
+    },
+    {
+        "id": "q086",
+        "type": "multipleChoice",
+        "question": "Which punk band famously played at the 100 Club on Oxford Street?",
+        "options": ["The Clash", "The Damned", "Sex Pistols", "All of the above"],
+        "correctIndex": 3,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "The 100 Club hosted the legendary 100 Club Punk Special in September 1976, featuring the Sex Pistols, The Clash, The Damned, and Siouxsie and the Banshees."
+    },
+    {
+        "id": "q087",
+        "type": "multipleChoice",
+        "question": "How many people use the London Underground on an average weekday?",
+        "options": ["2 million", "3 million", "5 million", "7 million"],
+        "correctIndex": 2,
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "The London Underground carries about 5 million passengers on an average weekday, making it one of the busiest metro systems in Europe."
+    },
+    {
+        "id": "q088",
+        "type": "multipleChoice",
+        "question": "Which London area is associated with the 2011 England riots?",
+        "options": ["Westminster", "Tottenham", "Chelsea", "Kensington"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 2,
+        "explanation": "The 2011 England riots started in Tottenham on 6 August after the police shooting of Mark Duggan. The unrest spread across London and other English cities."
+    },
+    {
+        "id": "q089",
+        "type": "multipleChoice",
+        "question": "What does 'chirpsing' mean in London slang?",
+        "options": ["Singing", "Flirting", "Complaining", "Eating"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 2,
+        "explanation": "'Chirpsing' means flirting or chatting someone up. 'He was chirpsing her at the party' means he was trying to get her attention romantically."
+    },
+    {
+        "id": "q090",
+        "type": "multipleChoice",
+        "question": "Which London ground hosted the first ever FA Cup Final in 1872?",
+        "options": ["The Oval", "Wembley", "Crystal Palace", "White Hart Lane"],
+        "correctIndex": 0,
+        "category": "Football",
+        "difficulty": 3,
+        "explanation": "The first FA Cup Final was held at Kennington Oval in 1872. The Wanderers beat the Royal Engineers 1-0. The Oval is now primarily a cricket ground."
+    },
+    {
+        "id": "q091",
+        "type": "multipleChoice",
+        "question": "Which famous London street is known for its newspaper industry history?",
+        "options": ["Bond Street", "Fleet Street", "Regent Street", "Baker Street"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 1,
+        "explanation": "Fleet Street was the home of British national newspapers from the 1500s until the 1980s. The term 'Fleet Street' is still used to refer to the national press."
+    },
+    {
+        "id": "q092",
+        "type": "multipleChoice",
+        "question": "Which tube line is the only one that connects with every other Underground line?",
+        "options": ["Jubilee", "Metropolitan", "District", "Piccadilly"],
+        "correctIndex": 0,
+        "category": "Tube",
+        "difficulty": 3,
+        "explanation": "The Jubilee line interchanges with every other Underground line at some point along its route, making it the most connected line on the network."
+    },
+    {
+        "id": "q093",
+        "type": "multipleChoice",
+        "question": "Which museum is located in a former power station on the South Bank?",
+        "options": ["Tate Britain", "Tate Modern", "Design Museum", "Hayward Gallery"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "Tate Modern is housed in the former Bankside Power Station. Since opening in 2000, it's become one of the world's most-visited modern art museums."
+    },
+    {
+        "id": "q094",
+        "type": "multipleChoice",
+        "question": "What does 'bait' mean in London slang?",
+        "options": ["Food", "Obvious or attention-seeking", "A trap", "Attractive"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 2,
+        "explanation": "'Bait' means obvious, attention-seeking, or exposed. 'That's so bait' means it's too obvious or will attract unwanted attention."
+    },
+    {
+        "id": "q095",
+        "type": "multipleChoice",
+        "question": "In which year did the first Notting Hill Carnival take place?",
+        "options": ["1958", "1966", "1972", "1976"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "The first Notting Hill Carnival was held in 1966, organised by Rhaune Laslett as a local multicultural festival. Claudia Jones had organised indoor carnivals from 1959."
+    },
+    {
+        "id": "q096",
+        "type": "multipleChoice",
+        "question": "Which London borough has the largest population?",
+        "options": ["Tower Hamlets", "Croydon", "Barnet", "Newham"],
+        "correctIndex": 2,
+        "category": "Geography",
+        "difficulty": 3,
+        "explanation": "The London Borough of Barnet has the largest population of any London borough, with over 400,000 residents."
+    },
+    {
+        "id": "q097",
+        "type": "multipleChoice",
+        "question": "Which London-born artist is famous for spot paintings and diamond-encrusted skulls?",
+        "options": ["Banksy", "Damien Hirst", "Tracey Emin", "Grayson Perry"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Damien Hirst, born in Bristol but closely associated with London's YBA movement, is famous for his spot paintings, shark in formaldehyde, and the diamond skull 'For the Love of God'."
+    },
+    {
+        "id": "q098",
+        "type": "multipleChoice",
+        "question": "Which grime artist won the Mercury Prize for 'Konnichiwa' in 2016?",
+        "options": ["Stormzy", "Skepta", "Dizzee Rascal", "Wiley"],
+        "correctIndex": 1,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "Skepta won the Mercury Prize for 'Konnichiwa' in 2016, bringing grime back into the mainstream. He's from Tottenham and is considered one of grime's greatest MCs."
+    },
+    {
+        "id": "q099",
+        "type": "multipleChoice",
+        "question": "What is the postcode for the City of London financial district?",
+        "options": ["W1", "EC1", "SW1", "SE1"],
+        "correctIndex": 1,
+        "category": "Geography",
+        "difficulty": 2,
+        "explanation": "The City of London uses EC (Eastern Central) postcodes — EC1 through EC4. The financial district sits within these historic postal areas."
+    },
+    {
+        "id": "q100",
+        "type": "multipleChoice",
+        "question": "Which London park hosted the 2012 Olympic equestrian events?",
+        "options": ["Hyde Park", "Richmond Park", "Greenwich Park", "Regent's Park"],
+        "correctIndex": 2,
+        "category": "History",
+        "difficulty": 2,
+        "explanation": "Greenwich Park hosted the equestrian and modern pentathlon events during the 2012 Olympics, with the Old Royal Naval College providing a stunning backdrop."
+    },
+    {
+        "id": "tf016",
+        "type": "trueFalse",
+        "question": "The Northern line has the most stations of any tube line.",
+        "correctAnswer": true,
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "The Northern line has 50 stations, the most of any line on the London Underground. It also has two branches at each end, north and south."
+    },
+    {
+        "id": "tf017",
+        "type": "trueFalse",
+        "question": "The Prime Minister's official residence is 11 Downing Street.",
+        "correctAnswer": false,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "The Prime Minister's official residence is 10 Downing Street. Number 11 is traditionally the Chancellor of the Exchequer's residence."
+    },
+    {
+        "id": "tf018",
+        "type": "trueFalse",
+        "question": "London was the first city to host the modern Olympic Games.",
+        "correctAnswer": false,
+        "category": "History",
+        "difficulty": 2,
+        "explanation": "Athens hosted the first modern Olympics in 1896. London first hosted in 1908, the fourth modern Games."
+    },
+    {
+        "id": "tf019",
+        "type": "trueFalse",
+        "question": "The Jubilee line was named to celebrate Queen Elizabeth II's Silver Jubilee.",
+        "correctAnswer": true,
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "The Jubilee line was named in honour of Queen Elizabeth II's Silver Jubilee in 1977. It opened in 1979 and was extended to Stratford in 1999."
+    },
+    {
+        "id": "tf020",
+        "type": "trueFalse",
+        "question": "Hyde Park is larger than Central Park in New York.",
+        "correctAnswer": false,
+        "category": "Geography",
+        "difficulty": 2,
+        "explanation": "Central Park is about 843 acres while Hyde Park is about 350 acres. However, if you include Kensington Gardens (which adjoins Hyde Park), the combined area is about 630 acres — still smaller than Central Park."
+    },
+    {
+        "id": "tf021",
+        "type": "trueFalse",
+        "question": "The Oyster card was introduced in 2003.",
+        "correctAnswer": true,
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "The Oyster card launched on 30 June 2003. It revolutionised travel payment in London and has since been supplemented by contactless bank card payments."
+    },
+    {
+        "id": "tf022",
+        "type": "trueFalse",
+        "question": "West Ham United's nickname is 'The Hammers'.",
+        "correctAnswer": true,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "West Ham are called 'The Hammers' due to the club's origins at the Thames Ironworks shipyard. Their badge features crossed hammers."
+    },
+    {
+        "id": "tf023",
+        "type": "trueFalse",
+        "question": "Shakespeare's Globe Theatre on the South Bank is the original building from the 1600s.",
+        "correctAnswer": false,
+        "category": "Culture",
+        "difficulty": 1,
+        "explanation": "The current Globe is a modern reconstruction that opened in 1997, about 230 metres from the original site. The original Globe burned down in 1613 during a performance of Henry VIII."
+    },
+    {
+        "id": "tf024",
+        "type": "trueFalse",
+        "question": "The River Thames is the longest river in England.",
+        "correctAnswer": false,
+        "category": "Geography",
+        "difficulty": 2,
+        "explanation": "The River Severn is the longest river in the UK at 220 miles. The Thames is the second longest at 215 miles."
+    },
+    {
+        "id": "tf025",
+        "type": "trueFalse",
+        "question": "Amy Winehouse grew up in Southgate, north London.",
+        "correctAnswer": true,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "Amy Winehouse was born in Enfield and grew up in Southgate, north London. A bronze statue of her was unveiled at Camden's Stables Market in 2014."
+    },
+    {
+        "id": "tf026",
+        "type": "trueFalse",
+        "question": "Canary Wharf is in the London Borough of Tower Hamlets.",
+        "correctAnswer": true,
+        "category": "Geography",
+        "difficulty": 2,
+        "explanation": "Canary Wharf is located on the Isle of Dogs in the London Borough of Tower Hamlets. It's one of London's two main financial centres alongside the City."
+    },
+    {
+        "id": "tf027",
+        "type": "trueFalse",
+        "question": "The Metropolitan line was the world's first underground railway.",
+        "correctAnswer": true,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Metropolitan Railway opened on 10 January 1863, running between Paddington and Farringdon. It was the world's first underground passenger railway."
+    },
+    {
+        "id": "tf028",
+        "type": "trueFalse",
+        "question": "Chelsea FC was founded before Arsenal FC.",
+        "correctAnswer": false,
+        "category": "Football",
+        "difficulty": 2,
+        "explanation": "Arsenal was founded in 1886 (as Dial Square), while Chelsea was founded in 1905. Arsenal is one of the oldest clubs in English football."
+    },
+    {
+        "id": "tf029",
+        "type": "trueFalse",
+        "question": "London has more than 8 million residents.",
+        "correctAnswer": true,
+        "category": "Geography",
+        "difficulty": 1,
+        "explanation": "Greater London has a population of over 9 million, making it the most populous city in the United Kingdom and one of the largest in Europe."
+    },
+    {
+        "id": "tf030",
+        "type": "trueFalse",
+        "question": "The Piccadilly Circus Tube station is on the Circle line.",
+        "correctAnswer": false,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "Piccadilly Circus station is served by the Piccadilly and Bakerloo lines, not the Circle line. Despite its name, it has nothing to do with the Circle line."
+    },
+    {
+        "id": "r008",
+        "type": "route",
+        "question": "You're at Oxford Circus and need to get to Canary Wharf. Which line(s) do you need, in order?",
+        "correctLines": ["Central", "Jubilee"],
+        "availableLines": ["Central", "Jubilee", "Victoria", "Bakerloo", "Northern"],
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "Take the Central line east to Bond Street, then change to the Jubilee line southbound to Canary Wharf. Alternatively, take the Jubilee from Bond Street directly."
+    },
+    {
+        "id": "r009",
+        "type": "route",
+        "question": "You're at Brixton and need to get to King's Cross. Which line do you need?",
+        "correctLines": ["Victoria"],
+        "availableLines": ["Victoria", "Northern", "Piccadilly", "Jubilee"],
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Victoria line runs directly from Brixton to King's Cross St Pancras — no changes needed. It takes about 15 minutes."
+    },
+    {
+        "id": "r010",
+        "type": "route",
+        "question": "You're at Hammersmith and need to get to Stratford. Which line(s) do you need, in order?",
+        "correctLines": ["District", "Central"],
+        "availableLines": ["District", "Central", "Hammersmith & City", "Jubilee", "Victoria"],
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "Take the District line east to Mile End, then change to the Central line for one stop to Stratford."
+    },
+    {
+        "id": "r011",
+        "type": "route",
+        "question": "You're at Tottenham Court Road and need to get to Wimbledon. Which line(s) do you need, in order?",
+        "correctLines": ["Northern", "District"],
+        "availableLines": ["Northern", "District", "Central", "Piccadilly", "Victoria"],
+        "category": "Tube",
+        "difficulty": 3,
+        "explanation": "Take the Northern line south to Embankment, then change to the District line westbound all the way to Wimbledon."
+    },
+    {
+        "id": "r012",
+        "type": "route",
+        "question": "You're at Euston and need to get to London Bridge. Which line do you need?",
+        "correctLines": ["Northern"],
+        "availableLines": ["Northern", "Victoria", "Piccadilly", "Jubilee"],
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Northern line runs directly from Euston to London Bridge via Bank. It takes about 10 minutes with no changes needed."
+    },
+    {
+        "id": "r013",
+        "type": "route",
+        "question": "You're at Green Park and need to get to Heathrow Terminal 5. Which line do you need?",
+        "correctLines": ["Piccadilly"],
+        "availableLines": ["Piccadilly", "Jubilee", "Victoria", "District"],
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Piccadilly line runs directly from Green Park to Heathrow Terminal 5. The journey takes about 45 minutes."
+    },
+    {
+        "id": "r014",
+        "type": "route",
+        "question": "You're at Clapham Common and need to get to Camden Town. Which line do you need?",
+        "correctLines": ["Northern"],
+        "availableLines": ["Northern", "Victoria", "Piccadilly", "Bakerloo"],
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Northern line runs directly from Clapham Common northbound through the West End to Camden Town. It takes about 20 minutes."
+    },
+    {
+        "id": "img006",
+        "type": "imageBased",
+        "question": "Which London landmark is shown in this image?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/St_Paul%27s_Cathedral%2C_London%2C_England_-_Jan_2010.jpg/1280px-St_Paul%27s_Cathedral%2C_London%2C_England_-_Jan_2010.jpg",
+        "options": ["Westminster Abbey", "St Paul's Cathedral", "Canterbury Cathedral", "Southwark Cathedral"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "St Paul's Cathedral, designed by Sir Christopher Wren, is one of London's most iconic buildings. Its dome is one of the largest in the world at 111 metres high."
+    },
+    {
+        "id": "img007",
+        "type": "imageBased",
+        "question": "Which London building is this?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Shard_from_the_Sky_Garden_2015.jpg/800px-The_Shard_from_the_Sky_Garden_2015.jpg",
+        "options": ["One Canada Square", "The Shard", "22 Bishopsgate", "The Gherkin"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "The Shard is Western Europe's tallest building at 310 metres. Designed by Renzo Piano, it contains offices, restaurants, a hotel, and residential apartments."
+    },
+    {
+        "id": "img008",
+        "type": "imageBased",
+        "question": "Which London park scene is shown here?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Hyde_Park_-_The_Serpentine_-_geograph.org.uk_-_726891.jpg/1280px-Hyde_Park_-_The_Serpentine_-_geograph.org.uk_-_726891.jpg",
+        "options": ["Regent's Park Boating Lake", "The Serpentine in Hyde Park", "Victoria Park Lake", "Hampstead Ponds"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "The Serpentine is a 40-acre lake in Hyde Park, created in 1730. It's popular for swimming, boating, and the annual Christmas Day Peter Pan Cup race."
+    },
+    {
+        "id": "img009",
+        "type": "imageBased",
+        "question": "Which iconic London market is shown?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Leadenhall_Market_In_London_-_Feb_2006.jpg/1280px-Leadenhall_Market_In_London_-_Feb_2006.jpg",
+        "options": ["Covent Garden Market", "Leadenhall Market", "Borough Market", "Camden Market"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Leadenhall Market in the City of London dates back to the 14th century. Its ornate Victorian covered arcade was used as Diagon Alley in the Harry Potter films."
+    },
+    {
+        "id": "img010",
+        "type": "imageBased",
+        "question": "Which famous London street crossing is shown?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Abbey_Road_zebra_crossing_2022-03-14.jpg/1280px-Abbey_Road_zebra_crossing_2022-03-14.jpg",
+        "options": ["Oxford Circus crossing", "Abbey Road crossing", "Carnaby Street crossing", "King's Road crossing"],
+        "correctIndex": 1,
+        "category": "Music",
+        "difficulty": 1,
+        "explanation": "The Abbey Road zebra crossing in St John's Wood became world-famous from The Beatles' 1969 album cover. It's a Grade II listed crossing, constantly photographed by tourists."
     }
 ]
