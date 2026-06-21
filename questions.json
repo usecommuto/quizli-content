@@ -1,0 +1,662 @@
+[
+    {
+        "id": "q001",
+        "type": "multipleChoice",
+        "question": "Which London underground station is the oldest, having opened in 1863?",
+        "options": ["Baker Street", "Paddington", "King's Cross", "Farringdon"],
+        "correctIndex": 0,
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "Baker Street opened on 10 January 1863 as part of the Metropolitan Railway, the world's first underground passenger railway."
+    },
+    {
+        "id": "q002",
+        "type": "multipleChoice",
+        "question": "How many boroughs make up Greater London?",
+        "options": ["28", "30", "32", "34"],
+        "correctIndex": 2,
+        "category": "Geography",
+        "difficulty": 1,
+        "explanation": "Greater London consists of 32 boroughs plus the City of London, which is technically a separate ceremonial county."
+    },
+    {
+        "id": "q003",
+        "type": "multipleChoice",
+        "question": "Which monarch commissioned the building of the Tower of London?",
+        "options": ["Henry VIII", "William the Conqueror", "Richard the Lionheart", "Edward I"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 2,
+        "explanation": "William the Conqueror began building the Tower in 1066 after his conquest of England, starting with the White Tower to assert Norman dominance."
+    },
+    {
+        "id": "q004",
+        "type": "multipleChoice",
+        "question": "What is the name of the bell inside the Elizabeth Tower at the Palace of Westminster?",
+        "options": ["Great George", "Big Ben", "Royal Edward", "Westminster Bell"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "Big Ben is actually the nickname for the Great Bell inside the tower, not the tower itself. The tower was renamed Elizabeth Tower in 2012 for the Queen's Diamond Jubilee."
+    },
+    {
+        "id": "q005",
+        "type": "multipleChoice",
+        "question": "Which London market is famous for its antiques and held every Saturday?",
+        "options": ["Camden Market", "Borough Market", "Portobello Road Market", "Spitalfields Market"],
+        "correctIndex": 2,
+        "category": "Culture",
+        "difficulty": 1,
+        "explanation": "Portobello Road Market in Notting Hill is one of the world's largest antiques markets, stretching over two miles with more than 1,000 dealers."
+    },
+    {
+        "id": "q006",
+        "type": "multipleChoice",
+        "question": "Which underground line is coloured pink on the tube map?",
+        "options": ["Hammersmith & City", "Circle", "DLR", "Elizabeth line"],
+        "correctIndex": 0,
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "The Hammersmith & City line is shown in pink on the Tube map. It shares much of its route with the Circle and Metropolitan lines."
+    },
+    {
+        "id": "q007",
+        "type": "multipleChoice",
+        "question": "The Great Fire of London broke out in which year?",
+        "options": ["1566", "1666", "1766", "1700"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 1,
+        "explanation": "The Great Fire started on 2 September 1666 in a bakery on Pudding Lane and destroyed over 13,000 houses and 87 churches, including Old St Paul's Cathedral."
+    },
+    {
+        "id": "q008",
+        "type": "multipleChoice",
+        "question": "Which river does the Thames Barrier protect London from?",
+        "options": ["River Lea", "River Thames", "River Fleet", "River Wandle"],
+        "correctIndex": 1,
+        "category": "Geography",
+        "difficulty": 1,
+        "explanation": "The Thames Barrier at Woolwich protects London from tidal surges coming up the Thames. It has been closed over 200 times since it became operational in 1982."
+    },
+    {
+        "id": "q009",
+        "type": "multipleChoice",
+        "question": "What was the original name of the Tate Modern building before it became a gallery?",
+        "options": ["Battersea Power Station", "Bankside Power Station", "Fulham Power Station", "Southwark Power Station"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 3,
+        "explanation": "Bankside Power Station was designed by Sir Giles Gilbert Scott and operated from 1947 to 1981 before being transformed into the Tate Modern gallery, which opened in 2000."
+    },
+    {
+        "id": "q010",
+        "type": "multipleChoice",
+        "question": "Which London theatre is known as the home of the musical 'Les Misérables'?",
+        "options": ["Lyceum Theatre", "Sondheim Theatre", "Her Majesty's Theatre", "Palace Theatre"],
+        "correctIndex": 1,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Les Misérables has been running at what is now the Sondheim Theatre (formerly Queen's Theatre) since 2004, making it one of the longest-running musicals in the West End."
+    },
+    {
+        "id": "q011",
+        "type": "multipleChoice",
+        "question": "Which is the only underground station named after a football club?",
+        "options": ["Chelsea", "Tottenham Hale", "Arsenal", "West Ham"],
+        "correctIndex": 2,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "Arsenal station on the Piccadilly line was renamed from 'Gillespie Road' in 1932 at the request of the football club's legendary manager Herbert Chapman."
+    },
+    {
+        "id": "q012",
+        "type": "multipleChoice",
+        "question": "In which London park would you find the Serpentine lake?",
+        "options": ["Regent's Park", "Hyde Park", "Greenwich Park", "Richmond Park"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "The Serpentine is a 40-acre recreational lake in Hyde Park, created in 1730 by damming the River Westbourne on the orders of Queen Caroline."
+    },
+    {
+        "id": "q013",
+        "type": "multipleChoice",
+        "question": "Which street in London is traditionally associated with bespoke tailoring?",
+        "options": ["Bond Street", "Oxford Street", "Savile Row", "Jermyn Street"],
+        "correctIndex": 2,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "Savile Row in Mayfair has been the centre of bespoke tailoring since the late 18th century. The Beatles' Apple Corps headquarters was also located here."
+    },
+    {
+        "id": "q014",
+        "type": "multipleChoice",
+        "question": "The Shard stands in which London borough?",
+        "options": ["City of London", "Tower Hamlets", "Southwark", "Lambeth"],
+        "correctIndex": 2,
+        "category": "Geography",
+        "difficulty": 2,
+        "explanation": "The Shard, designed by Renzo Piano, stands at 310 metres in Southwark. It was the tallest building in the EU when completed in 2012."
+    },
+    {
+        "id": "q015",
+        "type": "multipleChoice",
+        "question": "Which London prison, demolished in 1904, gave its name to a slang term for prison?",
+        "options": ["Newgate", "Marshalsea", "Clink", "Pentonville"],
+        "correctIndex": 2,
+        "category": "History",
+        "difficulty": 3,
+        "explanation": "The Clink was a notorious prison in Southwark from 1144 to 1780. The phrase 'in the clink' meaning 'in prison' derives from its name."
+    },
+    {
+        "id": "q016",
+        "type": "multipleChoice",
+        "question": "In Cockney rhyming slang, what does 'dog and bone' mean?",
+        "options": ["Home", "Phone", "Alone", "Moan"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "Cockney rhyming slang replaces a word with a phrase that rhymes with it. 'Dog and bone' rhymes with 'phone' — so 'I'm on the dog' means 'I'm on the phone'."
+    },
+    {
+        "id": "q017",
+        "type": "multipleChoice",
+        "question": "What does 'having a butcher's' mean in London slang?",
+        "options": ["Having a fight", "Having a look", "Having a meal", "Having a laugh"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "From Cockney rhyming slang: 'butcher's hook' rhymes with 'look'. So 'have a butcher's' means 'have a look'."
+    },
+    {
+        "id": "q018",
+        "type": "multipleChoice",
+        "question": "In Cockney rhyming slang, what are 'plates of meat'?",
+        "options": ["Hands", "Feet", "Streets", "Sheets"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Plates of meat' rhymes with 'feet'. You might hear 'me plates are killing me' meaning 'my feet are sore'."
+    },
+    {
+        "id": "q019",
+        "type": "multipleChoice",
+        "question": "What does 'brass tacks' mean in London slang?",
+        "options": ["Money", "Facts", "Snacks", "Tracks"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 2,
+        "explanation": "'Getting down to brass tacks' means getting to the essential facts. The phrase may originate from Cockney rhyming slang where 'brass tacks' rhymes with 'facts'."
+    },
+    {
+        "id": "q020",
+        "type": "multipleChoice",
+        "question": "What does a Londoner mean when they say something is 'mint'?",
+        "options": ["It smells good", "It's excellent", "It's cold", "It's expensive"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Mint' meaning excellent comes from the idea of a coin fresh from the Royal Mint — in perfect, brand-new condition."
+    },
+    {
+        "id": "q021",
+        "type": "multipleChoice",
+        "question": "Which London football club plays at Stamford Bridge?",
+        "options": ["Arsenal", "Tottenham Hotspur", "Chelsea", "West Ham United"],
+        "correctIndex": 2,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "Chelsea FC has played at Stamford Bridge in Fulham since the club was founded in 1905. The ground was originally offered to Fulham FC, who turned it down."
+    },
+    {
+        "id": "q022",
+        "type": "multipleChoice",
+        "question": "Which London club won the Premier League in 2016, shocking the football world?",
+        "options": ["Tottenham Hotspur", "Chelsea", "West Ham United", "Leicester City"],
+        "correctIndex": 3,
+        "category": "Football",
+        "difficulty": 2,
+        "explanation": "Leicester City's 2015-16 title win is considered one of the greatest upsets in sporting history. They started the season at 5000-1 odds."
+    },
+    {
+        "id": "q023",
+        "type": "multipleChoice",
+        "question": "What is the capacity of Wembley Stadium?",
+        "options": ["60,000", "75,000", "90,000", "100,000"],
+        "correctIndex": 2,
+        "category": "Football",
+        "difficulty": 2,
+        "explanation": "Wembley Stadium holds 90,000 spectators, making it the largest stadium in the UK and the second-largest in Europe."
+    },
+    {
+        "id": "q024",
+        "type": "multipleChoice",
+        "question": "Which London club's stadium is called the Tottenham Hotspur Stadium?",
+        "options": ["Arsenal", "Chelsea", "West Ham United", "Tottenham Hotspur"],
+        "correctIndex": 3,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "The Tottenham Hotspur Stadium opened in 2019, built on the site of the old White Hart Lane. It features the world's first dividing retractable football pitch."
+    },
+    {
+        "id": "q025",
+        "type": "multipleChoice",
+        "question": "Arsenal moved from Highbury to which stadium in 2006?",
+        "options": ["Wembley", "Emirates Stadium", "Olympic Stadium", "Craven Cottage"],
+        "correctIndex": 1,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "Arsenal moved to the 60,704-capacity Emirates Stadium in Holloway in 2006. The old Highbury ground was converted into luxury flats."
+    },
+    {
+        "id": "q026",
+        "type": "multipleChoice",
+        "question": "Which iconic London music venue hosted The Beatles' rooftop concert in 1969?",
+        "options": ["Abbey Road Studios", "Apple Corps building", "The Marquee Club", "Hammersmith Apollo"],
+        "correctIndex": 1,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "On 30 January 1969, The Beatles performed their last public concert on the roof of Apple Corps at 3 Savile Row. Police shut it down after 42 minutes."
+    },
+    {
+        "id": "q027",
+        "type": "multipleChoice",
+        "question": "Which London road is famous for its recording studios where The Beatles recorded most of their albums?",
+        "options": ["Tin Pan Alley", "Denmark Street", "Abbey Road", "Carnaby Street"],
+        "correctIndex": 2,
+        "category": "Music",
+        "difficulty": 1,
+        "explanation": "Abbey Road Studios in St John's Wood has been used by The Beatles, Pink Floyd, and many others. The zebra crossing outside became iconic from the Beatles' album cover."
+    },
+    {
+        "id": "q028",
+        "type": "multipleChoice",
+        "question": "The Brit Awards ceremony has been held at which London arena since 2011?",
+        "options": ["Wembley Arena", "The O2", "Royal Albert Hall", "Alexandra Palace"],
+        "correctIndex": 1,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "The O2 Arena in Greenwich can hold 20,000 people and is one of the world's busiest music venues. It was originally built as the Millennium Dome."
+    },
+    {
+        "id": "q029",
+        "type": "multipleChoice",
+        "question": "Which London neighbourhood is considered the birthplace of UK grime music?",
+        "options": ["Brixton", "Bow (East London)", "Camden", "Notting Hill"],
+        "correctIndex": 1,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "Grime emerged from Bow, East London in the early 2000s. Pioneers like Dizzee Rascal and Wiley grew up on the same estate and created a genre that went global."
+    },
+    {
+        "id": "q030",
+        "type": "multipleChoice",
+        "question": "Which year did the London 2012 Olympic Games take place?",
+        "options": ["2008", "2010", "2012", "2014"],
+        "correctIndex": 2,
+        "category": "History",
+        "difficulty": 1,
+        "explanation": "The 2012 Olympics transformed East London's Stratford area. It was London's third time hosting, after 1908 and 1948."
+    },
+    {
+        "id": "q031",
+        "type": "multipleChoice",
+        "question": "The Canary Wharf financial district was built on the site of which former docks?",
+        "options": ["Royal Docks", "St Katharine Docks", "West India Docks", "Surrey Docks"],
+        "correctIndex": 2,
+        "category": "History",
+        "difficulty": 3,
+        "explanation": "The West India Docks opened in 1802 for Caribbean trade. After the docks closed in 1980, the area was redeveloped into London's second major financial centre."
+    },
+    {
+        "id": "q032",
+        "type": "multipleChoice",
+        "question": "Which London bridge famously wobbled when it opened in 2000?",
+        "options": ["Tower Bridge", "Westminster Bridge", "Millennium Bridge", "Waterloo Bridge"],
+        "correctIndex": 2,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "The Millennium Bridge swayed so dramatically on opening day that it was nicknamed 'the Wobbly Bridge'. It closed for two years while engineers added dampers to fix it."
+    },
+    {
+        "id": "q033",
+        "type": "multipleChoice",
+        "question": "What is the busiest tube station in London by passenger numbers?",
+        "options": ["Oxford Circus", "Waterloo", "King's Cross", "Victoria"],
+        "correctIndex": 1,
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "Waterloo is the busiest station on the London Underground, handling over 100 million passengers per year. It also serves as London's busiest mainline railway terminus."
+    },
+    {
+        "id": "q034",
+        "type": "multipleChoice",
+        "question": "In which year was the congestion charge introduced in central London?",
+        "options": ["2001", "2003", "2005", "2007"],
+        "correctIndex": 1,
+        "category": "History",
+        "difficulty": 2,
+        "explanation": "The congestion charge was introduced on 17 February 2003 by Mayor Ken Livingstone. It initially cost £5 per day and reduced traffic in the zone by about 30%."
+    },
+    {
+        "id": "q035",
+        "type": "multipleChoice",
+        "question": "What does 'peng' mean in modern London slang?",
+        "options": ["Ugly", "Attractive", "Hungry", "Tired"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Peng' is MLE (Multicultural London English) slang meaning attractive or good-looking. It can also describe food that tastes really good."
+    },
+    {
+        "id": "q036",
+        "type": "multipleChoice",
+        "question": "Which area of London is known as 'The Square Mile'?",
+        "options": ["Westminster", "Canary Wharf", "The City of London", "Mayfair"],
+        "correctIndex": 2,
+        "category": "Geography",
+        "difficulty": 1,
+        "explanation": "The City of London covers just 1.12 square miles and has its own police force, Lord Mayor, and ancient governing body — the City of London Corporation."
+    },
+    {
+        "id": "tf001",
+        "type": "trueFalse",
+        "question": "The London Eye was originally built as a temporary structure for the millennium celebrations.",
+        "correctAnswer": true,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "The London Eye was intended to stand for just five years but became so popular that its planning permission was made permanent. It carries 3.75 million visitors a year."
+    },
+    {
+        "id": "tf002",
+        "type": "trueFalse",
+        "question": "The Jubilee line is coloured grey on the tube map.",
+        "correctAnswer": true,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Jubilee line is shown in silver/grey. It was named in honour of Queen Elizabeth II's Silver Jubilee in 1977 and originally ran from Stanmore to Charing Cross."
+    },
+    {
+        "id": "tf003",
+        "type": "trueFalse",
+        "question": "London has hosted the Summer Olympics three times.",
+        "correctAnswer": true,
+        "category": "History",
+        "difficulty": 2,
+        "explanation": "London hosted the Olympics in 1908, 1948 (the 'Austerity Games' after WWII), and 2012. It's the only city to have hosted three times."
+    },
+    {
+        "id": "tf004",
+        "type": "trueFalse",
+        "question": "The Thames flows from east to west through London.",
+        "correctAnswer": false,
+        "category": "Geography",
+        "difficulty": 1,
+        "explanation": "The Thames flows from west to east through London, rising in the Cotswolds and flowing 215 miles to the North Sea at the Thames Estuary."
+    },
+    {
+        "id": "tf005",
+        "type": "trueFalse",
+        "question": "Buckingham Palace has over 700 rooms.",
+        "correctAnswer": true,
+        "category": "Landmarks",
+        "difficulty": 2,
+        "explanation": "Buckingham Palace has 775 rooms, including 19 state rooms, 52 royal and guest bedrooms, 188 staff bedrooms, 92 offices, and 78 bathrooms."
+    },
+    {
+        "id": "tf006",
+        "type": "trueFalse",
+        "question": "In Cockney rhyming slang, 'apples and pears' means chairs.",
+        "correctAnswer": false,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Apples and pears' means stairs, not chairs. It's one of the most well-known examples of Cockney rhyming slang."
+    },
+    {
+        "id": "tf007",
+        "type": "trueFalse",
+        "question": "Tottenham Hotspur has won the Premier League title.",
+        "correctAnswer": false,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "Spurs have never won the Premier League (formed 1992). Their last top-flight league title was the First Division in 1960-61 as part of an historic Double."
+    },
+    {
+        "id": "tf008",
+        "type": "trueFalse",
+        "question": "Arsenal's nickname is 'The Gunners'.",
+        "correctAnswer": true,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "Arsenal are called 'The Gunners' because the club was founded in 1886 by workers at the Royal Arsenal munitions factory in Woolwich, south-east London."
+    },
+    {
+        "id": "tf009",
+        "type": "trueFalse",
+        "question": "The Rolling Stones formed in London in the early 1960s.",
+        "correctAnswer": true,
+        "category": "Music",
+        "difficulty": 1,
+        "explanation": "The Rolling Stones formed in London in 1962. Mick Jagger and Keith Richards reconnected at Dartford station, and the band played early gigs at the Marquee Club in Soho."
+    },
+    {
+        "id": "tf010",
+        "type": "trueFalse",
+        "question": "Adele grew up in Tottenham, north London.",
+        "correctAnswer": false,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "Adele grew up in various parts of south London including Tottenham... wait, no — she grew up in West Norwood and Brixton in south London, not Tottenham."
+    },
+    {
+        "id": "tf011",
+        "type": "trueFalse",
+        "question": "The Elizabeth line (Crossrail) opened to the public in 2022.",
+        "correctAnswer": true,
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Elizabeth line opened on 24 May 2022 after years of delays. The Crossrail project cost £18.9 billion and runs 73 miles from Reading to Shenfield."
+    },
+    {
+        "id": "tf012",
+        "type": "trueFalse",
+        "question": "The Notting Hill Carnival started in the 1950s.",
+        "correctAnswer": false,
+        "category": "Culture",
+        "difficulty": 2,
+        "explanation": "The Notting Hill Carnival began in 1966, led by Trinidadian activist Claudia Jones. It's now Europe's largest street festival, attracting over a million people each August bank holiday."
+    },
+    {
+        "id": "tf013",
+        "type": "trueFalse",
+        "question": "The 7/7 London bombings occurred in 2005.",
+        "correctAnswer": true,
+        "category": "History",
+        "difficulty": 1,
+        "explanation": "On 7 July 2005, four coordinated suicide bombings targeted three Underground trains and a bus during morning rush hour, killing 52 people."
+    },
+    {
+        "id": "img001",
+        "type": "imageBased",
+        "question": "Which London landmark is shown in this image?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Tower_Bridge_from_Shad_Thames.jpg/1280px-Tower_Bridge_from_Shad_Thames.jpg",
+        "options": ["Tower Bridge", "London Bridge", "Westminster Bridge", "Millennium Bridge"],
+        "correctIndex": 0,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "Tower Bridge was built between 1886 and 1894. It's often confused with London Bridge, which is a much simpler structure upstream."
+    },
+    {
+        "id": "img002",
+        "type": "imageBased",
+        "question": "Which famous London building is this?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/London_Eye_Twilight_April_2006.jpg/800px-London_Eye_Twilight_April_2006.jpg",
+        "options": ["The Shard", "London Eye", "BT Tower", "The Gherkin"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "At 135 metres, the London Eye was the world's tallest Ferris wheel when it opened in 2000. A single rotation takes about 30 minutes."
+    },
+    {
+        "id": "img003",
+        "type": "imageBased",
+        "question": "Which London stadium is shown here?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Wembley_Stadium_interior.jpg/1280px-Wembley_Stadium_interior.jpg",
+        "options": ["Emirates Stadium", "Stamford Bridge", "Wembley Stadium", "The Oval"],
+        "correctIndex": 2,
+        "category": "Football",
+        "difficulty": 1,
+        "explanation": "The new Wembley Stadium opened in 2007, featuring its iconic 133-metre-high arch which is visible across London."
+    },
+    {
+        "id": "img004",
+        "type": "imageBased",
+        "question": "Which iconic London structure is this?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Buckingham_Palace_from_gardens%2C_London%2C_UK_-_Diliff.jpg/1280px-Buckingham_Palace_from_gardens%2C_London%2C_UK_-_Diliff.jpg",
+        "options": ["Kensington Palace", "Buckingham Palace", "St James's Palace", "Hampton Court"],
+        "correctIndex": 1,
+        "category": "Landmarks",
+        "difficulty": 1,
+        "explanation": "Buckingham Palace has been the official London residence of the UK's sovereigns since 1837. The famous balcony where royals wave was added in 1851."
+    },
+    {
+        "id": "img005",
+        "type": "imageBased",
+        "question": "Which London music venue is pictured?",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Royal_Albert_Hall_Crop%2C_London_-_Nov_2012.jpg/1280px-Royal_Albert_Hall_Crop%2C_London_-_Nov_2012.jpg",
+        "options": ["The O2", "Royal Albert Hall", "Barbican Centre", "Hammersmith Apollo"],
+        "correctIndex": 1,
+        "category": "Music",
+        "difficulty": 1,
+        "explanation": "The Royal Albert Hall opened in 1871, named after Prince Albert. It hosts over 390 events a year, including the famous BBC Proms every summer."
+    },
+    {
+        "id": "r001",
+        "type": "route",
+        "question": "You're at Baker Street and need to get to Canary Wharf. Which line do you need?",
+        "correctLines": ["Jubilee"],
+        "availableLines": ["Jubilee", "Central", "Northern", "Bakerloo"],
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Jubilee line runs directly from Baker Street to Canary Wharf — no changes needed. It takes about 20 minutes."
+    },
+    {
+        "id": "r002",
+        "type": "route",
+        "question": "You're at King's Cross and need to get to Brixton. Which line(s) do you need, in order?",
+        "correctLines": ["Victoria"],
+        "availableLines": ["Victoria", "Northern", "Piccadilly", "Central"],
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Victoria line runs directly from King's Cross St Pancras to Brixton, its southern terminus. The journey takes about 15 minutes."
+    },
+    {
+        "id": "r003",
+        "type": "route",
+        "question": "You're at Paddington and need to get to London Bridge. Which line(s) do you need, in order?",
+        "correctLines": ["Bakerloo", "Jubilee"],
+        "availableLines": ["Bakerloo", "Jubilee", "Central", "District", "Circle"],
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "Take the Bakerloo line to Baker Street, then change to the Jubilee line southbound to London Bridge. It's about a 25-minute journey."
+    },
+    {
+        "id": "r004",
+        "type": "route",
+        "question": "You're at Notting Hill Gate and need to get to Bank. Which line do you need?",
+        "correctLines": ["Central"],
+        "availableLines": ["Central", "District", "Circle", "Jubilee"],
+        "category": "Tube",
+        "difficulty": 1,
+        "explanation": "The Central line runs directly from Notting Hill Gate eastbound all the way to Bank in the City of London."
+    },
+    {
+        "id": "r005",
+        "type": "route",
+        "question": "You're at Waterloo and need to get to Arsenal. Which line(s) do you need, in order?",
+        "correctLines": ["Jubilee", "Piccadilly"],
+        "availableLines": ["Jubilee", "Piccadilly", "Northern", "Victoria", "Bakerloo"],
+        "category": "Tube",
+        "difficulty": 3,
+        "explanation": "Take the Jubilee line to Green Park, then switch to the Piccadilly line northbound to Arsenal station."
+    },
+    {
+        "id": "r006",
+        "type": "route",
+        "question": "You're at Liverpool Street and need to get to Heathrow. Which line(s) do you need, in order?",
+        "correctLines": ["Central", "Piccadilly"],
+        "availableLines": ["Central", "Piccadilly", "Elizabeth", "Hammersmith & City", "Metropolitan"],
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "Take the Central line to Holborn, then change to the Piccadilly line which runs directly to all Heathrow terminals."
+    },
+    {
+        "id": "r007",
+        "type": "route",
+        "question": "You're at Victoria and need to get to Stratford. Which line(s) do you need, in order?",
+        "correctLines": ["Victoria", "Central"],
+        "availableLines": ["Victoria", "Central", "Jubilee", "District", "Northern"],
+        "category": "Tube",
+        "difficulty": 2,
+        "explanation": "Take the Victoria line north to Oxford Circus or Mile End, then change to the Central line eastbound to Stratford."
+    },
+    {
+        "id": "q037",
+        "type": "multipleChoice",
+        "question": "Which London football club plays at Craven Cottage?",
+        "options": ["QPR", "Fulham", "Brentford", "Crystal Palace"],
+        "correctIndex": 1,
+        "category": "Football",
+        "difficulty": 2,
+        "explanation": "Fulham FC has played at Craven Cottage by the Thames since 1896. The ground's famous Cottage, a small building in the corner, gives it its name."
+    },
+    {
+        "id": "q038",
+        "type": "multipleChoice",
+        "question": "Denmark Street in London's West End was historically known as what?",
+        "options": ["Music Mile", "Tin Pan Alley", "Rock Road", "Guitar Lane"],
+        "correctIndex": 1,
+        "category": "Music",
+        "difficulty": 2,
+        "explanation": "Denmark Street was London's Tin Pan Alley, home to music publishers, studios, and instrument shops since the 1900s. The Sex Pistols recorded their first demos here."
+    },
+    {
+        "id": "q039",
+        "type": "multipleChoice",
+        "question": "Which year was the original Wembley Stadium demolished?",
+        "options": ["2000", "2003", "2006", "2008"],
+        "correctIndex": 1,
+        "category": "Football",
+        "difficulty": 3,
+        "explanation": "The original Wembley Stadium, famous for its twin towers, was demolished in 2003. Its iconic towers were controversially not preserved."
+    },
+    {
+        "id": "q040",
+        "type": "multipleChoice",
+        "question": "What does 'bare' mean in London slang?",
+        "options": ["Naked", "A lot / very", "Nothing", "Empty"],
+        "correctIndex": 1,
+        "category": "Slang",
+        "difficulty": 1,
+        "explanation": "'Bare' is MLE (Multicultural London English) slang meaning 'a lot' or 'very'. For example, 'that's bare funny' means 'that's really funny'."
+    },
+    {
+        "id": "tf014",
+        "type": "trueFalse",
+        "question": "The original Wembley Stadium was known as 'The Empire Stadium'.",
+        "correctAnswer": true,
+        "category": "Football",
+        "difficulty": 2,
+        "explanation": "Wembley was officially called the Empire Stadium when it opened in 1923 for the British Empire Exhibition. Its first event was the 1923 FA Cup Final."
+    },
+    {
+        "id": "tf015",
+        "type": "trueFalse",
+        "question": "The Grenfell Tower fire occurred in 2017.",
+        "correctAnswer": true,
+        "category": "History",
+        "difficulty": 1,
+        "explanation": "The Grenfell Tower fire on 14 June 2017 in North Kensington claimed 72 lives. It led to a nationwide review of building safety regulations."
+    }
+]
