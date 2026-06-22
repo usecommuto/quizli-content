@@ -1,0 +1,38 @@
+{
+    "appclips": {
+        "apps": [
+            "Q649BG5G7C.com.williamanderson.Quizli.Clip"
+        ]
+    },
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "Q649BG5G7C.com.williamanderson.Quizli.Clip"
+                ],
+                "components": [
+                    {
+                        "/": "/pub",
+                        "comment": "Pub Round — App Clip joins multiplayer game"
+                    }
+                ]
+            },
+            {
+                "appIDs": [
+                    "Q649BG5G7C.com.williamanderson.Quizli"
+                ],
+                "components": [
+                    {
+                        "/": "/quiz/*",
+                        "comment": "Deep link to daily quiz"
+                    },
+                    {
+                        "/": "/pub",
+                        "comment": "Pub Round — deep link into main app"
+                    }
+                ]
+            }
+        ]
+    }
+}
