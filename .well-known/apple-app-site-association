@@ -13,7 +13,7 @@
                 ],
                 "components": [
                     {
-                        "/": "/pub",
+                        "/": "/quizli-content/pub",
                         "comment": "Pub Round — App Clip joins multiplayer game"
                     }
                 ]
@@ -24,11 +24,11 @@
                 ],
                 "components": [
                     {
-                        "/": "/quiz/*",
+                        "/": "/quizli-content/quiz/*",
                         "comment": "Deep link to daily quiz"
                     },
                     {
-                        "/": "/pub",
+                        "/": "/quizli-content/pub",
                         "comment": "Pub Round — deep link into main app"
                     }
                 ]
