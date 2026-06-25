@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Quizli - Pub Round</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<style>
+:root {
+  --brick: #C1440E;
+  --cream: #FDF6EC;
+  --sand: #E8DCC8;
+  --charcoal: #2D2926;
+  --smoke: #6B6560;
+  --correct: #2E7D32;
+  --wrong: #C62828;
+  --navy: #1B2838;
+  --radius: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--cream);
+  color: var(--charcoal);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+h1 { font-size: 1.8rem; font-weight: 900; text-align: center; }
+h1 span { color: var(--brick); }
+.card {
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 24px rgba(0,0,0,.1);
+  padding: 28px 24px;
+  width: 100%;
+  max-width: 440px;
+}
+label { display: block; font-size: .75rem; font-weight: 700; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 1px; color: var(--smoke); }
+input[type=text] {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid var(--sand);
+  border-radius: 10px;
+  font-size: 1.1rem;
+  outline: none;
+  transition: border-color .2s;
+  background: var(--cream);
+}
+input[type=text]:focus { border-color: var(--brick); }
+input.room-input { letter-spacing: 4px; text-transform: uppercase; text-align: center; font-weight: 800; font-size: 1.3rem; }
+.btn {
+  display: block; width: 100%; margin-top: 16px; padding: 16px;
+  background: var(--brick); color: #fff; font-size: 1rem; font-weight: 700;
+  border: none; border-radius: 12px; cursor: pointer; transition: opacity .2s, transform .1s;
+}
+.btn:active { transform: scale(.97); }
+.btn:disabled { opacity: .4; cursor: not-allowed; }
+
+/* Screens */
+.screen { display: none; width: 100%; max-width: 440px; }
+.screen.active { display: flex; flex-direction: column; gap: 16px; align-items: center; }
+
+/* Timer */
+.timer-wrap { height: 6px; background: var(--sand); border-radius: 99px; overflow: hidden; width: 100%; }
+.timer-bar { height: 100%; background: var(--brick); border-radius: 99px; transition: width .15s linear; }
+.q-header { display: flex; justify-content: space-between; width: 100%; font-size: .8rem; color: var(--smoke); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+.q-text { font-size: 1.2rem; font-weight: 700; line-height: 1.4; text-align: center; width: 100%; }
+
+/* Options grid */
+.options { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: 100%; }
+.opt-btn {
+  padding: 16px 12px; border-radius: var(--radius); border: 2px solid var(--sand);
+  background: #fff; font-size: .95rem; font-weight: 600; cursor: pointer;
+  text-align: center; transition: all .15s; line-height: 1.3;
+}
+.opt-btn:active:not(:disabled) { transform: scale(.96); }
+.opt-btn.selected { border-color: var(--brick); background: #FEF0EA; }
+.opt-btn.correct { border-color: var(--correct); background: #E8F5E9; color: var(--correct); }
+.opt-btn.wrong { border-color: var(--wrong); background: #FFEBEE; color: var(--wrong); }
+.opt-btn:disabled { cursor: default; opacity: .9; }
+
+/* TF buttons */
+.tf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; width: 100%; }
+.tf-btn {
+  padding: 24px; border-radius: var(--radius); border: 2px solid var(--sand);
+  background: #fff; font-size: 1.1rem; font-weight: 700; cursor: pointer; text-align: center;
+  transition: all .15s;
+}
+.tf-btn:active:not(:disabled) { transform: scale(.96); }
+.tf-btn.selected { border-color: var(--brick); background: #FEF0EA; }
+.tf-btn.correct { border-color: var(--correct); background: #E8F5E9; color: var(--correct); }
+.tf-btn.wrong { border-color: var(--wrong); background: #FFEBEE; color: var(--wrong); }
+
+/* Podium */
+.podium { display: flex; flex-direction: column; gap: 10px; width: 100%; }
+.podium-row {
+  display: flex; align-items: center; gap: 12px;
+  background: #fff; border-radius: var(--radius); padding: 14px 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+.podium-rank { font-size: 1.3rem; width: 32px; text-align: center; }
+.podium-name { flex: 1; font-weight: 700; }
+.podium-score { font-weight: 800; color: var(--brick); }
+.podium-delta { font-size: .8rem; color: var(--smoke); }
+
+.status { text-align: center; font-size: .9rem; color: var(--smoke); min-height: 20px; }
+.error { color: var(--wrong); font-weight: 600; }
+.spinner { font-size: 2rem; text-align: center; animation: spin 2s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.flash { font-size: 3rem; text-align: center; }
+</style>
+</head>
+<body>
+
+<!-- JOIN -->
+<div class="screen active" id="s-join">
+  <h1>Quiz<span>li</span></h1>
+  <div class="card">
+    <label for="inp-name">Your Name</label>
+    <input type="text" id="inp-name" placeholder="Enter your name" autocomplete="off" maxlength="20">
+    <label style="margin-top:14px" for="inp-room">Room Code</label>
+    <input type="text" id="inp-room" class="room-input" placeholder="XXXX" maxlength="6" autocomplete="off">
+    <button class="btn" id="btn-join">Join Game</button>
+    <p class="status" id="join-status"></p>
+  </div>
+</div>
+
+<!-- WAITING -->
+<div class="screen" id="s-wait">
+  <div class="card" style="text-align:center; display:flex; flex-direction:column; gap:16px; align-items:center;">
+    <div class="spinner">&#9203;</div>
+    <h2>You're in!</h2>
+    <p style="color:var(--smoke)">Room <strong id="lbl-room"></strong></p>
+    <p style="color:var(--smoke); font-size:.85rem;">Waiting for the host to start...</p>
+  </div>
+</div>
+
+<!-- COUNTDOWN -->
+<div class="screen" id="s-countdown">
+  <div class="card" style="text-align:center; display:flex; flex-direction:column; gap:8px; align-items:center;">
+    <p style="font-size:.8rem; font-weight:700; text-transform:uppercase; letter-spacing:2px; color:var(--smoke);">GET READY</p>
+    <p id="countdown-num" style="font-size:5rem; font-weight:900; color:var(--brick);">3</p>
+  </div>
+</div>
+
+<!-- QUESTION -->
+<div class="screen" id="s-question">
+  <div class="q-header"><span id="lbl-qnum">Question 1</span><span id="lbl-timer">15s</span></div>
+  <div class="timer-wrap"><div class="timer-bar" id="timer-bar" style="width:100%"></div></div>
+  <p class="q-text" id="lbl-question"></p>
+  <div id="options-area"></div>
+  <p class="status" id="q-status"></p>
+</div>
+
+<!-- WAITING FOR OTHERS (after answer) -->
+<div class="screen" id="s-answered">
+  <div class="card" style="text-align:center; display:flex; flex-direction:column; gap:16px; align-items:center;">
+    <div class="flash" id="ans-emoji"></div>
+    <h2 id="ans-headline"></h2>
+    <p id="ans-score" style="color:var(--smoke); font-size:.9rem;"></p>
+    <div class="spinner" style="font-size:1rem;">&#9203;</div>
+    <p style="color:var(--smoke); font-size:.85rem;">Waiting for others...</p>
+  </div>
+</div>
+
+<!-- PODIUM (between questions) -->
+<div class="screen" id="s-podium">
+  <h2 style="text-align:center; font-weight:900;">Leaderboard</h2>
+  <div class="podium" id="podium-mid"></div>
+</div>
+
+<!-- FINAL RESULTS -->
+<div class="screen" id="s-final">
+  <h2 style="text-align:center; font-size:1.5rem; font-weight:900;">&#127942; Final Results</h2>
+  <div class="podium" id="podium-final"></div>
+  <button class="btn" onclick="location.reload()" style="max-width:200px; align-self:center;">Play Again</button>
+</div>
+
+<script>
+const SUPABASE_URL = 'https://bckbdpawrfagigqtjjhn.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJja2JkcGF3cmZhZ2lncXRqamhuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQxMTUwNjEsImV4cCI6MjA4OTY5MTA2MX0.BoKl1GNSYIerSaaf7r9QHZ1TMGmTX1gHXLmChIU8490';
+
+const { createClient } = supabase;
+let sbClient, channel;
+let myPeerId = crypto.randomUUID();
+let myName = '', roomCode = '';
+let questions = [], currentQ = -1, totalScore = 0, answered = false;
+let timerID = null, timeLeft = 15;
+
+const $ = id => document.getElementById(id);
+function show(id) { document.querySelectorAll('.screen').forEach(s => s.classList.remove('active')); $(id).classList.add('active'); }
+
+// Pre-fill room code from URL
+const urlRoom = new URLSearchParams(location.search).get('room');
+if (urlRoom) $('inp-room').value = urlRoom.toUpperCase();
+
+// ── JOIN ─────────────────────────────────────────────────────
+$('btn-join').addEventListener('click', async () => {
+  myName = $('inp-name').value.trim();
+  roomCode = $('inp-room').value.trim().toUpperCase();
+  if (!myName) { setStatus('join-status', 'Enter your name', true); return; }
+  if (!roomCode) { setStatus('join-status', 'Enter the room code', true); return; }
+
+  $('btn-join').disabled = true;
+  setStatus('join-status', 'Connecting...');
+
+  sbClient = createClient(SUPABASE_URL, SUPABASE_KEY);
+  channel = sbClient.channel('room-' + roomCode, {
+    config: { broadcast: { self: false }, presence: { key: myPeerId } }
+  });
+
+  channel.on('broadcast', { event: 'msg' }, ({ payload }) => {
+    if (!payload || payload.from === myPeerId) return;
+    try {
+      const raw = atob(payload.data);
+      const bytes = Uint8Array.from(raw, c => c.charCodeAt(0));
+      const msg = JSON.parse(new TextDecoder().decode(bytes));
+      handleHost(msg);
+    } catch(e) { console.error('parse', e); }
+  });
+
+  channel.on('presence', { event: 'sync' }, () => {});
+
+  await channel.subscribe(async (status) => {
+    if (status === 'SUBSCRIBED') {
+      await channel.track({ displayName: myName, peerId: myPeerId });
+      // Send join message matching Swift PlayerMessage.join(player: PlayerInfo)
+      const playerInfo = { id: myPeerId, displayName: myName, isHost: false };
+      broadcast({ join: { player: playerInfo } });
+      $('lbl-room').textContent = roomCode;
+      show('s-wait');
+    } else if (status === 'CHANNEL_ERROR') {
+      setStatus('join-status', 'Could not connect. Check the room code.', true);
+      $('btn-join').disabled = false;
+    }
+  });
+});
+
+function setStatus(id, msg, err) {
+  const el = $(id);
+  el.textContent = msg;
+  el.className = 'status' + (err ? ' error' : '');
+}
+
+function broadcast(msgObj) {
+  const json = JSON.stringify(msgObj);
+  const bytes = new TextEncoder().encode(json);
+  const b64 = btoa(String.fromCharCode(...bytes));
+  channel.send({ type: 'broadcast', event: 'msg', payload: { from: myPeerId, data: b64 } });
+}
+
+// ── HOST MESSAGES ────────────────────────────────────────────
+function handleHost(msg) {
+  // Swift Codable enum format: { "caseName": { ...associatedValues } }
+  if ('questions' in msg) {
+    questions = msg.questions.list;
+  } else if ('start' in msg) {
+    runCountdown();
+  } else if ('lobbyUpdate' in msg) {
+    // Optional: could show player list
+  } else if ('podium' in msg) {
+    showPodium(msg.podium.rankings, false);
+  } else if ('next' in msg) {
+    showQuestion(msg.next.questionIndex);
+  } else if ('finalResults' in msg) {
+    showPodium(msg.finalResults.rankings, true);
+  }
+}
+
+// ── COUNTDOWN ────────────────────────────────────────────────
+function runCountdown() {
+  show('s-countdown');
+  let n = 3;
+  $('countdown-num').textContent = n;
+  const iv = setInterval(() => {
+    n--;
+    if (n <= 0) {
+      clearInterval(iv);
+      showQuestion(0);
+    } else {
+      $('countdown-num').textContent = n;
+    }
+  }, 1000);
+}
+
+// ── QUESTION ─────────────────────────────────────────────────
+function showQuestion(idx) {
+  currentQ = idx;
+  answered = false;
+  const q = questions[idx];
+  if (!q) return;
+
+  $('lbl-qnum').textContent = 'Question ' + (idx + 1);
+  $('lbl-question').textContent = q.question;
+  $('q-status').textContent = '';
+
+  const area = $('options-area');
+  area.innerHTML = '';
+
+  if (q.type === 'trueFalse') {
+    const grid = document.createElement('div');
+    grid.className = 'tf-grid';
+    ['True', 'False'].forEach((label, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'tf-btn';
+      btn.textContent = label;
+      btn.addEventListener('click', () => selectTF(btn, i === 0, q));
+      grid.appendChild(btn);
+    });
+    area.appendChild(grid);
+  } else {
+    // multipleChoice, imageBased, route
+    const opts = q.options || q.availableLines || [];
+    const grid = document.createElement('div');
+    grid.className = 'options';
+    opts.forEach((opt, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'opt-btn';
+      btn.textContent = opt;
+      btn.addEventListener('click', () => selectOption(btn, i, q));
+      grid.appendChild(btn);
+    });
+    area.appendChild(grid);
+  }
+
+  // Start timer
+  timeLeft = 15;
+  $('lbl-timer').textContent = '15s';
+  $('timer-bar').style.width = '100%';
+  clearInterval(timerID);
+  timerID = setInterval(() => {
+    timeLeft = Math.max(0, timeLeft - 0.1);
+    $('lbl-timer').textContent = Math.ceil(timeLeft) + 's';
+    $('timer-bar').style.width = (timeLeft / 15 * 100) + '%';
+    if (timeLeft <= 0) {
+      clearInterval(timerID);
+      if (!answered) submitAnswer(false, 0);
+    }
+  }, 100);
+
+  show('s-question');
+}
+
+function selectOption(btn, idx, q) {
+  if (answered) return;
+  answered = true;
+  clearInterval(timerID);
+
+  let correct = false;
+  if (q.type === 'route') {
+    const correctLines = q.correctLines || [];
+    correct = correctLines.includes(q.options ? q.options[idx] : (q.availableLines || [])[idx]);
+  } else {
+    correct = idx === q.correctIndex;
+  }
+
+  // Highlight
+  const btns = btn.parentElement.querySelectorAll('.opt-btn');
+  btns.forEach((b, i) => {
+    b.disabled = true;
+    if (q.type === 'route') {
+      if ((q.correctLines || []).includes((q.options || q.availableLines || [])[i])) b.classList.add('correct');
+    } else {
+      if (i === q.correctIndex) b.classList.add('correct');
+    }
+  });
+  if (!correct) btn.classList.add('wrong');
+
+  const score = calcScore(correct, timeLeft);
+  submitAnswer(correct, score);
+}
+
+function selectTF(btn, val, q) {
+  if (answered) return;
+  answered = true;
+  clearInterval(timerID);
+
+  const correct = val === q.correctAnswer;
+  const btns = btn.parentElement.querySelectorAll('.tf-btn');
+  btns.forEach((b, i) => {
+    b.disabled = true;
+    if ((i === 0) === q.correctAnswer) b.classList.add('correct');
+  });
+  if (!correct) btn.classList.add('wrong');
+
+  const score = calcScore(correct, timeLeft);
+  submitAnswer(correct, score);
+}
+
+function calcScore(correct, remaining) {
+  if (!correct) return 0;
+  const bonus = Math.floor((remaining / 15) * 100);
+  return 100 + Math.max(0, bonus);
+}
+
+function submitAnswer(correct, qScore) {
+  totalScore += qScore;
+
+  // Send to host: PlayerMessage.answered(questionIndex:questionScore:totalScore:)
+  broadcast({ answered: { questionIndex: currentQ, questionScore: qScore, totalScore: totalScore } });
+
+  // Show answer flash
+  setTimeout(() => {
+    $('ans-emoji').textContent = correct ? '&#10004;' : '&#10060;';
+    $('ans-headline').textContent = correct ? 'Correct!' : 'Wrong!';
+    $('ans-score').textContent = correct ? '+' + qScore + ' points' : 'No points';
+    $('ans-headline').style.color = correct ? 'var(--correct)' : 'var(--wrong)';
+    show('s-answered');
+  }, 600);
+}
+
+// ── PODIUM ───────────────────────────────────────────────────
+function showPodium(rankings, isFinal) {
+  const containerId = isFinal ? 'podium-final' : 'podium-mid';
+  const screenId = isFinal ? 's-final' : 's-podium';
+  const container = $(containerId);
+  container.innerHTML = '';
+
+  const medals = ['&#129351;', '&#129352;', '&#129353;'];
+  rankings.forEach((r, i) => {
+    const row = document.createElement('div');
+    row.className = 'podium-row';
+    if (r.id === myPeerId) row.style.background = '#FEF0EA';
+    row.innerHTML =
+      '<span class="podium-rank">' + (medals[i] || (i+1)) + '</span>' +
+      '<span class="podium-name">' + esc(r.displayName) + (r.id === myPeerId ? ' (You)' : '') + '</span>' +
+      '<span class="podium-score">' + r.totalScore +
+      (r.lastQuestionScore > 0 ? '<span class="podium-delta"> +' + r.lastQuestionScore + '</span>' : '') +
+      '</span>';
+    container.appendChild(row);
+  });
+
+  show(screenId);
+}
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+</script>
+</body>
+</html>
