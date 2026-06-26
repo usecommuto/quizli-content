@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Quizli - Pub Round</title>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <style>
 :root {
   --brick: #C1440E;
@@ -181,15 +180,17 @@ input.room-input { letter-spacing: 4px; text-transform: uppercase; text-align: c
 </div>
 
 <script>
-const SUPABASE_URL = 'https://bckbdpawrfagigqtjjhn.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJja2JkcGF3cmZhZ2lncXRqamhuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQxMTUwNjEsImV4cCI6MjA4OTY5MTA2MX0.BoKl1GNSYIerSaaf7r9QHZ1TMGmTX1gHXLmChIU8490';
+// ── Supabase REST API (no SDK needed) ─────────────────────────
+const API_BASE = 'https://bckbdpawrfagigqtjjhn.supabase.co/rest/v1';
+const API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJja2JkcGF3cmZhZ2lncXRqamhuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQxMTUwNjEsImV4cCI6MjA4OTY5MTA2MX0.BoKl1GNSYIerSaaf7r9QHZ1TMGmTX1gHXLmChIU8490';
+const HEADERS = { 'apikey': API_KEY, 'Authorization': 'Bearer ' + API_KEY };
 
-const { createClient } = supabase;
-let sbClient, channel;
 let myPeerId = crypto.randomUUID();
 let myName = '', roomCode = '';
 let questions = [], currentQ = -1, totalScore = 0, answered = false;
 let timerID = null, timeLeft = 15;
+let lastMsgId = 0, pollTimer = null;
+let questionsReceived = false, startReceived = false;
 
 const $ = id => document.getElementById(id);
 function show(id) { document.querySelectorAll('.screen').forEach(s => s.classList.remove('active')); $(id).classList.add('active'); }
@@ -197,6 +198,42 @@ function show(id) { document.querySelectorAll('.screen').forEach(s => s.classLis
 // Pre-fill room code from URL
 const urlRoom = new URLSearchParams(location.search).get('room');
 if (urlRoom) $('inp-room').value = urlRoom.toUpperCase();
+
+// ── SEND MESSAGE ────────────────────────────────────────────
+async function sendMsg(msgObj) {
+  const json = JSON.stringify(msgObj);
+  const bytes = new TextEncoder().encode(json);
+  const b64 = btoa(String.fromCharCode(...bytes));
+  try {
+    await fetch(API_BASE + '/pub_messages', {
+      method: 'POST',
+      headers: { ...HEADERS, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+      body: JSON.stringify({ room: roomCode, sender: myPeerId, body: b64 })
+    });
+  } catch(e) { console.error('send error', e); }
+}
+
+// ── POLL FOR MESSAGES ───────────────────────────────────────
+async function poll() {
+  try {
+    const url = API_BASE + '/pub_messages?room=eq.' + roomCode
+      + '&id=gt.' + lastMsgId
+      + '&sender=neq.' + myPeerId
+      + '&order=id.asc';
+    const res = await fetch(url, { headers: HEADERS });
+    if (!res.ok) return;
+    const rows = await res.json();
+    for (const row of rows) {
+      lastMsgId = row.id;
+      try {
+        const raw = atob(row.body);
+        const bytes = Uint8Array.from(raw, c => c.charCodeAt(0));
+        const msg = JSON.parse(new TextDecoder().decode(bytes));
+        handleHost(msg);
+      } catch(e) { console.error('parse error', e); }
+    }
+  } catch(e) { console.error('poll error', e); }
+}
 
 // ── JOIN ─────────────────────────────────────────────────────
 $('btn-join').addEventListener('click', async () => {
@@ -206,38 +243,17 @@ $('btn-join').addEventListener('click', async () => {
   if (!roomCode) { setStatus('join-status', 'Enter the room code', true); return; }
 
   $('btn-join').disabled = true;
-  setStatus('join-status', 'Connecting...');
+  setStatus('join-status', 'Joining...');
 
-  sbClient = createClient(SUPABASE_URL, SUPABASE_KEY);
-  channel = sbClient.channel('room-' + roomCode, {
-    config: { broadcast: { self: false }, presence: { key: myPeerId } }
-  });
+  // Send join message (PlayerMessage.join)
+  const playerInfo = { id: myPeerId, displayName: myName, isHost: false };
+  await sendMsg({ join: { player: playerInfo } });
 
-  channel.on('broadcast', { event: 'msg' }, ({ payload }) => {
-    if (!payload || payload.from === myPeerId) return;
-    try {
-      const raw = atob(payload.data);
-      const bytes = Uint8Array.from(raw, c => c.charCodeAt(0));
-      const msg = JSON.parse(new TextDecoder().decode(bytes));
-      handleHost(msg);
-    } catch(e) { console.error('parse', e); }
-  });
+  // Start polling for host messages
+  pollTimer = setInterval(poll, 400);
 
-  channel.on('presence', { event: 'sync' }, () => {});
-
-  await channel.subscribe(async (status) => {
-    if (status === 'SUBSCRIBED') {
-      await channel.track({ displayName: myName, peerId: myPeerId });
-      // Send join message matching Swift PlayerMessage.join(player: PlayerInfo)
-      const playerInfo = { id: myPeerId, displayName: myName, isHost: false };
-      broadcast({ join: { player: playerInfo } });
-      $('lbl-room').textContent = roomCode;
-      show('s-wait');
-    } else if (status === 'CHANNEL_ERROR') {
-      setStatus('join-status', 'Could not connect. Check the room code.', true);
-      $('btn-join').disabled = false;
-    }
-  });
+  $('lbl-room').textContent = roomCode;
+  show('s-wait');
 });
 
 function setStatus(id, msg, err) {
@@ -246,22 +262,17 @@ function setStatus(id, msg, err) {
   el.className = 'status' + (err ? ' error' : '');
 }
 
-function broadcast(msgObj) {
-  const json = JSON.stringify(msgObj);
-  const bytes = new TextEncoder().encode(json);
-  const b64 = btoa(String.fromCharCode(...bytes));
-  channel.send({ type: 'broadcast', event: 'msg', payload: { from: myPeerId, data: b64 } });
-}
-
 // ── HOST MESSAGES ────────────────────────────────────────────
 function handleHost(msg) {
-  // Swift Codable enum format: { "caseName": { ...associatedValues } }
   if ('questions' in msg) {
     questions = msg.questions.list;
+    questionsReceived = true;
+    if (startReceived) runCountdown();
   } else if ('start' in msg) {
-    runCountdown();
+    startReceived = true;
+    if (questionsReceived) runCountdown();
   } else if ('lobbyUpdate' in msg) {
-    // Optional: could show player list
+    // Could show player list
   } else if ('podium' in msg) {
     showPodium(msg.podium.rankings, false);
   } else if ('next' in msg) {
@@ -313,7 +324,6 @@ function showQuestion(idx) {
     });
     area.appendChild(grid);
   } else {
-    // multipleChoice, imageBased, route
     const opts = q.options || q.availableLines || [];
     const grid = document.createElement('div');
     grid.className = 'options';
@@ -327,7 +337,6 @@ function showQuestion(idx) {
     area.appendChild(grid);
   }
 
-  // Start timer
   timeLeft = 15;
   $('lbl-timer').textContent = '15s';
   $('timer-bar').style.width = '100%';
@@ -358,7 +367,6 @@ function selectOption(btn, idx, q) {
     correct = idx === q.correctIndex;
   }
 
-  // Highlight
   const btns = btn.parentElement.querySelectorAll('.opt-btn');
   btns.forEach((b, i) => {
     b.disabled = true;
@@ -399,13 +407,10 @@ function calcScore(correct, remaining) {
 
 function submitAnswer(correct, qScore) {
   totalScore += qScore;
+  sendMsg({ answered: { questionIndex: currentQ, questionScore: qScore, totalScore: totalScore } });
 
-  // Send to host: PlayerMessage.answered(questionIndex:questionScore:totalScore:)
-  broadcast({ answered: { questionIndex: currentQ, questionScore: qScore, totalScore: totalScore } });
-
-  // Show answer flash
   setTimeout(() => {
-    $('ans-emoji').textContent = correct ? '&#10004;' : '&#10060;';
+    $('ans-emoji').innerHTML = correct ? '&#10004;' : '&#10060;';
     $('ans-headline').textContent = correct ? 'Correct!' : 'Wrong!';
     $('ans-score').textContent = correct ? '+' + qScore + ' points' : 'No points';
     $('ans-headline').style.color = correct ? 'var(--correct)' : 'var(--wrong)';
