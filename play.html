@@ -230,6 +230,25 @@ input.room-input { letter-spacing: 4px; text-transform: uppercase; text-align: c
 }
 .download-btn:active { opacity: .8; }
 
+/* Question image (imageBased questions) */
+.q-image-wrap {
+  width: 100%; padding: 0 4px;
+}
+.q-image {
+  width: 100%; max-height: 180px; object-fit: cover;
+  border-radius: 16px; display: block;
+}
+.q-image-placeholder {
+  width: 100%; height: 160px; border-radius: 16px;
+  background: var(--surface-warm); display: flex;
+  align-items: center; justify-content: center;
+}
+.q-image-placeholder .img-spinner {
+  width: 24px; height: 24px; border: 3px solid var(--line);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+
 /* My position callout */
 .my-position { text-align: center; font-size: .85rem; color: var(--ink-soft); }
 .my-position strong { color: var(--accent); font-weight: 700; }
@@ -534,6 +553,21 @@ function showQuestion(idx) {
   const area = $('options-area');
   area.innerHTML = '';
   const letters = ['A', 'B', 'C', 'D'];
+
+  // Image for imageBased questions
+  if (q.imageURL) {
+    const imgWrap = document.createElement('div');
+    imgWrap.className = 'q-image-wrap';
+    // Show placeholder while loading
+    imgWrap.innerHTML = '<div class="q-image-placeholder"><div class="img-spinner"></div></div>';
+    area.appendChild(imgWrap);
+    const img = new Image();
+    img.className = 'q-image';
+    img.alt = 'Question image';
+    img.onload = () => { imgWrap.innerHTML = ''; imgWrap.appendChild(img); };
+    img.onerror = () => { imgWrap.innerHTML = '<div class="q-image-placeholder" style="color:var(--ink-soft); font-size:.85rem;">Image failed to load</div>'; };
+    img.src = q.imageURL;
+  }
 
   if (q.type === 'trueFalse') {
     const grid = document.createElement('div');
