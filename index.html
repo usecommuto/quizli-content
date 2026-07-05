@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quizli — Daily London Trivia</title>
+<meta name="description" content="Quizli is the daily London trivia game. Five questions a day, tube puzzles, and live pub rounds with friends.">
+<meta property="og:title" content="Quizli — Daily London Trivia">
+<meta property="og:description" content="Five questions a day about the greatest city on earth. Streaks, tube puzzles, and live pub rounds.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#D67B3C">
+<style>
+:root {
+  --cream: #F2EADB; --surface: #FFFFFF; --line: #EFE6D2;
+  --ink: #2A241E; --ink-soft: #7A6F60;
+  --accent: #D67B3C; --accent-deep: #B85F23;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Roboto, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--cream); color: var(--ink); min-height: 100dvh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: max(24px, env(safe-area-inset-top)) 20px max(24px, env(safe-area-inset-bottom));
+  text-align: center;
+}
+.logo {
+  width: 96px; height: 96px; border-radius: 24px;
+  background: linear-gradient(135deg, #E8945A, var(--accent-deep));
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 12px 32px rgba(214,123,60,.35);
+  margin-bottom: 24px;
+}
+.logo span { font-size: 56px; font-weight: 900; color: #fff; line-height: 1; }
+h1 { font-size: clamp(2rem, 7vw, 2.8rem); font-weight: 900; letter-spacing: -.5px; }
+h1 em { color: var(--accent); font-style: normal; }
+.tagline { margin-top: 10px; font-size: clamp(1rem, 4vw, 1.15rem); color: var(--ink-soft); max-width: 420px; line-height: 1.55; }
+.features { margin-top: 28px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 480px; }
+.chip {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 99px;
+  padding: 9px 16px; font-size: .85rem; font-weight: 700; color: var(--ink);
+}
+.cta {
+  margin-top: 32px; display: inline-block; background: var(--accent); color: #fff;
+  font-size: 1.05rem; font-weight: 800; text-decoration: none;
+  padding: 16px 34px; border-radius: 18px;
+  box-shadow: 0 10px 26px rgba(214,123,60,.4);
+}
+.cta:active { transform: scale(.97); }
+.soon { margin-top: 10px; font-size: .8rem; color: var(--ink-soft); }
+footer { margin-top: 48px; font-size: .8rem; color: var(--ink-soft); }
+footer a { color: var(--accent-deep); text-decoration: none; font-weight: 600; margin: 0 8px; }
+</style>
+</head>
+<body>
+  <div class="logo" aria-hidden="true"><span>Q</span></div>
+  <h1>Quizli <em>·</em> Daily London Trivia</h1>
+  <p class="tagline">Five questions a day about the greatest city on earth. Build your streak, race the Tube, and battle your mates in live pub rounds.</p>
+  <div class="features">
+    <span class="chip">🎯 Daily quiz</span>
+    <span class="chip">🚇 Tube Dash</span>
+    <span class="chip">🍻 Pub Round</span>
+    <span class="chip">🔥 Streaks</span>
+  </div>
+  <!-- TODO: replace id0000000000 with the real App Store ID at launch -->
+  <a class="cta" href="https://apps.apple.com/app/id0000000000">Download on the App&nbsp;Store</a>
+  <p class="soon">Coming soon to iPhone</p>
+  <footer>
+    <a href="/privacy">Privacy</a> ·
+    <a href="/support.html">Support</a> ·
+    <a href="/credits.html">Photo credits</a>
+  </footer>
+</body>
+</html>

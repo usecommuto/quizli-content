@@ -2227,21 +2227,6 @@
     "explanation": "Islington is consistently the most densely populated borough in London, with over 15,000 people per square kilometre. It's one of the smallest boroughs by area."
   },
   {
-    "id": "q158",
-    "type": "multipleChoice",
-    "question": "In Cockney rhyming slang, what does 'dog and bone' mean?",
-    "options": [
-      "Home",
-      "Phone",
-      "Alone",
-      "Moan"
-    ],
-    "correctIndex": 1,
-    "category": "Slang",
-    "difficulty": 3,
-    "explanation": "'Dog and bone' is classic Cockney rhyming slang for 'phone'. Like most rhyming slang, the rhyming word is often dropped, so 'dog' alone can mean phone."
-  },
-  {
     "id": "q159",
     "type": "multipleChoice",
     "question": "Which London tube line was the first to have air-conditioned trains?",
@@ -2300,21 +2285,6 @@
     "category": "Landmarks",
     "difficulty": 3,
     "explanation": "St Paul's Cathedral at 111 metres was London's tallest building for over 250 years. The Millbank Tower surpassed it in 1963, though a protected sightline still limits building near St Paul's."
-  },
-  {
-    "id": "q163",
-    "type": "multipleChoice",
-    "question": "In Cockney rhyming slang, what are 'plates of meat'?",
-    "options": [
-      "Streets",
-      "Feet",
-      "Seats",
-      "Treats"
-    ],
-    "correctIndex": 1,
-    "category": "Slang",
-    "difficulty": 3,
-    "explanation": "'Plates of meat' means 'feet' in Cockney rhyming slang. It's one of the most well-known examples and is still occasionally used in everyday London speech."
   },
   {
     "id": "q164",
@@ -2393,15 +2363,6 @@
     "category": "Landmarks",
     "difficulty": 3,
     "explanation": "Buckingham Palace is like a small town — it has 775 rooms, its own post office, police station, cinema, swimming pool, and even a doctor's surgery."
-  },
-  {
-    "id": "q170",
-    "type": "trueFalse",
-    "question": "The Thames flows from east to west through London.",
-    "correctAnswer": false,
-    "category": "Geography",
-    "difficulty": 3,
-    "explanation": "The Thames flows from west to east through London, rising in the Cotswolds in Gloucestershire and flowing eastward through Oxford, Reading, and London before reaching the North Sea."
   },
   {
     "id": "q171",
@@ -13490,5 +13451,3429 @@
     "category": "Culture",
     "difficulty": 3,
     "explanation": "It opened to the public in 1817."
+  },
+  {
+    "id": "img011",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img011.jpg",
+    "options": [
+      "The Walkie-Talkie (20 Fenchurch St)",
+      "St Pancras Renaissance Hotel",
+      "The Gherkin (30 St Mary Axe)",
+      "Tower 42"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Officially 30 St Mary Axe, the Gherkin opened in 2004 on the old Baltic Exchange site."
+  },
+  {
+    "id": "img012",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img012.jpg",
+    "options": [
+      "Painted Hall Greenwich",
+      "Tower 42",
+      "Tower of London",
+      "Guildhall"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 1,
+    "explanation": "Founded by William the Conqueror in 1066, it has been fortress, palace and prison."
+  },
+  {
+    "id": "img013",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img013.jpg",
+    "options": [
+      "Westminster Abbey",
+      "Battersea Power Station",
+      "Leadenhall Market",
+      "Old Vic"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 1,
+    "explanation": "Coronation church of English monarchs since 1066."
+  },
+  {
+    "id": "img014",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img014.jpg",
+    "options": [
+      "National Theatre",
+      "Buckingham Palace",
+      "Eltham Palace",
+      "Houses of Parliament"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 1,
+    "explanation": "Home of Parliament; the current Gothic Revival building dates from the 1840s rebuild."
+  },
+  {
+    "id": "img015",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img015.jpg",
+    "options": [
+      "Somerset House",
+      "Elizabeth Tower (Big Ben)",
+      "St Paul's Cathedral",
+      "The Walkie-Talkie (20 Fenchurch St)"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 1,
+    "explanation": "Commonly called Big Ben — strictly the nickname of the Great Bell inside."
+  },
+  {
+    "id": "img016",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img016.jpg",
+    "options": [
+      "The O2 Arena",
+      "Hampton Court Palace",
+      "Lambeth Palace",
+      "Golden Hinde replica"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Built as the Millennium Dome, it became the O2 in 2007 and is one of the world's busiest music venues."
+  },
+  {
+    "id": "img017",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img017.jpg",
+    "options": [
+      "St Pancras Renaissance Hotel",
+      "Lloyd's building",
+      "Bush House",
+      "County Hall"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "George Gilbert Scott's Gothic hotel fronting St Pancras station, restored and reopened in 2011."
+  },
+  {
+    "id": "img018",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img018.jpg",
+    "options": [
+      "Heron Tower",
+      "Battersea Power Station",
+      "Royal Courts of Justice",
+      "BT Tower"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The four-chimneyed icon appeared on Pink Floyd's Animals cover; redeveloped in 2022."
+  },
+  {
+    "id": "img019",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img019.jpg",
+    "options": [
+      "Houses of Parliament",
+      "Royal Observatory Greenwich",
+      "Leadenhall Building",
+      "The Ritz London"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Nicknamed the Cheesegrater for its wedge shape, designed to protect views of St Paul's."
+  },
+  {
+    "id": "img020",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img020.jpg",
+    "options": [
+      "The Walkie-Talkie (20 Fenchurch St)",
+      "Eltham Palace",
+      "Shakespeare's Globe",
+      "Marble Arch"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The Walkie-Talkie's curved glass once melted parts of a parked Jaguar with reflected sunlight."
+  },
+  {
+    "id": "img021",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img021.jpg",
+    "options": [
+      "Lloyd's building",
+      "Eltham Palace",
+      "Old Royal Naval College",
+      "St Katharine Docks"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Richard Rogers' inside-out building puts lifts and pipes on the exterior."
+  },
+  {
+    "id": "img022",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img022.jpg",
+    "options": [
+      "The Shard",
+      "Lambeth Palace",
+      "Barbican Centre",
+      "Marble Arch"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Europe's largest performing-arts centre, a Brutalist landmark opened in 1982."
+  },
+  {
+    "id": "img023",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img023.jpg",
+    "options": [
+      "The Gherkin (30 St Mary Axe)",
+      "London Palladium",
+      "The Savoy",
+      "Somerset House"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Georgian palace on the Strand whose courtyard becomes an ice rink each winter."
+  },
+  {
+    "id": "img024",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img024.jpg",
+    "options": [
+      "Royal Opera House",
+      "Royal Observatory Greenwich",
+      "The Gherkin (30 St Mary Axe)",
+      "Trellick Tower"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Home of the Prime Meridian — stand astride east and west."
+  },
+  {
+    "id": "img026",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img026.jpg",
+    "options": [
+      "Syon House",
+      "Trellick Tower",
+      "Shakespeare's Globe",
+      "Old Royal Naval College"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Wren's riverside baroque masterpiece at Greenwich, a favourite film location."
+  },
+  {
+    "id": "img028",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img028.jpg",
+    "options": [
+      "Kensington Palace",
+      "Cutty Sark",
+      "County Hall",
+      "Tower 42"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Birthplace of Queen Victoria and now a royal residence in Kensington Gardens."
+  },
+  {
+    "id": "img029",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img029.jpg",
+    "options": [
+      "Somerset House",
+      "Syon House",
+      "Hampton Court Palace",
+      "Mansion House"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Henry VIII's palace, famous for its maze and Tudor kitchens."
+  },
+  {
+    "id": "img030",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img030.jpg",
+    "options": [
+      "Liberty London",
+      "Horse Guards",
+      "Senate House",
+      "One Canada Square"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The official entrance to the royal palaces, guarded by the Household Cavalry."
+  },
+  {
+    "id": "img031",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img031.jpg",
+    "options": [
+      "Houses of Parliament",
+      "Banqueting House",
+      "Tate Modern Switch House",
+      "Guildhall"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The only surviving part of Whitehall Palace; Charles I was executed outside it in 1649."
+  },
+  {
+    "id": "img032",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img032.jpg",
+    "options": [
+      "Painted Hall Greenwich",
+      "Theatre Royal Drury Lane",
+      "Marble Arch",
+      "Mansion House"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The official residence of the Lord Mayor of the City of London."
+  },
+  {
+    "id": "img033",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img033.jpg",
+    "options": [
+      "Westminster Abbey",
+      "Royal Exchange",
+      "Leadenhall Building",
+      "One Canada Square"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Founded in 1571 as England's first purpose-built trading centre; now luxury shops."
+  },
+  {
+    "id": "img034",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img034.jpg",
+    "options": [
+      "Royal Observatory Greenwich",
+      "Guildhall",
+      "Harrods",
+      "Centre Point"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The City of London's ceremonial hall, with a medieval great hall dating from 1411."
+  },
+  {
+    "id": "img035",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img035.jpg",
+    "options": [
+      "Marble Arch",
+      "Mansion House",
+      "Theatre Royal Drury Lane",
+      "Leadenhall Building"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Designed by John Nash as a gateway to Buckingham Palace, moved to its current spot in 1851."
+  },
+  {
+    "id": "img036",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img036.jpg",
+    "options": [
+      "Elizabeth Tower (Big Ben)",
+      "Admiralty Arch",
+      "Wellington Arch",
+      "Theatre Royal Drury Lane"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Topped by the largest bronze sculpture in Europe — the Angel of Peace descending on the chariot of war."
+  },
+  {
+    "id": "img037",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img037.jpg",
+    "options": [
+      "Admiralty Arch",
+      "Michelin House",
+      "Charterhouse",
+      "Royal Observatory Greenwich"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Gateway between Trafalgar Square and The Mall, commissioned by Edward VII in memory of Queen Victoria."
+  },
+  {
+    "id": "img038",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img038.jpg",
+    "options": [
+      "Temple Bar",
+      "City Hall London",
+      "Mansion House",
+      "Tobacco Dock"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Wren's 17th-century gateway, returned to the City in 2004 beside St Paul's."
+  },
+  {
+    "id": "img039",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img039.jpg",
+    "options": [
+      "Marble Arch",
+      "Monument to the Great Fire of London",
+      "Royal Festival Hall",
+      "Lloyd's building"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Its 61-metre height equals the distance to the bakery where the 1666 fire began."
+  },
+  {
+    "id": "img040",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img040.jpg",
+    "options": [
+      "St Pancras Renaissance Hotel",
+      "Chiswick House",
+      "BT Tower",
+      "Wilton's Music Hall"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "London's tallest building from 1964 to 1980; its revolving restaurant closed to the public in 1980."
+  },
+  {
+    "id": "img041",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img041.jpg",
+    "options": [
+      "Centre Point",
+      "Senate House",
+      "Charterhouse",
+      "Harrods"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The University of London's Art Deco tower inspired Orwell's Ministry of Truth."
+  },
+  {
+    "id": "img043",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img043.jpg",
+    "options": [
+      "Centre Point",
+      "Apsley House",
+      "City Hall London",
+      "Liberty London"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The Duke of Wellington's home, once addressed simply as 'Number One, London'."
+  },
+  {
+    "id": "img044",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img044.jpg",
+    "options": [
+      "Burlington Arcade",
+      "Banqueting House",
+      "Charterhouse",
+      "Fulham Palace"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Regency shopping arcade patrolled by Beadles in top hats since 1819."
+  },
+  {
+    "id": "img045",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img045.jpg",
+    "options": [
+      "Heron Tower",
+      "10 Downing Street",
+      "The Ritz London",
+      "Eltham Palace"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "César Ritz's hotel opened in 1906 and gave its name to a byword for luxury."
+  },
+  {
+    "id": "img046",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img046.jpg",
+    "options": [
+      "Leadenhall Building",
+      "Fulham Palace",
+      "Senate House",
+      "The Savoy"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The Savoy's forecourt is the only street in the UK where traffic drives on the right."
+  },
+  {
+    "id": "img047",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img047.jpg",
+    "options": [
+      "Fortnum & Mason",
+      "Smithfield Market",
+      "Syon House",
+      "The Walkie-Talkie (20 Fenchurch St)"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The Piccadilly grocer, founded 1707, famous for hampers and its musical clock."
+  },
+  {
+    "id": "img048",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img048.jpg",
+    "options": [
+      "Liberty London",
+      "Westminster Abbey",
+      "The O2 Arena",
+      "Buckingham Palace"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The mock-Tudor department store was built from the timbers of two Royal Navy ships."
+  },
+  {
+    "id": "img049",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img049.jpg",
+    "options": [
+      "Harrods",
+      "County Hall",
+      "Buckingham Palace",
+      "The Ritz London"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 1,
+    "explanation": "The Knightsbridge store's motto is Omnia Omnibus Ubique — all things for all people, everywhere."
+  },
+  {
+    "id": "img051",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img051.jpg",
+    "options": [
+      "Old Bailey",
+      "Royal Opera House",
+      "The O2 Arena",
+      "Golden Hinde replica"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The Central Criminal Court, topped by the golden statue of Lady Justice."
+  },
+  {
+    "id": "img052",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img052.jpg",
+    "options": [
+      "Royal Courts of Justice",
+      "Fulham Palace",
+      "Apsley House",
+      "London Palladium"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The Victorian Gothic law courts on the Strand, opened by Queen Victoria in 1882."
+  },
+  {
+    "id": "img053",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img053.jpg",
+    "options": [
+      "Royal Festival Hall",
+      "Leadenhall Market",
+      "Temple Bar",
+      "Shakespeare's Globe"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Sam Wanamaker's faithful 1997 reconstruction of the 1599 theatre, 230m from the original site."
+  },
+  {
+    "id": "img054",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img054.jpg",
+    "options": [
+      "St Katharine Docks",
+      "Charterhouse",
+      "Lloyd's building",
+      "The Ritz London"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Thomas Telford's 1828 docks, now a marina beside Tower Bridge."
+  },
+  {
+    "id": "img055",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img055.jpg",
+    "options": [
+      "Kensington Palace",
+      "Leadenhall Building",
+      "Trellick Tower",
+      "Lambeth Palace"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Ernő Goldfinger's Brutalist tower in North Kensington, now Grade II* listed."
+  },
+  {
+    "id": "img056",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img056.jpg",
+    "options": [
+      "Trellick Tower",
+      "Broadcasting House",
+      "Wilton's Music Hall",
+      "Michelin House"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The tyre company's 1911 Art Nouveau headquarters in Chelsea, decorated with Bibendum."
+  },
+  {
+    "id": "img057",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img057.jpg",
+    "options": [
+      "Smithfield Market",
+      "10 Downing Street",
+      "County Hall",
+      "St Pancras Renaissance Hotel"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "London's last working wholesale meat market, trading on the site for over 800 years."
+  },
+  {
+    "id": "img058",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img058.jpg",
+    "options": [
+      "Heron Tower",
+      "Fortnum & Mason",
+      "County Hall",
+      "Strawberry Hill House"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The former home of London's government, facing Parliament across the Thames."
+  },
+  {
+    "id": "img060",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img060.jpg",
+    "options": [
+      "Westminster Bridge",
+      "Putney Bridge",
+      "Vauxhall Bridge",
+      "Hammersmith Bridge"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Painted green to match the Commons benches; the oldest surviving road bridge across the Thames in central London."
+  },
+  {
+    "id": "img061",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img061.jpg",
+    "options": [
+      "Lambeth Bridge",
+      "Southwark Bridge",
+      "Hungerford Bridge",
+      "Millennium Bridge"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Painted red to match the Lords benches at its Parliament end."
+  },
+  {
+    "id": "img062",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img062.jpg",
+    "options": [
+      "Richmond Bridge",
+      "Kew Bridge",
+      "Chelsea Bridge",
+      "Millennium Bridge"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 1,
+    "explanation": "The 'wobbly bridge' closed two days after opening in 2000 for two years of damping work."
+  },
+  {
+    "id": "img063",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img063.jpg",
+    "options": [
+      "Vauxhall Bridge",
+      "Southwark Bridge",
+      "Richmond Bridge",
+      "Wandsworth Bridge"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The least-used road bridge in central London, rebuilt in 1921."
+  },
+  {
+    "id": "img064",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img064.jpg",
+    "options": [
+      "Blackfriars Bridge",
+      "London Bridge",
+      "Chelsea Bridge",
+      "Albert Bridge"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Its piers carry pulpits honouring the Dominican friary that named the area."
+  },
+  {
+    "id": "img066",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img066.jpg",
+    "options": [
+      "London Bridge",
+      "Twickenham Bridge",
+      "Hungerford Bridge",
+      "Richmond Bridge"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The rail bridge flanked by the twin Golden Jubilee footbridges, opened in 2002."
+  },
+  {
+    "id": "img067",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img067.jpg",
+    "options": [
+      "Waterloo Bridge",
+      "Millennium Bridge",
+      "Chelsea Bridge",
+      "Westminster Bridge"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "A self-anchored suspension bridge linking Chelsea and Battersea, rebuilt in 1937."
+  },
+  {
+    "id": "img068",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img068.jpg",
+    "options": [
+      "Hammersmith Bridge",
+      "Albert Bridge",
+      "Westminster Bridge",
+      "Chelsea Bridge"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The pink-and-green 'wedding cake' bridge still bears signs ordering troops to break step."
+  },
+  {
+    "id": "img070",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img070.jpg",
+    "options": [
+      "Westminster Bridge",
+      "Lambeth Bridge",
+      "Hammersmith Bridge",
+      "Southwark Bridge"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Bazalgette's ornate green-and-gold suspension bridge, repeatedly closed for repairs."
+  },
+  {
+    "id": "img071",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img071.jpg",
+    "options": [
+      "Putney Bridge",
+      "Hungerford Bridge",
+      "Richmond Bridge",
+      "Chelsea Bridge"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The Boat Race has started just upstream of Putney Bridge since 1845."
+  },
+  {
+    "id": "img072",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img072.jpg",
+    "options": [
+      "Richmond Bridge",
+      "Twickenham Bridge",
+      "Millennium Bridge",
+      "Albert Bridge"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Completed in 1777, it is the oldest surviving Thames bridge in London."
+  },
+  {
+    "id": "img073",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img073.jpg",
+    "options": [
+      "Kew Bridge",
+      "Hungerford Bridge",
+      "Albert Bridge",
+      "Blackfriars Bridge"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The 1903 stone bridge officially named after Edward VII."
+  },
+  {
+    "id": "img074",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img074.jpg",
+    "options": [
+      "Blackfriars Bridge",
+      "Vauxhall Bridge",
+      "Putney Bridge",
+      "Millennium Bridge"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Bronze figures on its piers include Architecture holding a model of St Paul's."
+  },
+  {
+    "id": "img075",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img075.jpg",
+    "options": [
+      "Wandsworth Bridge",
+      "Twickenham Bridge",
+      "Hungerford Bridge",
+      "London Bridge"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The 1970s concrete bridge; its 1830s predecessor was sold and rebuilt in Arizona."
+  },
+  {
+    "id": "img077",
+    "type": "imageBased",
+    "question": "Which Thames bridge is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img077.jpg",
+    "options": [
+      "Lambeth Bridge",
+      "Putney Bridge",
+      "Millennium Bridge",
+      "Twickenham Bridge"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Opened in 1933 as part of the Chertsey Arterial Road scheme."
+  },
+  {
+    "id": "img078",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img078.jpg",
+    "options": [
+      "Paddington station",
+      "Waterloo station",
+      "Victoria station",
+      "King's Cross railway station"
+    ],
+    "correctIndex": 3,
+    "category": "Tube",
+    "difficulty": 1,
+    "explanation": "Platform 9¾ draws Harry Potter fans; the station opened in 1852."
+  },
+  {
+    "id": "img079",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img079.jpg",
+    "options": [
+      "Cannon Street station",
+      "Westminster tube station",
+      "St Pancras railway station",
+      "Paddington station"
+    ],
+    "correctIndex": 2,
+    "category": "Tube",
+    "difficulty": 1,
+    "explanation": "The Eurostar terminus beneath Barlow's great single-span train shed of 1868."
+  },
+  {
+    "id": "img080",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img080.jpg",
+    "options": [
+      "Charing Cross railway station",
+      "Paddington station",
+      "Victoria station",
+      "Arnos Grove tube station"
+    ],
+    "correctIndex": 1,
+    "category": "Tube",
+    "difficulty": 2,
+    "explanation": "Brunel's Great Western terminus, forever linked with a small Peruvian bear."
+  },
+  {
+    "id": "img081",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img081.jpg",
+    "options": [
+      "Liverpool Street station",
+      "King's Cross railway station",
+      "Arnos Grove tube station",
+      "Paddington station"
+    ],
+    "correctIndex": 0,
+    "category": "Tube",
+    "difficulty": 2,
+    "explanation": "Built on the site of the original Bethlem (Bedlam) Hospital."
+  },
+  {
+    "id": "img082",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img082.jpg",
+    "options": [
+      "Victoria station",
+      "King's Cross railway station",
+      "Emirates Air Line cable car",
+      "Gants Hill tube station"
+    ],
+    "correctIndex": 0,
+    "category": "Tube",
+    "difficulty": 2,
+    "explanation": "Actually two stations side by side, serving the Brighton and Chatham lines."
+  },
+  {
+    "id": "img083",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img083.jpg",
+    "options": [
+      "Waterloo station",
+      "Paddington station",
+      "Liverpool Street station",
+      "Marylebone station"
+    ],
+    "correctIndex": 0,
+    "category": "Tube",
+    "difficulty": 2,
+    "explanation": "The UK's busiest station, with the famous four-faced clock as its meeting point."
+  },
+  {
+    "id": "img084",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img084.jpg",
+    "options": [
+      "St Pancras railway station",
+      "Charing Cross railway station",
+      "Liverpool Street station",
+      "Cannon Street station"
+    ],
+    "correctIndex": 1,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "The replica Eleanor Cross in its forecourt marks the point from which London distances are measured."
+  },
+  {
+    "id": "img085",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img085.jpg",
+    "options": [
+      "Marylebone station",
+      "Westminster tube station",
+      "Fenchurch Street railway station",
+      "Liverpool Street station"
+    ],
+    "correctIndex": 0,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "The last main-line terminus built in London (1899), beloved of filmmakers."
+  },
+  {
+    "id": "img086",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img086.jpg",
+    "options": [
+      "St Pancras railway station",
+      "Charing Cross railway station",
+      "Cannon Street station",
+      "Fenchurch Street railway station"
+    ],
+    "correctIndex": 3,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "The City terminus famous from Monopoly, one of London's smallest termini."
+  },
+  {
+    "id": "img087",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img087.jpg",
+    "options": [
+      "Tottenham Court Road station",
+      "Cannon Street station",
+      "Marylebone station",
+      "Waterloo station"
+    ],
+    "correctIndex": 1,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "Its twin riverside towers survive from the 1866 station."
+  },
+  {
+    "id": "img088",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img088.jpg",
+    "options": [
+      "Liverpool Street station",
+      "St Pancras railway station",
+      "Charing Cross railway station",
+      "Baker Street tube station"
+    ],
+    "correctIndex": 3,
+    "category": "Tube",
+    "difficulty": 2,
+    "explanation": "One of the world's first underground stations (1863), with Sherlock Holmes tiling."
+  },
+  {
+    "id": "img089",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img089.jpg",
+    "options": [
+      "Waterloo station",
+      "Victoria station",
+      "St Pancras railway station",
+      "Westminster tube station"
+    ],
+    "correctIndex": 3,
+    "category": "Tube",
+    "difficulty": 2,
+    "explanation": "The dramatic concrete-and-steel Jubilee line box beneath Portcullis House."
+  },
+  {
+    "id": "img090",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img090.jpg",
+    "options": [
+      "Canary Wharf tube station",
+      "Waterloo station",
+      "Baker Street tube station",
+      "Charing Cross railway station"
+    ],
+    "correctIndex": 0,
+    "category": "Tube",
+    "difficulty": 2,
+    "explanation": "Norman Foster's cathedral-like Jubilee line station, opened 1999."
+  },
+  {
+    "id": "img091",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img091.jpg",
+    "options": [
+      "Paddington station",
+      "King's Cross railway station",
+      "Canary Wharf tube station",
+      "Gants Hill tube station"
+    ],
+    "correctIndex": 3,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "Charles Holden's Moscow-inspired subterranean concourse in Redbridge."
+  },
+  {
+    "id": "img092",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img092.jpg",
+    "options": [
+      "Fenchurch Street railway station",
+      "Liverpool Street station",
+      "Arnos Grove tube station",
+      "Westminster tube station"
+    ],
+    "correctIndex": 2,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "Holden's drum-shaped 1932 station, a modernist classic."
+  },
+  {
+    "id": "img093",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img093.jpg",
+    "options": [
+      "Southgate tube station",
+      "Cannon Street station",
+      "Arnos Grove tube station",
+      "Paddington station"
+    ],
+    "correctIndex": 0,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "Holden's circular 'flying saucer' station of 1933."
+  },
+  {
+    "id": "img094",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img094.jpg",
+    "options": [
+      "Cannon Street station",
+      "Tottenham Court Road station",
+      "Marylebone station",
+      "Southgate tube station"
+    ],
+    "correctIndex": 1,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "Eduardo Paolozzi's mosaics cover the Central line platforms."
+  },
+  {
+    "id": "img095",
+    "type": "imageBased",
+    "question": "Which station is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img095.jpg",
+    "options": [
+      "Charing Cross railway station",
+      "Gants Hill tube station",
+      "Emirates Air Line cable car",
+      "Westminster tube station"
+    ],
+    "correctIndex": 2,
+    "category": "Tube",
+    "difficulty": 3,
+    "explanation": "The Thames cable car linking Greenwich Peninsula and the Royal Docks, opened 2012."
+  },
+  {
+    "id": "img096",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img096.jpg",
+    "options": [
+      "Museum of London Docklands",
+      "British Museum",
+      "Sir John Soane's Museum",
+      "National Portrait Gallery"
+    ],
+    "correctIndex": 1,
+    "category": "Culture",
+    "difficulty": 1,
+    "explanation": "Foster's Great Court roof of 3,312 unique glass panels encloses Europe's largest covered square."
+  },
+  {
+    "id": "img097",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img097.jpg",
+    "options": [
+      "Horniman Museum",
+      "Tate Britain",
+      "Greenwich National Maritime Museum",
+      "Natural History Museum"
+    ],
+    "correctIndex": 3,
+    "category": "Culture",
+    "difficulty": 1,
+    "explanation": "Waterhouse's terracotta cathedral of nature, home to Hope the blue whale."
+  },
+  {
+    "id": "img099",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img099.jpg",
+    "options": [
+      "Wallace Collection",
+      "Greenwich National Maritime Museum",
+      "Victoria and Albert Museum",
+      "British Museum"
+    ],
+    "correctIndex": 2,
+    "category": "Culture",
+    "difficulty": 2,
+    "explanation": "The V&A is the world's largest museum of decorative arts and design."
+  },
+  {
+    "id": "img100",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img100.jpg",
+    "options": [
+      "Tate Modern",
+      "Greenwich National Maritime Museum",
+      "Sir John Soane's Museum",
+      "Churchill War Rooms"
+    ],
+    "correctIndex": 0,
+    "category": "Culture",
+    "difficulty": 1,
+    "explanation": "Bankside Power Station reborn in 2000; its Turbine Hall hosts giant installations."
+  },
+  {
+    "id": "img102",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img102.jpg",
+    "options": [
+      "HMS Belfast",
+      "Royal Academy of Arts",
+      "National Gallery",
+      "Museum of London Docklands"
+    ],
+    "correctIndex": 2,
+    "category": "Culture",
+    "difficulty": 1,
+    "explanation": "Trafalgar Square's gallery holds Western European painting from Giotto to Van Gogh."
+  },
+  {
+    "id": "img103",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img103.jpg",
+    "options": [
+      "British Museum",
+      "Royal Academy of Arts",
+      "National Portrait Gallery",
+      "Imperial War Museum"
+    ],
+    "correctIndex": 2,
+    "category": "Culture",
+    "difficulty": 2,
+    "explanation": "The world's first portrait gallery, reopened in 2023 after a major refit."
+  },
+  {
+    "id": "img104",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img104.jpg",
+    "options": [
+      "Imperial War Museum",
+      "Courtauld Gallery",
+      "Museum of London Docklands",
+      "National Gallery"
+    ],
+    "correctIndex": 0,
+    "category": "Culture",
+    "difficulty": 2,
+    "explanation": "Its naval guns guard the former Bethlem Hospital building in Lambeth."
+  },
+  {
+    "id": "img105",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img105.jpg",
+    "options": [
+      "Museum of London Docklands",
+      "Greenwich National Maritime Museum",
+      "Science Museum",
+      "Courtauld Gallery"
+    ],
+    "correctIndex": 0,
+    "category": "Culture",
+    "difficulty": 3,
+    "explanation": "Georgian sugar warehouses on West India Quay telling the port's story."
+  },
+  {
+    "id": "img106",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img106.jpg",
+    "options": [
+      "Tate Modern",
+      "Horniman Museum",
+      "Sir John Soane's Museum",
+      "Design Museum"
+    ],
+    "correctIndex": 1,
+    "category": "Culture",
+    "difficulty": 3,
+    "explanation": "Forest Hill museum famed for its overstuffed walrus."
+  },
+  {
+    "id": "img107",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img107.jpg",
+    "options": [
+      "Victoria and Albert Museum",
+      "Museum of the Home",
+      "Sir John Soane's Museum",
+      "Royal Academy of Arts"
+    ],
+    "correctIndex": 2,
+    "category": "Culture",
+    "difficulty": 3,
+    "explanation": "The architect's house-museum, preserved by Act of Parliament since 1837."
+  },
+  {
+    "id": "img111",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img111.jpg",
+    "options": [
+      "Churchill War Rooms",
+      "National Gallery",
+      "Courtauld Gallery",
+      "National Portrait Gallery"
+    ],
+    "correctIndex": 2,
+    "category": "Culture",
+    "difficulty": 3,
+    "explanation": "Somerset House gallery with Manet's Bar at the Folies-Bergère."
+  },
+  {
+    "id": "img113",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img113.jpg",
+    "options": [
+      "Tate Modern",
+      "HMS Belfast",
+      "Sir John Soane's Museum",
+      "Courtauld Gallery"
+    ],
+    "correctIndex": 1,
+    "category": "Culture",
+    "difficulty": 2,
+    "explanation": "The WWII cruiser moored on the Thames since 1971, part of IWM."
+  },
+  {
+    "id": "img114",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img114.jpg",
+    "options": [
+      "Sir John Soane's Museum",
+      "Horniman Museum",
+      "Greenwich National Maritime Museum",
+      "Churchill War Rooms"
+    ],
+    "correctIndex": 3,
+    "category": "Culture",
+    "difficulty": 2,
+    "explanation": "The underground bunker where Churchill's government sheltered and worked."
+  },
+  {
+    "id": "img115",
+    "type": "imageBased",
+    "question": "Which London museum or gallery is this?",
+    "imageURL": "https://quizli.app/images/img115.jpg",
+    "options": [
+      "Museum of the Home",
+      "Sir John Soane's Museum",
+      "Greenwich National Maritime Museum",
+      "Churchill War Rooms"
+    ],
+    "correctIndex": 0,
+    "category": "Culture",
+    "difficulty": 3,
+    "explanation": "Formerly the Geffrye Museum, set in 18th-century almshouses in Hoxton."
+  },
+  {
+    "id": "img118",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img118.jpg",
+    "options": [
+      "Battersea Park",
+      "Hyde Park",
+      "St James's Park",
+      "Crystal Palace Park"
+    ],
+    "correctIndex": 2,
+    "category": "Nature",
+    "difficulty": 2,
+    "explanation": "The oldest royal park, whose pelicans date from a 1664 Russian ambassador's gift."
+  },
+  {
+    "id": "img119",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img119.jpg",
+    "options": [
+      "Victoria Park",
+      "Green Park",
+      "Hyde Park",
+      "Primrose Hill"
+    ],
+    "correctIndex": 1,
+    "category": "Nature",
+    "difficulty": 3,
+    "explanation": "The only royal park with no lakes, buildings or formal flowerbeds."
+  },
+  {
+    "id": "img121",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img121.jpg",
+    "options": [
+      "Battersea Park",
+      "Hyde Park",
+      "Richmond Park",
+      "Regent's Park"
+    ],
+    "correctIndex": 2,
+    "category": "Nature",
+    "difficulty": 2,
+    "explanation": "London's largest royal park, roamed by 600 red and fallow deer."
+  },
+  {
+    "id": "img122",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img122.jpg",
+    "options": [
+      "Battersea Park",
+      "Regent's Park",
+      "Victoria Park",
+      "Hampstead Heath"
+    ],
+    "correctIndex": 3,
+    "category": "Nature",
+    "difficulty": 2,
+    "explanation": "790 acres of wild heath with famous swimming ponds and the Parliament Hill view."
+  },
+  {
+    "id": "img123",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img123.jpg",
+    "options": [
+      "Richmond Park",
+      "Victoria Park",
+      "Bushy Park",
+      "Green Park"
+    ],
+    "correctIndex": 1,
+    "category": "Nature",
+    "difficulty": 3,
+    "explanation": "The East End's 'People's Park', opened in 1845."
+  },
+  {
+    "id": "img124",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img124.jpg",
+    "options": [
+      "Hampstead Heath",
+      "Sky Garden",
+      "Kew Gardens",
+      "Battersea Park"
+    ],
+    "correctIndex": 3,
+    "category": "Nature",
+    "difficulty": 3,
+    "explanation": "Riverside park with the Peace Pagoda, built in 1985."
+  },
+  {
+    "id": "img125",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img125.jpg",
+    "options": [
+      "Kew Gardens",
+      "Battersea Park",
+      "Victoria Park",
+      "Green Park"
+    ],
+    "correctIndex": 0,
+    "category": "Nature",
+    "difficulty": 1,
+    "explanation": "The Royal Botanic Gardens' Palm House is a Victorian glasshouse masterpiece."
+  },
+  {
+    "id": "img127",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img127.jpg",
+    "options": [
+      "Regent's Park",
+      "Holland Park",
+      "Primrose Hill",
+      "Sky Garden"
+    ],
+    "correctIndex": 2,
+    "category": "Nature",
+    "difficulty": 2,
+    "explanation": "Its 63-metre summit gives one of London's protected skyline views."
+  },
+  {
+    "id": "img128",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img128.jpg",
+    "options": [
+      "Hampstead Heath",
+      "Bushy Park",
+      "Battersea Park",
+      "Crystal Palace Park"
+    ],
+    "correctIndex": 3,
+    "category": "Nature",
+    "difficulty": 3,
+    "explanation": "Home of the famous Victorian dinosaur sculptures of 1854."
+  },
+  {
+    "id": "img129",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img129.jpg",
+    "options": [
+      "Green Park",
+      "Kew Gardens",
+      "Bushy Park",
+      "Victoria Park"
+    ],
+    "correctIndex": 2,
+    "category": "Nature",
+    "difficulty": 3,
+    "explanation": "The second-largest royal park, beside Hampton Court."
+  },
+  {
+    "id": "img130",
+    "type": "imageBased",
+    "question": "Which London park or green space is shown?",
+    "imageURL": "https://quizli.app/images/img130.jpg",
+    "options": [
+      "Victoria Park",
+      "Battersea Park",
+      "Primrose Hill",
+      "Sky Garden"
+    ],
+    "correctIndex": 3,
+    "category": "Nature",
+    "difficulty": 2,
+    "explanation": "The public garden atop the Walkie-Talkie at 20 Fenchurch Street."
+  },
+  {
+    "id": "img131",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img131.jpg",
+    "options": [
+      "Golden Boy of Pye Corner",
+      "Seven Noses of Soho",
+      "Winston Churchill statue",
+      "Nelson's Column"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 1,
+    "explanation": "Nelson has watched over Trafalgar Square from 52 metres up since 1843."
+  },
+  {
+    "id": "img132",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img132.jpg",
+    "options": [
+      "Shackleton statue",
+      "Duke of Wellington equestrian statue",
+      "Millicent Fawcett statue",
+      "Eros statue"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Officially Anteros, the Shaftesbury Memorial's aluminium archer at Piccadilly Circus."
+  },
+  {
+    "id": "img133",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img133.jpg",
+    "options": [
+      "Fourth Plinth",
+      "Albert Memorial",
+      "Peter Pan statue",
+      "Achilles statue"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Erected secretly overnight in Kensington Gardens in 1912 at J.M. Barrie's behest."
+  },
+  {
+    "id": "img134",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img134.jpg",
+    "options": [
+      "Winston Churchill statue",
+      "Shackleton statue",
+      "Cleopatra's Needle",
+      "Achilles statue"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Hyde Park's 1822 Wellington memorial, cast from captured French cannon."
+  },
+  {
+    "id": "img135",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img135.jpg",
+    "options": [
+      "Eros statue",
+      "Seven Noses of Soho",
+      "Nelson's Column",
+      "Boadicea and Her Daughters"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Thornycroft's warrior queen charges beside Westminster Bridge."
+  },
+  {
+    "id": "img136",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img136.jpg",
+    "options": [
+      "Winston Churchill statue",
+      "Boadicea and Her Daughters",
+      "Eros statue",
+      "Shackleton statue"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Ivor Roberts-Jones' brooding Churchill surveys Parliament Square."
+  },
+  {
+    "id": "img137",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img137.jpg",
+    "options": [
+      "Seven Noses of Soho",
+      "Traffic Light Tree",
+      "Achilles statue",
+      "Cleopatra's Needle"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The 3,500-year-old obelisk arrived from Egypt in 1878 after a near-disastrous tow."
+  },
+  {
+    "id": "img138",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img138.jpg",
+    "options": [
+      "Albert Memorial",
+      "Seven Noses of Soho",
+      "Millicent Fawcett statue",
+      "Eros statue"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "George Gilbert Scott's gilded Gothic canopy for Prince Albert in Kensington Gardens."
+  },
+  {
+    "id": "img140",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img140.jpg",
+    "options": [
+      "Golden Boy of Pye Corner",
+      "The Cenotaph",
+      "Albert Memorial",
+      "Animals in War Memorial"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Park Lane memorial to the animals that served alongside British forces."
+  },
+  {
+    "id": "img142",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img142.jpg",
+    "options": [
+      "Peter Pan statue",
+      "Queen Victoria Memorial",
+      "Achilles statue",
+      "Sherlock Holmes statue"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The detective stands outside Baker Street station, pipe in hand."
+  },
+  {
+    "id": "img143",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img143.jpg",
+    "options": [
+      "Duke of Wellington equestrian statue",
+      "Winston Churchill statue",
+      "Fourth Plinth",
+      "Seven Noses of Soho"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Trafalgar Square's empty plinth hosts rotating contemporary artworks."
+  },
+  {
+    "id": "img144",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img144.jpg",
+    "options": [
+      "Shackleton statue",
+      "Fourth Plinth",
+      "The Cenotaph",
+      "Achilles statue"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The polar explorer stands in a niche outside the Royal Geographical Society."
+  },
+  {
+    "id": "img145",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img145.jpg",
+    "options": [
+      "Shackleton statue",
+      "Animals in War Memorial",
+      "Fourth Plinth",
+      "Millicent Fawcett statue"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Parliament Square's first statue of a woman, unveiled in 2018."
+  },
+  {
+    "id": "img146",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img146.jpg",
+    "options": [
+      "Sherlock Holmes statue",
+      "Seven Noses of Soho",
+      "The Cenotaph",
+      "Duke of Wellington equestrian statue"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The Iron Duke rides Copenhagen outside the Royal Exchange."
+  },
+  {
+    "id": "img147",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img147.jpg",
+    "options": [
+      "Animals in War Memorial",
+      "Golden Boy of Pye Corner",
+      "Traffic Light Tree",
+      "The Cenotaph"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The gilded cherub marks where the Great Fire of 1666 stopped."
+  },
+  {
+    "id": "img148",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img148.jpg",
+    "options": [
+      "Albert Memorial",
+      "Traffic Light Tree",
+      "Fourth Plinth",
+      "The Cenotaph"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Pierre Vivant's sculpture of 75 traffic lights near Canary Wharf."
+  },
+  {
+    "id": "img149",
+    "type": "imageBased",
+    "question": "Which London monument or statue is this?",
+    "imageURL": "https://quizli.app/images/img149.jpg",
+    "options": [
+      "Queen Victoria Memorial",
+      "Winston Churchill statue",
+      "Shackleton statue",
+      "Boadicea and Her Daughters"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The 25-metre marble memorial outside Buckingham Palace, unveiled in 1911."
+  },
+  {
+    "id": "img150",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img150.jpg",
+    "options": [
+      "Goodwin's Court",
+      "Piccadilly Circus",
+      "Soho Square",
+      "Broadway Market"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 1,
+    "explanation": "The curved LED screens have advertised here in some form since 1908."
+  },
+  {
+    "id": "img151",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img151.jpg",
+    "options": [
+      "Denmark Street",
+      "Old Spitalfields Market",
+      "Abbey Road crossing",
+      "Trafalgar Square"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 1,
+    "explanation": "Laid out in the 1840s to commemorate the 1805 naval victory."
+  },
+  {
+    "id": "img152",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img152.jpg",
+    "options": [
+      "Covent Garden",
+      "Columbia Road Flower Market",
+      "Abbey Road crossing",
+      "Soho Square"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 1,
+    "explanation": "The 1830 market halls now host street performers licensed by audition."
+  },
+  {
+    "id": "img153",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img153.jpg",
+    "options": [
+      "Highgate Cemetery",
+      "Carnaby Street",
+      "God's Own Junkyard",
+      "Old Spitalfields Market"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "The pedestrianised heart of Swinging London in the 1960s."
+  },
+  {
+    "id": "img154",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img154.jpg",
+    "options": [
+      "Carnaby Street",
+      "Piccadilly Circus",
+      "Seven Dials",
+      "Portobello Road Market"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "The world's largest antiques market runs along this Notting Hill street."
+  },
+  {
+    "id": "img156",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img156.jpg",
+    "options": [
+      "Neal's Yard",
+      "Brick Lane",
+      "Covent Garden",
+      "Piccadilly Circus"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "The heart of Banglatown, famous for curry houses, bagels and street art."
+  },
+  {
+    "id": "img157",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img157.jpg",
+    "options": [
+      "Columbia Road Flower Market",
+      "Borough Market",
+      "Battersea Rise pastel houses",
+      "Trafalgar Square"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Every Sunday this East End street disappears under flowers."
+  },
+  {
+    "id": "img158",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img158.jpg",
+    "options": [
+      "Exmouth Market",
+      "Regent Street",
+      "St Christopher's Place",
+      "Camden Market"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "The sprawling markets by the lock draw 250,000 visitors a week."
+  },
+  {
+    "id": "img159",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img159.jpg",
+    "options": [
+      "Berwick Street Market",
+      "Electric Avenue",
+      "Highgate Cemetery",
+      "Neal's Yard"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "A hidden rainbow-painted courtyard in Covent Garden."
+  },
+  {
+    "id": "img160",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img160.jpg",
+    "options": [
+      "Chinatown London",
+      "Goodwin's Court",
+      "Maltby Street Market",
+      "Regent's Canal"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "Gerrard Street's gates and lanterns mark London's Chinatown, settled in the 1950s."
+  },
+  {
+    "id": "img162",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img162.jpg",
+    "options": [
+      "Soho Square",
+      "Denmark Street",
+      "Shad Thames",
+      "Wapping High Street"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "The 1681 square with its mock-Tudor gardeners' hut."
+  },
+  {
+    "id": "img163",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img163.jpg",
+    "options": [
+      "Old Spitalfields Market",
+      "Abbey Road crossing",
+      "Coal Drops Yard",
+      "Notting Hill houses"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "The pastel terraces made world-famous by carnival and cinema."
+  },
+  {
+    "id": "img164",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img164.jpg",
+    "options": [
+      "Carnaby Street",
+      "Camden Lock",
+      "Shad Thames",
+      "Neal's Yard"
+    ],
+    "correctIndex": 2,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Victorian warehouse canyons with iconic overhead gantries near Tower Bridge."
+  },
+  {
+    "id": "img165",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img165.jpg",
+    "options": [
+      "God's Own Junkyard",
+      "Greenwich Market",
+      "Exmouth Market",
+      "Leake Street tunnel"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Walthamstow's dazzling warehouse of salvaged neon signs."
+  },
+  {
+    "id": "img166",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img166.jpg",
+    "options": [
+      "Abbey Road crossing",
+      "The Mall",
+      "Exmouth Market",
+      "Little Venice"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "The leafy canal junction where the Grand Union meets the Regent's Canal."
+  },
+  {
+    "id": "img167",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img167.jpg",
+    "options": [
+      "Abbey Road crossing",
+      "Broadway Market",
+      "Regent Street",
+      "Leicester Square"
+    ],
+    "correctIndex": 2,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "Nash's sweeping curve, famous for its Christmas lights since 1954."
+  },
+  {
+    "id": "img168",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img168.jpg",
+    "options": [
+      "God's Own Junkyard",
+      "Soho Square",
+      "Oxford Street",
+      "Battersea Rise pastel houses"
+    ],
+    "correctIndex": 2,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "Europe's busiest shopping street, with around half a million daily visitors."
+  },
+  {
+    "id": "img169",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img169.jpg",
+    "options": [
+      "Denmark Street",
+      "Hays Galleria",
+      "Leicester Square",
+      "The Mall"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "The ceremonial red road from Admiralty Arch to Buckingham Palace."
+  },
+  {
+    "id": "img170",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img170.jpg",
+    "options": [
+      "Covent Garden",
+      "Denmark Street",
+      "Old Spitalfields Market",
+      "Camden Lock"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "London's Tin Pan Alley, where Bowie and the Stones recorded demos."
+  },
+  {
+    "id": "img171",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img171.jpg",
+    "options": [
+      "Kynance Mews",
+      "Old Spitalfields Market",
+      "Regent's Canal",
+      "Chinatown London"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "One of Kensington's most photographed cobbled mews."
+  },
+  {
+    "id": "img172",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img172.jpg",
+    "options": [
+      "Electric Avenue",
+      "Leake Street tunnel",
+      "Cecil Court",
+      "Postman's Park"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "The legal graffiti tunnel under Waterloo, born of Banksy's 2008 Cans Festival."
+  },
+  {
+    "id": "img173",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img173.jpg",
+    "options": [
+      "Granary Square",
+      "Columbia Road Flower Market",
+      "Postman's Park",
+      "St Christopher's Place"
+    ],
+    "correctIndex": 2,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Home to Watts' memorial tiles honouring everyday heroes who died saving others."
+  },
+  {
+    "id": "img174",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img174.jpg",
+    "options": [
+      "Southwark Cathedral",
+      "All Souls Langham Place",
+      "Westminster Cathedral",
+      "Temple Church"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "London's oldest Gothic church, a cathedral only since 1905."
+  },
+  {
+    "id": "img175",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img175.jpg",
+    "options": [
+      "St Bartholomew the Great",
+      "St Martin-in-the-Fields",
+      "Westminster Cathedral",
+      "St Bride's Church"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Gibbs' 1726 church on Trafalgar Square, famous for candlelit concerts."
+  },
+  {
+    "id": "img176",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img176.jpg",
+    "options": [
+      "Westminster Cathedral",
+      "St Martin-in-the-Fields",
+      "St Bride's Church",
+      "Southwark Cathedral"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Wren's tiered spire inspired the modern wedding cake."
+  },
+  {
+    "id": "img177",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img177.jpg",
+    "options": [
+      "St Mary-le-Bow",
+      "St Martin-in-the-Fields",
+      "St Bartholomew the Great",
+      "All Souls Langham Place"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "London's oldest surviving parish church, founded 1123 at Smithfield."
+  },
+  {
+    "id": "img179",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img179.jpg",
+    "options": [
+      "St Martin-in-the-Fields",
+      "St Dunstan in the East",
+      "St Mary-le-Bow",
+      "All Souls Langham Place"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "A Wren church ruined in the Blitz, now a garden within its walls."
+  },
+  {
+    "id": "img180",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img180.jpg",
+    "options": [
+      "St Bride's Church",
+      "Westminster Cathedral",
+      "Brompton Oratory",
+      "St Martin-in-the-Fields"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The striped neo-Byzantine Catholic cathedral of 1903 — not the Abbey."
+  },
+  {
+    "id": "img181",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img181.jpg",
+    "options": [
+      "Brompton Oratory",
+      "Westminster Cathedral",
+      "St Mary-le-Bow",
+      "Southwark Cathedral"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "True Cockneys are born within the sound of its Bow Bells."
+  },
+  {
+    "id": "img182",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img182.jpg",
+    "options": [
+      "St Dunstan in the East",
+      "All Souls Langham Place",
+      "Temple Church",
+      "St Mary-le-Bow"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Nash's circular-porticoed church beside BBC Broadcasting House."
+  },
+  {
+    "id": "img183",
+    "type": "imageBased",
+    "question": "Which London church is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img183.jpg",
+    "options": [
+      "Brompton Oratory",
+      "St Mary-le-Bow",
+      "Westminster Cathedral",
+      "Southwark Cathedral"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The grand Italianate Catholic church next to the V&A."
+  },
+  {
+    "id": "img184",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img184.jpg",
+    "options": [
+      "KOKO Camden",
+      "Twickenham Stadium",
+      "Lord's Cricket Ground",
+      "ExCeL London"
+    ],
+    "correctIndex": 1,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "The home of England rugby, nicknamed the Cabbage Patch."
+  },
+  {
+    "id": "img185",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img185.jpg",
+    "options": [
+      "Wembley Stadium",
+      "Lord's Cricket Ground",
+      "Wimbledon Centre Court",
+      "Craven Cottage"
+    ],
+    "correctIndex": 1,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "The home of cricket, with its famous Victorian pavilion and space-age media centre."
+  },
+  {
+    "id": "img186",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img186.jpg",
+    "options": [
+      "The Oval",
+      "Emirates Stadium",
+      "Wembley Stadium",
+      "Tottenham Hotspur Stadium"
+    ],
+    "correctIndex": 0,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "Surrey's gasholder-flanked ground hosted the first Test match in England in 1880."
+  },
+  {
+    "id": "img187",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img187.jpg",
+    "options": [
+      "Emirates Stadium",
+      "KOKO Camden",
+      "The Oval",
+      "Olympic Park"
+    ],
+    "correctIndex": 0,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "Arsenal's home since 2006, built a few hundred metres from Highbury."
+  },
+  {
+    "id": "img188",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img188.jpg",
+    "options": [
+      "Olympic Park",
+      "Stamford Bridge",
+      "Lord's Cricket Ground",
+      "Selhurst Park"
+    ],
+    "correctIndex": 1,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "Chelsea's ground since the club's founding in 1905."
+  },
+  {
+    "id": "img189",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img189.jpg",
+    "options": [
+      "Selhurst Park",
+      "Tottenham Hotspur Stadium",
+      "ExCeL London",
+      "Olympic Park"
+    ],
+    "correctIndex": 1,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "Its retractable pitch reveals an NFL field beneath."
+  },
+  {
+    "id": "img190",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img190.jpg",
+    "options": [
+      "Craven Cottage",
+      "London Stadium",
+      "Emirates Stadium",
+      "Lord's Cricket Ground"
+    ],
+    "correctIndex": 1,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "Built for the 2012 Olympics, now home to West Ham United."
+  },
+  {
+    "id": "img192",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img192.jpg",
+    "options": [
+      "KOKO Camden",
+      "Craven Cottage",
+      "Olympic Park",
+      "Selhurst Park"
+    ],
+    "correctIndex": 3,
+    "category": "Sport",
+    "difficulty": 3,
+    "explanation": "Crystal Palace's home in South London since 1924."
+  },
+  {
+    "id": "img193",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img193.jpg",
+    "options": [
+      "Olympic Park",
+      "KOKO Camden",
+      "Twickenham Stadium",
+      "Wimbledon Centre Court"
+    ],
+    "correctIndex": 3,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "The All England Club's showpiece, with a retractable roof since 2009."
+  },
+  {
+    "id": "img194",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img194.jpg",
+    "options": [
+      "Selhurst Park",
+      "ExCeL London",
+      "KOKO Camden",
+      "London Stadium"
+    ],
+    "correctIndex": 1,
+    "category": "Sport",
+    "difficulty": 3,
+    "explanation": "The Docklands exhibition centre that became the NHS Nightingale hospital in 2020."
+  },
+  {
+    "id": "img195",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img195.jpg",
+    "options": [
+      "Tottenham Hotspur Stadium",
+      "London Stadium",
+      "Ronnie Scott's",
+      "Olympic Park"
+    ],
+    "correctIndex": 3,
+    "category": "Sport",
+    "difficulty": 2,
+    "explanation": "Queen Elizabeth Olympic Park, with the ArcelorMittal Orbit tower."
+  },
+  {
+    "id": "img196",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img196.jpg",
+    "options": [
+      "Ronnie Scott's",
+      "Craven Cottage",
+      "Emirates Stadium",
+      "Twickenham Stadium"
+    ],
+    "correctIndex": 0,
+    "category": "Sport",
+    "difficulty": 3,
+    "explanation": "The Frith Street jazz club, hosting legends since 1959."
+  },
+  {
+    "id": "img197",
+    "type": "imageBased",
+    "question": "Which London venue is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img197.jpg",
+    "options": [
+      "Ronnie Scott's",
+      "Tottenham Hotspur Stadium",
+      "ExCeL London",
+      "KOKO Camden"
+    ],
+    "correctIndex": 3,
+    "category": "Sport",
+    "difficulty": 3,
+    "explanation": "The former Camden Palace theatre, a music venue since 1900."
+  },
+  {
+    "id": "img198",
+    "type": "imageBased",
+    "question": "Which historic London pub is shown?",
+    "imageURL": "https://quizli.app/images/img198.jpg",
+    "options": [
+      "The Grenadier",
+      "Ye Olde Cheshire Cheese",
+      "The Mayflower",
+      "The Prospect of Whitby"
+    ],
+    "correctIndex": 1,
+    "category": "Pubs",
+    "difficulty": 3,
+    "explanation": "Rebuilt after the Great Fire; Dickens and Johnson drank in its gloomy snugs."
+  },
+  {
+    "id": "img199",
+    "type": "imageBased",
+    "question": "Which historic London pub is shown?",
+    "imageURL": "https://quizli.app/images/img199.jpg",
+    "options": [
+      "Ye Olde Cheshire Cheese",
+      "The George Inn",
+      "The Prospect of Whitby",
+      "The Churchill Arms"
+    ],
+    "correctIndex": 2,
+    "category": "Pubs",
+    "difficulty": 3,
+    "explanation": "London's oldest riverside pub (1520), complete with hangman's noose."
+  },
+  {
+    "id": "img200",
+    "type": "imageBased",
+    "question": "Which historic London pub is shown?",
+    "imageURL": "https://quizli.app/images/img200.jpg",
+    "options": [
+      "The George Inn",
+      "The Spaniards Inn",
+      "The Lamb and Flag",
+      "The Grenadier"
+    ],
+    "correctIndex": 0,
+    "category": "Pubs",
+    "difficulty": 3,
+    "explanation": "London's last galleried coaching inn, owned by the National Trust."
+  },
+  {
+    "id": "img201",
+    "type": "imageBased",
+    "question": "Which historic London pub is shown?",
+    "imageURL": "https://quizli.app/images/img201.jpg",
+    "options": [
+      "Ye Olde Cheshire Cheese",
+      "The Ten Bells",
+      "The Prospect of Whitby",
+      "The Churchill Arms"
+    ],
+    "correctIndex": 3,
+    "category": "Pubs",
+    "difficulty": 2,
+    "explanation": "The Kensington pub buried under 40 tonnes of flowers and Christmas trees."
+  },
+  {
+    "id": "img203",
+    "type": "imageBased",
+    "question": "Which historic London pub is shown?",
+    "imageURL": "https://quizli.app/images/img203.jpg",
+    "options": [
+      "The Churchill Arms",
+      "The Grenadier",
+      "The Spaniards Inn",
+      "Ye Olde Cheshire Cheese"
+    ],
+    "correctIndex": 2,
+    "category": "Pubs",
+    "difficulty": 3,
+    "explanation": "The 1585 Hampstead inn tied to Dick Turpin and mentioned in Dracula."
+  },
+  {
+    "id": "img204",
+    "type": "imageBased",
+    "question": "Which historic London pub is shown?",
+    "imageURL": "https://quizli.app/images/img204.jpg",
+    "options": [
+      "The Prospect of Whitby",
+      "The Spaniards Inn",
+      "The Mayflower",
+      "The Ten Bells"
+    ],
+    "correctIndex": 2,
+    "category": "Pubs",
+    "difficulty": 3,
+    "explanation": "The Rotherhithe pub beside the Pilgrim ship's 1620 departure point."
+  },
+  {
+    "id": "img206",
+    "type": "imageBased",
+    "question": "Which historic London pub is shown?",
+    "imageURL": "https://quizli.app/images/img206.jpg",
+    "options": [
+      "The Lamb and Flag",
+      "The Blackfriar",
+      "The Grenadier",
+      "The Churchill Arms"
+    ],
+    "correctIndex": 0,
+    "category": "Pubs",
+    "difficulty": 3,
+    "explanation": "Covent Garden's 'Bucket of Blood', where Dryden was beaten in 1679."
+  },
+  {
+    "id": "img207",
+    "type": "imageBased",
+    "question": "Which historic London pub is shown?",
+    "imageURL": "https://quizli.app/images/img207.jpg",
+    "options": [
+      "The Spaniards Inn",
+      "The Mayflower",
+      "The Prospect of Whitby",
+      "The Ten Bells"
+    ],
+    "correctIndex": 3,
+    "category": "Pubs",
+    "difficulty": 3,
+    "explanation": "The Spitalfields pub forever linked with the Jack the Ripper story."
+  },
+  {
+    "id": "img208",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img208.jpg",
+    "options": [
+      "Lloyd's building",
+      "Tower 42",
+      "Guildhall",
+      "The Gherkin (30 St Mary Axe)"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The former NatWest Tower was the City's first skyscraper, its plan echoing the bank's logo."
+  },
+  {
+    "id": "img209",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img209.jpg",
+    "options": [
+      "Painted Hall Greenwich",
+      "Old Bailey",
+      "Tower 42",
+      "Heron Tower"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "110 Bishopsgate hosts a 70,000-litre aquarium in its lobby."
+  },
+  {
+    "id": "img210",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img210.jpg",
+    "options": [
+      "Horse Guards",
+      "One Canada Square",
+      "Centre Point",
+      "Smithfield Market"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The 1966 tower stood famously empty for years; now flats above Tottenham Court Road."
+  },
+  {
+    "id": "img211",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img211.jpg",
+    "options": [
+      "London Eye",
+      "Tower 42",
+      "One Canada Square",
+      "Old Vic"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The pyramid-topped tower was the UK's tallest building from 1991 to 2012."
+  },
+  {
+    "id": "img212",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img212.jpg",
+    "options": [
+      "Tower 42",
+      "Theatre Royal Drury Lane",
+      "Broadcasting House",
+      "One Canada Square"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The BBC's Art Deco headquarters, with Eric Gill's Prospero and Ariel over the door."
+  },
+  {
+    "id": "img213",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img213.jpg",
+    "options": [
+      "The Walkie-Talkie (20 Fenchurch St)",
+      "Senate House",
+      "Burlington Arcade",
+      "Royal Festival Hall"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The only building saved from the 1951 Festival of Britain."
+  },
+  {
+    "id": "img214",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img214.jpg",
+    "options": [
+      "City Hall London",
+      "Old Royal Naval College",
+      "National Theatre",
+      "Fulham Palace"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Denys Lasdun's Brutalist terraces — Prince Charles likened it to a nuclear power station."
+  },
+  {
+    "id": "img215",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img215.jpg",
+    "options": [
+      "Broadcasting House",
+      "County Hall",
+      "Harrods",
+      "Tate Modern Switch House"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The twisted brick pyramid extension opened in 2016 with a 360-degree viewing level."
+  },
+  {
+    "id": "img216",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img216.jpg",
+    "options": [
+      "City Hall London",
+      "Harrods",
+      "Houses of Parliament",
+      "The Gherkin (30 St Mary Axe)"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Foster's leaning glass egg by Tower Bridge housed the Mayor until 2021."
+  },
+  {
+    "id": "img217",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img217.jpg",
+    "options": [
+      "New Scotland Yard",
+      "Tower 42",
+      "Monument to the Great Fire of London",
+      "Royal Courts of Justice"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The revolving sign of the Metropolitan Police headquarters."
+  },
+  {
+    "id": "img218",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img218.jpg",
+    "options": [
+      "Tower 42",
+      "Wilton's Music Hall",
+      "London Palladium",
+      "10 Downing Street"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 1,
+    "explanation": "The world's most famous front door — its lion knocker and lamp date from the 18th century."
+  },
+  {
+    "id": "img219",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img219.jpg",
+    "options": [
+      "Royal Opera House",
+      "Charterhouse",
+      "Leadenhall Market",
+      "Marble Arch"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "Covent Garden's opera house, rebuilt twice after fires."
+  },
+  {
+    "id": "img220",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img220.jpg",
+    "options": [
+      "Selfridges",
+      "London Palladium",
+      "Harrods",
+      "Tate Modern Switch House"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The Argyll Street theatre synonymous with variety since 1910."
+  },
+  {
+    "id": "img221",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img221.jpg",
+    "options": [
+      "Dennis Severs' House",
+      "Marble Arch",
+      "Theatre Royal Drury Lane",
+      "Royal Albert Hall"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The oldest theatre site in continuous use in the world, since 1663."
+  },
+  {
+    "id": "img222",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img222.jpg",
+    "options": [
+      "Bush House",
+      "Coliseum Theatre",
+      "Tower 42",
+      "Burlington Arcade"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "London's largest theatre, topped by its famous revolving globe."
+  },
+  {
+    "id": "img223",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img223.jpg",
+    "options": [
+      "Wilton's Music Hall",
+      "Tobacco Dock",
+      "Chiswick House",
+      "Royal Observatory Greenwich"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The world's oldest surviving grand music hall, hidden in Whitechapel."
+  },
+  {
+    "id": "img224",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img224.jpg",
+    "options": [
+      "Granary Square",
+      "Wapping High Street",
+      "Maltby Street Market",
+      "Camden Market"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "King's Cross's fountain-filled square in front of Central Saint Martins."
+  },
+  {
+    "id": "img225",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img225.jpg",
+    "options": [
+      "Brick Lane",
+      "Gabriel's Wharf",
+      "Oxford Street",
+      "Coal Drops Yard"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Heatherwick's kissing-roofs shopping district behind King's Cross."
+  },
+  {
+    "id": "img226",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img226.jpg",
+    "options": [
+      "Hays Galleria",
+      "Seven Dials",
+      "Cecil Court",
+      "Regent's Canal"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "The seven-street junction with a six-faced sundial pillar."
+  },
+  {
+    "id": "img227",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img227.jpg",
+    "options": [
+      "Little Venice",
+      "Covent Garden",
+      "Regent's Canal",
+      "Maltby Street Market"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Weekend food market squeezed under Bermondsey's railway arches."
+  },
+  {
+    "id": "img228",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img228.jpg",
+    "options": [
+      "Wapping High Street",
+      "Borough Market",
+      "Broadway Market",
+      "Camden Lock"
+    ],
+    "correctIndex": 2,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "The Hackney street market running from London Fields to Regent's Canal."
+  },
+  {
+    "id": "img230",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img230.jpg",
+    "options": [
+      "St Christopher's Place",
+      "Old Spitalfields Market",
+      "Cecil Court",
+      "Wapping High Street"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "The Victorian market hall on the edge of the City, trading since 1638."
+  },
+  {
+    "id": "img231",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img231.jpg",
+    "options": [
+      "Exmouth Market",
+      "Broadway Market",
+      "Covent Garden",
+      "The Mall"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Clerkenwell's semi-pedestrianised street of restaurants and stalls."
+  },
+  {
+    "id": "img232",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img232.jpg",
+    "options": [
+      "Neal's Yard",
+      "St Christopher's Place",
+      "Exmouth Market",
+      "Abbey Road crossing"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "A hidden courtyard of cafés steps from Oxford Street."
+  },
+  {
+    "id": "img233",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img233.jpg",
+    "options": [
+      "Greenwich Market",
+      "The Mall",
+      "Cecil Court",
+      "Portobello Road Market"
+    ],
+    "correctIndex": 2,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "The Victorian booksellers' alley nicknamed Booksellers' Row."
+  },
+  {
+    "id": "img234",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img234.jpg",
+    "options": [
+      "Abbey Road crossing",
+      "Greenwich Market",
+      "Goodwin's Court",
+      "The Mall"
+    ],
+    "correctIndex": 2,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "A 1690s alley of bow-windowed houses, said to inspire Diagon Alley."
+  },
+  {
+    "id": "img235",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img235.jpg",
+    "options": [
+      "God's Own Junkyard",
+      "Regent's Canal",
+      "Exmouth Market",
+      "Brick Lane"
+    ],
+    "correctIndex": 1,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Nine miles of towpath from Little Venice to Limehouse."
+  },
+  {
+    "id": "img236",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img236.jpg",
+    "options": [
+      "Postman's Park",
+      "Piccadilly Circus",
+      "Shad Thames",
+      "Camden Lock"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "The twin locks that gave Camden's markets their name."
+  },
+  {
+    "id": "img237",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img237.jpg",
+    "options": [
+      "Wapping High Street",
+      "Chinatown London",
+      "Little Venice",
+      "Maltby Street Market"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Cobbles and warehouses where London's docks began."
+  },
+  {
+    "id": "img238",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img238.jpg",
+    "options": [
+      "Leicester Square",
+      "Columbia Road Flower Market",
+      "Brick Lane",
+      "Highgate Cemetery"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 2,
+    "explanation": "The Victorian garden cemetery where Karl Marx is buried."
+  },
+  {
+    "id": "img239",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img239.jpg",
+    "options": [
+      "Brixton Village",
+      "Broadway Market",
+      "Oxford Street",
+      "St Christopher's Place"
+    ],
+    "correctIndex": 0,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "The covered arcades at the heart of Brixton's food scene."
+  },
+  {
+    "id": "img240",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img240.jpg",
+    "options": [
+      "Kynance Mews",
+      "Borough Market",
+      "Seven Dials",
+      "Electric Avenue"
+    ],
+    "correctIndex": 3,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "Brixton's market street, the first shopping street lit by electricity — and an Eddy Grant hit."
+  },
+  {
+    "id": "img241",
+    "type": "imageBased",
+    "question": "Which London street, market or square is shown?",
+    "imageURL": "https://quizli.app/images/img241.jpg",
+    "options": [
+      "Highgate Cemetery",
+      "Old Spitalfields Market",
+      "Hays Galleria",
+      "Little Venice"
+    ],
+    "correctIndex": 2,
+    "category": "Areas",
+    "difficulty": 3,
+    "explanation": "A glass-roofed former wharf between London Bridge and Tower Bridge."
+  },
+  {
+    "id": "img243",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img243.jpg",
+    "options": [
+      "Dennis Severs' House",
+      "Leadenhall Market",
+      "Tobacco Dock",
+      "Apsley House"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The 1811 bonded warehouse, now an events venue in Wapping."
+  },
+  {
+    "id": "img244",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img244.jpg",
+    "options": [
+      "Chiswick House",
+      "Heron Tower",
+      "Oxo Tower",
+      "Tate Modern Switch House"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 2,
+    "explanation": "The tower's windows spell OXO to dodge a riverside advertising ban."
+  },
+  {
+    "id": "img245",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img245.jpg",
+    "options": [
+      "Fortnum & Mason",
+      "Old Vic",
+      "Eltham Palace",
+      "Golden Hinde replica"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "A seaworthy replica of Drake's globe-circling galleon, docked in Southwark."
+  },
+  {
+    "id": "img246",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img246.jpg",
+    "options": [
+      "Westminster Abbey",
+      "St Pancras Renaissance Hotel",
+      "Painted Hall Greenwich",
+      "London Eye"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Thornhill's 'Sistine Chapel of the UK' took 19 years to paint."
+  },
+  {
+    "id": "img247",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img247.jpg",
+    "options": [
+      "New Scotland Yard",
+      "Eltham Palace",
+      "Royal Observatory Greenwich",
+      "Tower of London"
+    ],
+    "correctIndex": 1,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "A medieval great hall fused with a 1930s Art Deco mansion."
+  },
+  {
+    "id": "img248",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img248.jpg",
+    "options": [
+      "Strawberry Hill House",
+      "Old Bailey",
+      "Selfridges",
+      "Tower 42"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "Horace Walpole's white Gothic Revival fantasy in Twickenham."
+  },
+  {
+    "id": "img251",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img251.jpg",
+    "options": [
+      "Fulham Palace",
+      "Harrods",
+      "Dennis Severs' House",
+      "Houses of Parliament"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The Bishops of London's country retreat for over 1,000 years."
+  },
+  {
+    "id": "img252",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img252.jpg",
+    "options": [
+      "Lambeth Palace",
+      "Trellick Tower",
+      "Temple Bar",
+      "Tower of London"
+    ],
+    "correctIndex": 0,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "The Archbishop of Canterbury's London home since the 13th century."
+  },
+  {
+    "id": "img253",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img253.jpg",
+    "options": [
+      "Horse Guards",
+      "Royal Festival Hall",
+      "Charterhouse",
+      "London Palladium"
+    ],
+    "correctIndex": 2,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "A Tudor mansion and almshouse hidden off Smithfield."
+  },
+  {
+    "id": "img254",
+    "type": "imageBased",
+    "question": "Which London landmark is shown in this photo?",
+    "imageURL": "https://quizli.app/images/img254.jpg",
+    "options": [
+      "BT Tower",
+      "Battersea Power Station",
+      "Elizabeth Tower (Big Ben)",
+      "Dennis Severs' House"
+    ],
+    "correctIndex": 3,
+    "category": "Landmarks",
+    "difficulty": 3,
+    "explanation": "A Spitalfields time capsule staged as if its Huguenot family just left."
   }
 ]
