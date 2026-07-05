@@ -9,64 +9,139 @@
 <meta property="og:description" content="Five questions a day about the greatest city on earth. Streaks, tube puzzles, and live pub rounds.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#D67B3C">
+<link rel="icon" href="/images/appicon.png">
+<link rel="apple-touch-icon" href="/images/appicon.png">
 <style>
 :root {
-  --cream: #F2EADB; --surface: #FFFFFF; --line: #EFE6D2;
-  --ink: #2A241E; --ink-soft: #7A6F60;
-  --accent: #D67B3C; --accent-deep: #B85F23;
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Roboto, sans-serif;
+  --cream: #F3EBDC; --surface: #FFFFFF; --line: #E9DEC8;
+  --ink: #2A241E; --ink-soft: #7C7162;
+  --accent: #D67B3C; --accent-deep: #B85F23; --accent-tint: #FBF1E4;
+  --shadow: 22px 60px rgba(120, 74, 30, .16);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
 body {
-  background: var(--cream); color: var(--ink); min-height: 100dvh;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Roboto, sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(120% 80% at 50% -10%, #FCEFDD 0%, rgba(252,239,221,0) 55%),
+    var(--cream);
+  min-height: 100dvh;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  padding: max(24px, env(safe-area-inset-top)) 20px max(24px, env(safe-area-inset-bottom));
-  text-align: center;
+  padding: max(40px, env(safe-area-inset-top)) 22px max(32px, env(safe-area-inset-bottom));
+  -webkit-font-smoothing: antialiased;
 }
-.logo {
-  width: 96px; height: 96px; border-radius: 24px;
-  background: linear-gradient(135deg, #E8945A, var(--accent-deep));
+main { width: 100%; max-width: 560px; text-align: center; }
+
+/* Hero */
+.icon {
+  width: 104px; height: 104px; border-radius: 25px;
+  display: block; margin: 0 auto 26px;
+  box-shadow: 0 14px 34px rgba(214,123,60,.34), inset 0 0 0 1px rgba(255,255,255,.06);
+}
+h1 {
+  font-size: clamp(2.1rem, 8vw, 3rem); font-weight: 800; letter-spacing: -.02em; line-height: 1.05;
+}
+h1 span { color: var(--accent); }
+.tagline {
+  margin: 16px auto 0; max-width: 420px;
+  font-size: clamp(1.02rem, 4vw, 1.16rem); line-height: 1.55; color: var(--ink-soft);
+}
+
+/* Feature grid */
+.features {
+  margin-top: 34px;
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+}
+.feature {
+  display: flex; align-items: center; gap: 13px; text-align: left;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 18px;
+  padding: 14px 15px;
+  box-shadow: 0 1px 2px rgba(120,74,30,.04), 0 6px 18px rgba(120,74,30,.05);
+}
+.feature .ic {
+  flex: none; width: 42px; height: 42px; border-radius: 12px;
+  background: var(--accent-tint); color: var(--accent-deep);
   display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 12px 32px rgba(214,123,60,.35);
-  margin-bottom: 24px;
 }
-.logo span { font-size: 56px; font-weight: 900; color: #fff; line-height: 1; }
-h1 { font-size: clamp(2rem, 7vw, 2.8rem); font-weight: 900; letter-spacing: -.5px; }
-h1 em { color: var(--accent); font-style: normal; }
-.tagline { margin-top: 10px; font-size: clamp(1rem, 4vw, 1.15rem); color: var(--ink-soft); max-width: 420px; line-height: 1.55; }
-.features { margin-top: 28px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 480px; }
-.chip {
-  background: var(--surface); border: 1px solid var(--line); border-radius: 99px;
-  padding: 9px 16px; font-size: .85rem; font-weight: 700; color: var(--ink);
-}
+.feature .ic svg { width: 24px; height: 24px; display: block; }
+.feature .t { font-size: .98rem; font-weight: 700; letter-spacing: -.01em; }
+.feature .d { font-size: .78rem; color: var(--ink-soft); margin-top: 1px; }
+
+/* CTA */
 .cta {
-  margin-top: 32px; display: inline-block; background: var(--accent); color: #fff;
-  font-size: 1.05rem; font-weight: 800; text-decoration: none;
-  padding: 16px 34px; border-radius: 18px;
-  box-shadow: 0 10px 26px rgba(214,123,60,.4);
+  margin-top: 34px;
+  display: inline-flex; align-items: center; gap: 12px;
+  background: #111; color: #fff; text-decoration: none;
+  padding: 13px 24px 13px 22px; border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(17,17,17,.22);
+  transition: transform .12s ease;
 }
-.cta:active { transform: scale(.97); }
-.soon { margin-top: 10px; font-size: .8rem; color: var(--ink-soft); }
-footer { margin-top: 48px; font-size: .8rem; color: var(--ink-soft); }
-footer a { color: var(--accent-deep); text-decoration: none; font-weight: 600; margin: 0 8px; }
+.cta:active { transform: scale(.975); }
+.cta svg { width: 26px; height: 26px; flex: none; }
+.cta .lbl { text-align: left; line-height: 1.12; }
+.cta .lbl small { display: block; font-size: .66rem; font-weight: 500; opacity: .82; letter-spacing: .02em; }
+.cta .lbl b { font-size: 1.16rem; font-weight: 600; letter-spacing: -.01em; }
+.soon { margin-top: 14px; font-size: .82rem; color: var(--ink-soft); }
+
+footer { margin-top: 44px; font-size: .82rem; color: var(--ink-soft); }
+footer a { color: var(--accent-deep); text-decoration: none; font-weight: 600; }
+footer a:hover { text-decoration: underline; }
+footer .sep { opacity: .4; margin: 0 9px; }
+
+@media (max-width: 380px) {
+  .features { grid-template-columns: 1fr; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cream: #17130E; --surface: #221C15; --line: #322A20;
+    --ink: #F4ECDD; --ink-soft: #A99C89; --accent-tint: #2C2118;
+  }
+  body { background:
+    radial-gradient(120% 80% at 50% -10%, #2A1D10 0%, rgba(42,29,16,0) 55%),
+    var(--cream); }
+  .feature .ic { color: #F0A968; }
+  .cta { background: #F4ECDD; color: #17130E; box-shadow: 0 12px 30px rgba(0,0,0,.4); }
+}
 </style>
 </head>
 <body>
-  <div class="logo" aria-hidden="true"><span>Q</span></div>
-  <h1>Quizli <em>·</em> Daily London Trivia</h1>
+<main>
+  <img class="icon" src="/images/appicon.png" width="104" height="104" alt="Quizli app icon">
+  <h1>Daily <span>London</span> trivia</h1>
   <p class="tagline">Five questions a day about the greatest city on earth. Build your streak, race the Tube, and battle your mates in live pub rounds.</p>
+
   <div class="features">
-    <span class="chip">🎯 Daily quiz</span>
-    <span class="chip">🚇 Tube Dash</span>
-    <span class="chip">🍻 Pub Round</span>
-    <span class="chip">🔥 Streaks</span>
+    <div class="feature">
+      <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.2 4.15v15.6a2.05 2.05 0 0 1-3.55 1.32 2.6 2.6 0 0 1-3.03-2.35A2.9 2.9 0 0 1 3.4 13.4a2.7 2.7 0 0 1 .52-3.92A2.5 2.5 0 0 1 5.72 5.6 2.7 2.7 0 0 1 8.45 3a2.6 2.6 0 0 1 2.75 1.15Z"/><path d="M12.8 4.15v15.6a2.05 2.05 0 0 0 3.55 1.32 2.6 2.6 0 0 0 3.03-2.35A2.9 2.9 0 0 0 20.6 13.4a2.7 2.7 0 0 0-.52-3.92A2.5 2.5 0 0 0 18.28 5.6 2.7 2.7 0 0 0 15.55 3a2.6 2.6 0 0 0-2.75 1.15Z"/></svg></span>
+      <div><div class="t">Daily quiz</div><div class="d">Five fresh questions</div></div>
+    </div>
+    <div class="feature">
+      <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd"><path d="M12 2c-3.6 0-6.5.55-6.5 4v9.5A2.5 2.5 0 0 0 8 18l-1.3 1.55A.8.8 0 0 0 7.3 21h1a1 1 0 0 0 .78-.37L10.3 19h3.4l1.22 1.63A1 1 0 0 0 15.7 21h1a.8.8 0 0 0 .6-1.42L16 18a2.5 2.5 0 0 0 2.5-2.5V6c0-3.45-2.9-4-6.5-4Zm-3.5 7V6.5h3V9Zm4.5 0V6.5h3V9ZM9 15.6a1.05 1.05 0 1 1 0-2.1 1.05 1.05 0 0 1 0 2.1Zm6 0a1.05 1.05 0 1 1 0-2.1 1.05 1.05 0 0 1 0 2.1Z"/></svg></span>
+      <div><div class="t">Tube Dash</div><div class="d">Daily tube puzzle</div></div>
+    </div>
+    <div class="feature">
+      <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="9.6" r="2.05"/><path d="M5 12.5c-1.9 0-3.45 1.2-3.92 3-.18.7.33 1.35 1.04 1.35h2.4a6.1 6.1 0 0 1 2.35-3.9A4.5 4.5 0 0 0 5 12.5Z"/><circle cx="19" cy="9.6" r="2.05"/><path d="M19 12.5c-.67 0-1.31.16-1.87.45a6.1 6.1 0 0 1 2.35 3.9h2.4c.71 0 1.22-.65 1.04-1.35-.47-1.8-2.02-3-3.92-3Z"/><circle cx="12" cy="8" r="2.75"/><path d="M12 11.6c-2.65 0-4.8 1.62-5.3 3.95-.18.83.46 1.6 1.3 1.6h8c.84 0 1.48-.77 1.3-1.6C16.8 13.22 14.65 11.6 12 11.6Z"/></svg></span>
+      <div><div class="t">Pub Round</div><div class="d">Live games with mates</div></div>
+    </div>
+    <div class="feature">
+      <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M12.2 2.05C9.1 5.15 7 8.25 7 11.85c0 4.16 2.6 7.35 6 7.35s5.5-2.94 5.5-6.4c0-1.66-.62-3.2-1.62-4.6-.2.94-.82 1.66-1.62 2.06.5-2.46-.61-5.02-3.06-8.21Zm-.2 15.05a2.7 2.7 0 0 1-2.7-2.72c0-1.22.72-2.14 1.52-2.96.4.62.92 1.02 1.62 1.24-.3-1.44.2-2.68 1.02-3.7.92 1.02 2.02 2.04 2.02 3.68a3.15 3.15 0 0 1-3.5 3.46Z"/></svg></span>
+      <div><div class="t">Streaks</div><div class="d">Keep the run alive</div></div>
+    </div>
   </div>
-  <a class="cta" href="https://apps.apple.com/app/id6782616529">Download on the App&nbsp;Store</a>
+
+  <a class="cta" href="https://apps.apple.com/app/id6782616529">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.36 12.78c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.62-1.7-3.19-1.72-1.36-.14-2.65.8-3.34.8-.69 0-1.75-.78-2.88-.76-1.48.02-2.85.86-3.61 2.19-1.54 2.67-.39 6.62 1.1 8.79.73 1.06 1.6 2.25 2.74 2.21 1.1-.04 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.08 2.65-2.15.84-1.23 1.18-2.42 1.2-2.48-.03-.01-2.29-.88-2.31-3.48ZM14.2 6.32c.6-.73 1.01-1.75.9-2.76-.87.04-1.92.58-2.55 1.31-.56.64-1.05 1.68-.92 2.66.97.08 1.96-.49 2.57-1.21Z"/></svg>
+    <span class="lbl"><small>Download on the</small><b>App&nbsp;Store</b></span>
+  </a>
   <p class="soon">Coming soon to iPhone</p>
+
   <footer>
-    <a href="/privacy">Privacy</a> ·
-    <a href="/support.html">Support</a> ·
+    <a href="/privacy">Privacy</a><span class="sep">·</span>
+    <a href="/support.html">Support</a><span class="sep">·</span>
     <a href="/credits.html">Photo credits</a>
   </footer>
+</main>
 </body>
 </html>
