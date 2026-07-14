@@ -30,6 +30,10 @@
                     {
                         "/": "/pub",
                         "comment": "Pub Round — deep link into main app"
+                    },
+                    {
+                        "/": "/challenge",
+                        "comment": "Challenge a friend — deep link into main app"
                     }
                 ]
             }

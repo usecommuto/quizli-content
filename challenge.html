@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You've Been Challenged! | Quizli</title>
+<meta name="description" content="A friend has challenged you to beat their Quizli score. Get the app and play the same five London trivia questions.">
+<meta property="og:title" content="You've been challenged on Quizli!">
+<meta property="og:description" content="Play the same five London trivia questions and see if you can beat their score.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#D67B3C">
+<link rel="icon" href="/images/appicon.png">
+<link rel="apple-touch-icon" href="/images/appicon.png">
+<style>
+:root {
+  --cream: #F3EBDC; --surface: #FFFFFF; --line: #E9DEC8;
+  --ink: #2A241E; --ink-soft: #7C7162;
+  --accent: #D67B3C; --accent-deep: #B85F23; --accent-tint: #FBF1E4;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Roboto, sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(120% 80% at 50% -10%, #FCEFDD 0%, rgba(252,239,221,0) 55%),
+    var(--cream);
+  min-height: 100dvh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: max(40px, env(safe-area-inset-top)) 22px max(32px, env(safe-area-inset-bottom));
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+main { width: 100%; max-width: 480px; }
+.icon {
+  width: 96px; height: 96px; border-radius: 23px;
+  display: block; margin: 0 auto 24px;
+  box-shadow: 0 14px 34px rgba(214,123,60,.34);
+}
+h1 {
+  font-size: clamp(1.9rem, 7.5vw, 2.6rem); font-weight: 800;
+  letter-spacing: -.02em; line-height: 1.1;
+}
+h1 span { color: var(--accent); }
+.tagline {
+  margin: 14px auto 0; max-width: 380px;
+  font-size: clamp(1rem, 4vw, 1.1rem); line-height: 1.55; color: var(--ink-soft);
+}
+.cta {
+  display: inline-block; margin-top: 30px;
+  background: linear-gradient(180deg, var(--accent), var(--accent-deep));
+  color: #fff; text-decoration: none; font-weight: 700; font-size: 1.05rem;
+  padding: 16px 32px; border-radius: 18px;
+  box-shadow: 0 10px 26px rgba(214,123,60,.35);
+}
+.cta:active { transform: scale(.98); }
+.open-app {
+  display: none; margin-top: 16px;
+  color: var(--accent-deep); font-weight: 600; text-decoration: none; font-size: .98rem;
+}
+.hint {
+  margin-top: 26px; font-size: .85rem; color: var(--ink-soft); line-height: 1.5;
+}
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="/images/appicon.png" alt="Quizli app icon">
+  <h1>You've been <span>challenged!</span></h1>
+  <p class="tagline">A friend wants you to beat their score. Play the exact same five London trivia questions and settle it.</p>
+  <a class="cta" href="https://apps.apple.com/app/id6782616529">Get Quizli on the App&nbsp;Store</a>
+  <a class="open-app" id="openApp" href="#">Already have Quizli? Open the challenge</a>
+  <p class="hint">If Quizli is installed, this link opens the challenge in the app automatically.</p>
+</main>
+<script>
+// If the visitor already has the app but landed in the browser (e.g. the
+// link was opened from an in-app webview), offer a manual hand-off via the
+// custom scheme, carrying the challenge code through.
+(function () {
+  var code = new URLSearchParams(location.search).get('code');
+  if (!code) return;
+  var a = document.getElementById('openApp');
+  a.href = 'quizli://challenge?code=' + encodeURIComponent(code);
+  a.style.display = 'inline-block';
+})();
+</script>
+</body>
+</html>
