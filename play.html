@@ -45,13 +45,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* Phones: pin content to the top — centering short screens (join/lobby)
+     left them floating halfway down the page. Desktop keeps centering. */
+  justify-content: flex-start;
   /* Respect notches / home indicators on phones. */
-  padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+  padding: max(24px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
            max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
 }
-/* Short screens (landscape phones): pin to top so tall content scrolls cleanly. */
-@media (max-height: 680px) { body { justify-content: flex-start; } }
+@media (min-width: 700px) and (min-height: 700px) { body { justify-content: center; } }
 
 /* Screens */
 .screen { display: none; width: 100%; max-width: 440px; }
