@@ -1,0 +1,578 @@
+{
+  "version": 2,
+  "categories": [
+    {
+      "id": "footfall",
+      "prompt": "Which station is busier?",
+      "valueLabel": "annual journeys",
+      "icon": "tram.fill",
+      "unit": "M",
+      "decimals": 1,
+      "grouped": false,
+      "items": [
+        {
+          "name": "King's Cross St Pancras",
+          "value": 72.51
+        },
+        {
+          "name": "Waterloo",
+          "value": 69.77
+        },
+        {
+          "name": "Tottenham Court Road",
+          "value": 59.94
+        },
+        {
+          "name": "Victoria",
+          "value": 59.29
+        },
+        {
+          "name": "Liverpool Street",
+          "value": 59.21
+        },
+        {
+          "name": "Paddington",
+          "value": 57.13
+        },
+        {
+          "name": "London Bridge",
+          "value": 55.38
+        },
+        {
+          "name": "Stratford",
+          "value": 52.43
+        },
+        {
+          "name": "Oxford Circus",
+          "value": 51.58
+        },
+        {
+          "name": "Farringdon",
+          "value": 41.26
+        },
+        {
+          "name": "Bond Street",
+          "value": 41.11
+        },
+        {
+          "name": "Bank",
+          "value": 40.07
+        },
+        {
+          "name": "Euston",
+          "value": 33.19
+        },
+        {
+          "name": "Canary Wharf",
+          "value": 33.18
+        },
+        {
+          "name": "Green Park",
+          "value": 31.1
+        },
+        {
+          "name": "Baker Street",
+          "value": 22.92
+        },
+        {
+          "name": "Brixton",
+          "value": 21.39
+        },
+        {
+          "name": "Finsbury Park",
+          "value": 21.22
+        },
+        {
+          "name": "Camden Town",
+          "value": 18.77
+        },
+        {
+          "name": "Barking",
+          "value": 18.23
+        },
+        {
+          "name": "Embankment",
+          "value": 17.97
+        },
+        {
+          "name": "Ealing Broadway",
+          "value": 17.08
+        },
+        {
+          "name": "Earl's Court",
+          "value": 16.59
+        },
+        {
+          "name": "Charing Cross",
+          "value": 16.51
+        },
+        {
+          "name": "Elephant & Castle",
+          "value": 14.13
+        },
+        {
+          "name": "Covent Garden",
+          "value": 13.52
+        },
+        {
+          "name": "Angel",
+          "value": 12.68
+        },
+        {
+          "name": "Canning Town",
+          "value": 12.62
+        },
+        {
+          "name": "Aldgate East",
+          "value": 12.32
+        },
+        {
+          "name": "Euston Square",
+          "value": 12.26
+        },
+        {
+          "name": "Gloucester Road",
+          "value": 12.03
+        },
+        {
+          "name": "Blackfriars",
+          "value": 11.14
+        },
+        {
+          "name": "East Ham",
+          "value": 11.12
+        },
+        {
+          "name": "Balham",
+          "value": 10.24
+        },
+        {
+          "name": "Canada Water",
+          "value": 10.15
+        },
+        {
+          "name": "Bethnal Green",
+          "value": 10.12
+        },
+        {
+          "name": "Edgware Road",
+          "value": 9.68
+        },
+        {
+          "name": "Blackhorse Road",
+          "value": 9.47
+        },
+        {
+          "name": "Battersea Power Station",
+          "value": 9.23
+        },
+        {
+          "name": "Chancery Lane",
+          "value": 8.72
+        },
+        {
+          "name": "Clapham Common",
+          "value": 8.12
+        },
+        {
+          "name": "Finchley Road",
+          "value": 7.6
+        },
+        {
+          "name": "Aldgate",
+          "value": 7.59
+        },
+        {
+          "name": "Archway",
+          "value": 7.33
+        },
+        {
+          "name": "Bermondsey",
+          "value": 7.32
+        },
+        {
+          "name": "Fulham Broadway",
+          "value": 6.89
+        },
+        {
+          "name": "Clapham South",
+          "value": 6.61
+        },
+        {
+          "name": "Golders Green",
+          "value": 6.24
+        },
+        {
+          "name": "East Putney",
+          "value": 6.11
+        },
+        {
+          "name": "Great Portland Street",
+          "value": 5.92
+        },
+        {
+          "name": "Barons Court",
+          "value": 5.73
+        },
+        {
+          "name": "Colliers Wood",
+          "value": 5.54
+        },
+        {
+          "name": "East Finchley",
+          "value": 5.51
+        },
+        {
+          "name": "Goodge Street",
+          "value": 5.44
+        },
+        {
+          "name": "Barbican",
+          "value": 5.38
+        },
+        {
+          "name": "Belsize Park",
+          "value": 5.27
+        },
+        {
+          "name": "Clapham North",
+          "value": 5.18
+        },
+        {
+          "name": "Finchley Central",
+          "value": 5.18
+        },
+        {
+          "name": "Acton Town",
+          "value": 5.06
+        },
+        {
+          "name": "Chalk Farm",
+          "value": 4.94
+        },
+        {
+          "name": "Dagenham Heathway",
+          "value": 4.92
+        },
+        {
+          "name": "Gants Hill",
+          "value": 4.88
+        },
+        {
+          "name": "Burnt Oak",
+          "value": 4.69
+        },
+        {
+          "name": "Bow Road",
+          "value": 4.35
+        },
+        {
+          "name": "Bounds Green",
+          "value": 4.32
+        },
+        {
+          "name": "Cannon Street",
+          "value": 4.31
+        },
+        {
+          "name": "Borough",
+          "value": 4.18
+        },
+        {
+          "name": "Edgware",
+          "value": 4.03
+        },
+        {
+          "name": "Bromley-by-Bow",
+          "value": 3.92
+        },
+        {
+          "name": "Bayswater",
+          "value": 3.86
+        },
+        {
+          "name": "Caledonian Road",
+          "value": 3.85
+        },
+        {
+          "name": "Gunnersbury",
+          "value": 3.85
+        },
+        {
+          "name": "East Acton",
+          "value": 3.69
+        },
+        {
+          "name": "Epping",
+          "value": 3.4
+        },
+        {
+          "name": "Arnos Grove",
+          "value": 3.29
+        },
+        {
+          "name": "Greenford",
+          "value": 3.27
+        },
+        {
+          "name": "Dollis Hill",
+          "value": 3.18
+        },
+        {
+          "name": "Becontree",
+          "value": 2.96
+        },
+        {
+          "name": "Dagenham East",
+          "value": 2.7
+        },
+        {
+          "name": "Elm Park",
+          "value": 2.64
+        },
+        {
+          "name": "Alperton",
+          "value": 2.59
+        },
+        {
+          "name": "Arsenal",
+          "value": 2.27
+        },
+        {
+          "name": "Buckhurst Hill",
+          "value": 2.24
+        },
+        {
+          "name": "Canons Park",
+          "value": 2.22
+        },
+        {
+          "name": "Eastcote",
+          "value": 2.21
+        },
+        {
+          "name": "Chiswick Park",
+          "value": 2.19
+        },
+        {
+          "name": "Debden",
+          "value": 1.98
+        },
+        {
+          "name": "Ealing Common",
+          "value": 1.93
+        },
+        {
+          "name": "Amersham",
+          "value": 1.9
+        },
+        {
+          "name": "Goldhawk Road",
+          "value": 1.9
+        },
+        {
+          "name": "Brent Cross",
+          "value": 1.82
+        },
+        {
+          "name": "Chalfont & Latimer",
+          "value": 1.52
+        },
+        {
+          "name": "Cockfosters",
+          "value": 1.47
+        },
+        {
+          "name": "Boston Manor",
+          "value": 1.42
+        },
+        {
+          "name": "Chorleywood",
+          "value": 1.4
+        },
+        {
+          "name": "Barkingside",
+          "value": 1.26
+        },
+        {
+          "name": "Chesham",
+          "value": 1.02
+        },
+        {
+          "name": "Fairlop",
+          "value": 0.96
+        },
+        {
+          "name": "Croxley",
+          "value": 0.9
+        }
+      ]
+    },
+    {
+      "id": "height",
+      "prompt": "Which is taller?",
+      "valueLabel": "height",
+      "icon": "building.2.fill",
+      "unit": "m",
+      "decimals": 0,
+      "grouped": false,
+      "items": [
+        {
+          "name": "The Shard",
+          "value": 310
+        },
+        {
+          "name": "22 Bishopsgate",
+          "value": 278
+        },
+        {
+          "name": "One Canada Square",
+          "value": 235
+        },
+        {
+          "name": "Landmark Pinnacle",
+          "value": 233
+        },
+        {
+          "name": "Heron Tower",
+          "value": 230
+        },
+        {
+          "name": "The Cheesegrater",
+          "value": 225
+        },
+        {
+          "name": "8 Canada Square (HSBC)",
+          "value": 200
+        },
+        {
+          "name": "One Nine Elms",
+          "value": 200
+        },
+        {
+          "name": "The Scalpel",
+          "value": 190
+        },
+        {
+          "name": "Tower 42",
+          "value": 183
+        },
+        {
+          "name": "St George Wharf Tower",
+          "value": 181
+        },
+        {
+          "name": "The Gherkin",
+          "value": 180
+        },
+        {
+          "name": "BT Tower",
+          "value": 177
+        },
+        {
+          "name": "Broadgate Tower",
+          "value": 165
+        },
+        {
+          "name": "One Blackfriars",
+          "value": 163
+        },
+        {
+          "name": "The Walkie-Talkie",
+          "value": 160
+        },
+        {
+          "name": "Strata SE1",
+          "value": 148
+        },
+        {
+          "name": "London Eye",
+          "value": 135
+        },
+        {
+          "name": "St Paul's Cathedral",
+          "value": 111
+        },
+        {
+          "name": "Battersea Power Station chimney",
+          "value": 103
+        },
+        {
+          "name": "Big Ben (Elizabeth Tower)",
+          "value": 96
+        },
+        {
+          "name": "Nelson's Column",
+          "value": 52
+        }
+      ]
+    },
+    {
+      "id": "stadium",
+      "prompt": "Which holds more fans?",
+      "valueLabel": "capacity",
+      "icon": "sportscourt.fill",
+      "unit": "",
+      "decimals": 0,
+      "grouped": true,
+      "items": [
+        {
+          "name": "Wembley Stadium",
+          "value": 90000
+        },
+        {
+          "name": "Twickenham Stadium",
+          "value": 82000
+        },
+        {
+          "name": "Tottenham Hotspur Stadium",
+          "value": 62850
+        },
+        {
+          "name": "London Stadium",
+          "value": 62500
+        },
+        {
+          "name": "Emirates Stadium",
+          "value": 60704
+        },
+        {
+          "name": "Stamford Bridge",
+          "value": 40343
+        },
+        {
+          "name": "Lord's Cricket Ground",
+          "value": 31100
+        },
+        {
+          "name": "Craven Cottage",
+          "value": 29589
+        },
+        {
+          "name": "The Oval",
+          "value": 25500
+        },
+        {
+          "name": "Selhurst Park",
+          "value": 25486
+        },
+        {
+          "name": "The Den",
+          "value": 20146
+        },
+        {
+          "name": "Loftus Road",
+          "value": 18439
+        },
+        {
+          "name": "Gtech Community Stadium",
+          "value": 17250
+        },
+        {
+          "name": "Wimbledon Centre Court",
+          "value": 15000
+        }
+      ]
+    }
+  ]
+}
