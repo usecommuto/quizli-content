@@ -5015,15 +5015,15 @@
     "type": "multipleChoice",
     "question": "The 'Blitz spirit' refers to Londoners' resilience during which years?",
     "options": [
-      "1940–41",
-      "1914–18",
+      "1940-41",
+      "1914-18",
       "1666",
       "2005"
     ],
     "correctIndex": 0,
     "category": "History",
     "difficulty": 2,
-    "explanation": "The 'Blitz spirit' describes Londoners' morale during the 1940–41 bombing."
+    "explanation": "The 'Blitz spirit' describes Londoners' morale during the 1940-41 bombing."
   },
   {
     "id": "q1112",
@@ -5068,7 +5068,7 @@
     "correctIndex": 0,
     "category": "History",
     "difficulty": 3,
-    "explanation": "Decommissioned ships called 'hulks' held convicts on the Thames in the 18th–19th centuries."
+    "explanation": "Decommissioned ships called 'hulks' held convicts on the Thames in the 18th-19th centuries."
   },
   {
     "id": "q1115",
@@ -5293,7 +5293,7 @@
     "correctAnswer": true,
     "category": "History",
     "difficulty": 3,
-    "explanation": "It marked the City–Westminster boundary."
+    "explanation": "It marked the City-Westminster boundary."
   },
   {
     "id": "q1124",
@@ -5563,7 +5563,7 @@
     "correctIndex": 0,
     "category": "Football",
     "difficulty": 3,
-    "explanation": "Arsenal beat Chelsea 2–1 to win the 2020 FA Cup at Wembley."
+    "explanation": "Arsenal beat Chelsea 2-1 to win the 2020 FA Cup at Wembley."
   },
   {
     "id": "q1143",
@@ -6663,7 +6663,7 @@
   {
     "id": "q1198",
     "type": "multipleChoice",
-    "question": "Which manager led Arsenal's 'Invincibles' to an unbeaten Premier League season in 2003–04?",
+    "question": "Which manager led Arsenal's 'Invincibles' to an unbeaten Premier League season in 2003-04?",
     "options": [
       "Arsène Wenger",
       "George Graham",
@@ -6673,7 +6673,7 @@
     "correctIndex": 0,
     "category": "Football",
     "difficulty": 2,
-    "explanation": "Arsène Wenger's Arsenal went the entire 2003–04 Premier League season unbeaten."
+    "explanation": "Arsène Wenger's Arsenal went the entire 2003-04 Premier League season unbeaten."
   },
   {
     "id": "q1199",
@@ -6703,7 +6703,7 @@
     "correctIndex": 0,
     "category": "Football",
     "difficulty": 2,
-    "explanation": "England beat West Germany 4–2 at Wembley in the 1966 World Cup Final."
+    "explanation": "England beat West Germany 4-2 at Wembley in the 1966 World Cup Final."
   },
   {
     "id": "q1201",
@@ -6859,7 +6859,7 @@
     "correctAnswer": true,
     "category": "Football",
     "difficulty": 2,
-    "explanation": "England beat West Germany 4–2 at Wembley."
+    "explanation": "England beat West Germany 4-2 at Wembley."
   },
   {
     "id": "tf1087",
@@ -6900,7 +6900,7 @@
   {
     "id": "tf1091",
     "type": "trueFalse",
-    "question": "Arsenal completed an unbeaten Premier League season in 2003–04.",
+    "question": "Arsenal completed an unbeaten Premier League season in 2003-04.",
     "correctAnswer": true,
     "category": "Football",
     "difficulty": 2,
@@ -7525,12 +7525,12 @@
     "correctIndex": 0,
     "category": "History",
     "difficulty": 1,
-    "explanation": "The Romans founded Londinium around AD 47–50 on the north bank of the Thames."
+    "explanation": "The Romans founded Londinium around AD 47-50 on the north bank of the Thames."
   },
   {
     "id": "q1242",
     "type": "multipleChoice",
-    "question": "Which queen led a revolt and burned Roman Londinium around AD 60–61?",
+    "question": "Which queen led a revolt and burned Roman Londinium around AD 60-61?",
     "options": [
       "Boudica",
       "Cartimandua",
@@ -7555,7 +7555,7 @@
     "correctIndex": 0,
     "category": "History",
     "difficulty": 2,
-    "explanation": "The Great Plague of 1665–66 killed roughly a quarter of London's population before the Great Fire the following year."
+    "explanation": "The Great Plague of 1665-66 killed roughly a quarter of London's population before the Great Fire the following year."
   },
   {
     "id": "q1244",
@@ -7585,7 +7585,7 @@
     "correctIndex": 0,
     "category": "History",
     "difficulty": 1,
-    "explanation": "The Blitz devastated London from 1940–41 during the Second World War."
+    "explanation": "The Blitz devastated London from 1940-41 during the Second World War."
   },
   {
     "id": "q1246",
@@ -7948,7 +7948,7 @@
     "correctAnswer": true,
     "category": "History",
     "difficulty": 1,
-    "explanation": "Londinium was founded by the Romans around AD 47–50."
+    "explanation": "Londinium was founded by the Romans around AD 47-50."
   },
   {
     "id": "tf1108",
@@ -8002,7 +8002,7 @@
     "correctAnswer": true,
     "category": "History",
     "difficulty": 2,
-    "explanation": "Boudica's Iceni rebellion destroyed Londinium around AD 60–61."
+    "explanation": "Boudica's Iceni rebellion destroyed Londinium around AD 60-61."
   },
   {
     "id": "tf1115",
@@ -8029,7 +8029,7 @@
     "correctAnswer": false,
     "category": "History",
     "difficulty": 1,
-    "explanation": "The Blitz was in 1940–41, during the Second World War."
+    "explanation": "The Blitz was in 1940-41, during the Second World War."
   },
   {
     "id": "tf1118",
@@ -8944,7 +8944,7 @@
     "correctIndex": 0,
     "category": "Music",
     "difficulty": 2,
-    "explanation": "The Sex Pistols, managed by Malcolm McLaren, were central to London's 1976–77 punk explosion."
+    "explanation": "The Sex Pistols, managed by Malcolm McLaren, were central to London's 1976-77 punk explosion."
   },
   {
     "id": "q1321",
@@ -9838,7 +9838,7 @@
     "correctIndex": 0,
     "category": "People",
     "difficulty": 2,
-    "explanation": "Boris Johnson was Mayor of London (2008–2016) before becoming Prime Minister in 2019."
+    "explanation": "Boris Johnson was Mayor of London (2008-2016) before becoming Prime Minister in 2019."
   },
   {
     "id": "q1368",
@@ -10500,7 +10500,7 @@
   {
     "id": "q1401",
     "type": "multipleChoice",
-    "question": "Which bridge downstream of the City did not exist until the 19th–20th centuries and features twin towers with a walkway?",
+    "question": "Which bridge downstream of the City did not exist until the 19th-20th centuries and features twin towers with a walkway?",
     "options": [
       "Tower Bridge",
       "London Bridge",
@@ -12934,7 +12934,7 @@
     "correctAnswer": true,
     "category": "Tube",
     "difficulty": 2,
-    "explanation": "The bar-and-circle roundel dates from the 1900s–1910s and remains TfL's identity today."
+    "explanation": "The bar-and-circle roundel dates from the 1900s-1910s and remains TfL's identity today."
   },
   {
     "id": "tf1233",
@@ -16604,5 +16604,515 @@
     "category": "Landmarks",
     "difficulty": 3,
     "explanation": "A Tudor mansion and almshouse hidden off Smithfield."
+  },
+  {
+    "id": "emoji001",
+    "type": "multipleChoice",
+    "question": "🐘🏰",
+    "options": [
+      "Angel",
+      "Elephant & Castle",
+      "Temple",
+      "Bank"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 1,
+    "explanation": "🐘 elephant + 🏰 castle = Elephant & Castle, on the Bakerloo and Northern lines."
+  },
+  {
+    "id": "emoji002",
+    "type": "multipleChoice",
+    "question": "👼",
+    "options": [
+      "Temple",
+      "Angel",
+      "Blackfriars",
+      "Seven Sisters"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 1,
+    "explanation": "👼 = Angel, a Northern line station named after a historic coaching inn."
+  },
+  {
+    "id": "emoji003",
+    "type": "multipleChoice",
+    "question": "💧🚽",
+    "options": [
+      "Waterloo",
+      "Vauxhall",
+      "Victoria",
+      "Embankment"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "💧 water + 🚽 loo = Waterloo."
+  },
+  {
+    "id": "emoji004",
+    "type": "multipleChoice",
+    "question": "🥖🛣️",
+    "options": [
+      "Bond Street",
+      "Baker Street",
+      "Oxford Circus",
+      "Marble Arch"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🥖 baker + 🛣️ street = Baker Street."
+  },
+  {
+    "id": "emoji005",
+    "type": "multipleChoice",
+    "question": "🐑🌳",
+    "options": [
+      "Shepherd's Bush",
+      "Turnham Green",
+      "Parsons Green",
+      "Wood Green"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🐑 shepherd + 🌳 bush = Shepherd's Bush."
+  },
+  {
+    "id": "emoji006",
+    "type": "multipleChoice",
+    "question": "👑✝️",
+    "options": [
+      "Queensway",
+      "King's Cross",
+      "Charing Cross",
+      "Kingsbury"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "👑 king + ✝️ cross = King's Cross."
+  },
+  {
+    "id": "emoji007",
+    "type": "multipleChoice",
+    "question": "7️⃣👭",
+    "options": [
+      "Seven Sisters",
+      "Nine Elms",
+      "Seven Kings",
+      "Angel"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 1,
+    "explanation": "7️⃣ seven + 👭 sisters = Seven Sisters."
+  },
+  {
+    "id": "emoji008",
+    "type": "multipleChoice",
+    "question": "⭕🏏",
+    "options": [
+      "Stockwell",
+      "Oval",
+      "Arsenal",
+      "Kennington"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "⭕ oval shape + 🏏 cricket = Oval, named after the famous cricket ground."
+  },
+  {
+    "id": "emoji009",
+    "type": "multipleChoice",
+    "question": "🐤⚓",
+    "options": [
+      "Canary Wharf",
+      "Canada Water",
+      "Blackwall",
+      "Poplar"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 1,
+    "explanation": "🐤 canary + ⚓ wharf = Canary Wharf."
+  },
+  {
+    "id": "emoji010",
+    "type": "multipleChoice",
+    "question": "🔲🏛️",
+    "options": [
+      "Marble Arch",
+      "Archway",
+      "Tower Hill",
+      "Temple"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🔲 marble + 🏛️ arch = Marble Arch."
+  },
+  {
+    "id": "emoji011",
+    "type": "multipleChoice",
+    "question": "🇨🇭🏡",
+    "options": [
+      "Swiss Cottage",
+      "Maida Vale",
+      "Belsize Park",
+      "Chalk Farm"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🇨🇭 Swiss + 🏡 cottage = Swiss Cottage."
+  },
+  {
+    "id": "emoji012",
+    "type": "multipleChoice",
+    "question": "🐂🎪",
+    "options": [
+      "Piccadilly Circus",
+      "Oxford Circus",
+      "Finsbury Park",
+      "Mansion House"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🐂 ox + 🎪 circus = Oxford Circus."
+  },
+  {
+    "id": "emoji013",
+    "type": "multipleChoice",
+    "question": "👸🛣️",
+    "options": [
+      "Royal Oak",
+      "Queensway",
+      "Queen's Park",
+      "Kingsbury"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "👸 queen + 🛣️ way = Queensway."
+  },
+  {
+    "id": "emoji014",
+    "type": "multipleChoice",
+    "question": "⬜🚜",
+    "options": [
+      "Chalk Farm",
+      "Mudchute",
+      "Manor House",
+      "Stonebridge Park"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 3,
+    "explanation": "⬜ chalk + 🚜 farm = Chalk Farm."
+  },
+  {
+    "id": "emoji015",
+    "type": "multipleChoice",
+    "question": "⬛🙏",
+    "options": [
+      "Whitechapel",
+      "Blackfriars",
+      "Monument",
+      "Temple"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "⬛ black + 🙏 friar = Blackfriars, named after the black-robed Dominican friars."
+  },
+  {
+    "id": "emoji016",
+    "type": "multipleChoice",
+    "question": "🇨🇦💧",
+    "options": [
+      "Canary Wharf",
+      "Canada Water",
+      "Surrey Quays",
+      "Rotherhithe"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 1,
+    "explanation": "🇨🇦 Canada + 💧 water = Canada Water."
+  },
+  {
+    "id": "emoji017",
+    "type": "multipleChoice",
+    "question": "9️⃣🌳",
+    "options": [
+      "Seven Sisters",
+      "Nine Elms",
+      "Burnt Oak",
+      "Seven Kings"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "9️⃣ nine + 🌳 elm trees = Nine Elms, on the Northern line extension."
+  },
+  {
+    "id": "emoji018",
+    "type": "multipleChoice",
+    "question": "⬜🏙️",
+    "options": [
+      "White City",
+      "Whitechapel",
+      "Barbican",
+      "Bank"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "⬜ white + 🏙️ city = White City."
+  },
+  {
+    "id": "emoji019",
+    "type": "multipleChoice",
+    "question": "⛪",
+    "options": [
+      "St Paul's",
+      "Temple",
+      "Blackfriars",
+      "Monument"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "⛪ = Temple, named after the medieval Temple Church of the Knights Templar."
+  },
+  {
+    "id": "emoji020",
+    "type": "multipleChoice",
+    "question": "💚🏞️",
+    "options": [
+      "Hyde Park Corner",
+      "Green Park",
+      "Regent's Park",
+      "Parsons Green"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 1,
+    "explanation": "💚 green + 🏞️ park = Green Park."
+  },
+  {
+    "id": "emoji021",
+    "type": "multipleChoice",
+    "question": "🏔️🚪",
+    "options": [
+      "Highbury & Islington",
+      "Highgate",
+      "Kentish Town",
+      "Ladbroke Grove"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🏔️ high + 🚪 gate = Highgate."
+  },
+  {
+    "id": "emoji022",
+    "type": "multipleChoice",
+    "question": "🏰⛰️",
+    "options": [
+      "Tower Gateway",
+      "Tower Hill",
+      "Notting Hill Gate",
+      "Gants Hill"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🏰 tower + ⛰️ hill = Tower Hill, beside the Tower of London."
+  },
+  {
+    "id": "emoji023",
+    "type": "multipleChoice",
+    "question": "🕰️🏛️",
+    "options": [
+      "Westminster",
+      "Embankment",
+      "Temple",
+      "St James's Park"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 3,
+    "explanation": "🕰️ Big Ben's clock at 🏛️ the Palace of Westminster = Westminster station."
+  },
+  {
+    "id": "emoji024",
+    "type": "multipleChoice",
+    "question": "🌾🚪",
+    "options": [
+      "Aldgate",
+      "Moorgate",
+      "Highgate",
+      "Ladbroke Grove"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 3,
+    "explanation": "🌾 moor (open heath) + 🚪 gate = Moorgate."
+  },
+  {
+    "id": "emoji025",
+    "type": "multipleChoice",
+    "question": "🐓🌲",
+    "options": [
+      "Cockfosters",
+      "Crews Hill",
+      "Chalfont & Latimer",
+      "Theydon Bois"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 3,
+    "explanation": "🐓 cock + fosters = Cockfosters, the northern end of the Piccadilly line."
+  },
+  {
+    "id": "emoji026",
+    "type": "multipleChoice",
+    "question": "🕴️🛣️",
+    "options": [
+      "Baker Street",
+      "Bond Street",
+      "Bow Road",
+      "Mile End"
+    ],
+    "correctIndex": 1,
+    "category": "Emoji",
+    "difficulty": 3,
+    "explanation": "🕴️ Bond (as in 007) + 🛣️ street = Bond Street."
+  },
+  {
+    "id": "emoji027",
+    "type": "multipleChoice",
+    "question": "🌉🛣️",
+    "options": [
+      "Archway",
+      "Marble Arch",
+      "Notting Hill Gate",
+      "Aldgate"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 3,
+    "explanation": "🌉 arch + 🛣️ way = Archway, on the Northern line."
+  },
+  {
+    "id": "emoji028",
+    "type": "multipleChoice",
+    "question": "🛡️🌉",
+    "options": [
+      "Knightsbridge",
+      "Kingsbury",
+      "Lambeth North",
+      "Kentish Town"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🛡️ knight + 🌉 bridge = Knightsbridge."
+  },
+  {
+    "id": "emoji029",
+    "type": "multipleChoice",
+    "question": "👸🏞️",
+    "options": [
+      "Queen's Park",
+      "Green Park",
+      "Queensway",
+      "Kensal Green"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "👸 queen + 🏞️ park = Queen's Park."
+  },
+  {
+    "id": "emoji030",
+    "type": "multipleChoice",
+    "question": "🌲🚪",
+    "options": [
+      "Forest Gate",
+      "Wood Green",
+      "Highgate",
+      "Woodford"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🌲 forest + 🚪 gate = Forest Gate, on the Elizabeth line."
+  },
+  {
+    "id": "emoji031",
+    "type": "multipleChoice",
+    "question": "🪵💚",
+    "options": [
+      "Wood Green",
+      "Woodford",
+      "Turnham Green",
+      "Golders Green"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "🪵 wood + 💚 green = Wood Green, on the Piccadilly line."
+  },
+  {
+    "id": "emoji032",
+    "type": "multipleChoice",
+    "question": "⬛🐴",
+    "options": [
+      "Blackhorse Road",
+      "Blackfriars",
+      "Charlton",
+      "White City"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 3,
+    "explanation": "⬛ black + 🐴 horse = Blackhorse Road, on the Victoria line."
+  },
+  {
+    "id": "emoji033",
+    "type": "multipleChoice",
+    "question": "⬜⛪",
+    "options": [
+      "Whitechapel",
+      "Blackfriars",
+      "White City",
+      "Aldgate East"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "⬜ white + ⛪ chapel = Whitechapel."
+  },
+  {
+    "id": "emoji034",
+    "type": "multipleChoice",
+    "question": "⚽🔴",
+    "options": [
+      "Arsenal",
+      "Highbury & Islington",
+      "Seven Sisters",
+      "Finsbury Park"
+    ],
+    "correctIndex": 0,
+    "category": "Emoji",
+    "difficulty": 2,
+    "explanation": "⚽ football club in 🔴 red = Arsenal, the only Underground station named after a football club."
   }
 ]

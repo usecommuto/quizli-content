@@ -1,374 +1,4310 @@
 {
-  "version": 1,
+  "version": 3,
   "lines": [
-    { "id": "bakerloo", "name": "Bakerloo", "color": "#B36305" },
-    { "id": "central", "name": "Central", "color": "#E32017" },
-    { "id": "jubilee", "name": "Jubilee", "color": "#A0A5A9" },
-    { "id": "northern", "name": "Northern", "color": "#000000" },
-    { "id": "piccadilly", "name": "Piccadilly", "color": "#003688" },
-    { "id": "victoria", "name": "Victoria", "color": "#0098D4" },
-    { "id": "waterloo-city", "name": "Waterloo & City", "color": "#95CDBA" }
+    {
+      "id": "bakerloo",
+      "name": "Bakerloo",
+      "color": "#B36305"
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "color": "#E32017"
+    },
+    {
+      "id": "circle",
+      "name": "Circle",
+      "color": "#FFD300"
+    },
+    {
+      "id": "district",
+      "name": "District",
+      "color": "#00782A"
+    },
+    {
+      "id": "hammersmith-city",
+      "name": "Hammersmith & City",
+      "color": "#F3A9BB"
+    },
+    {
+      "id": "jubilee",
+      "name": "Jubilee",
+      "color": "#A0A5A9"
+    },
+    {
+      "id": "metropolitan",
+      "name": "Metropolitan",
+      "color": "#9B0056"
+    },
+    {
+      "id": "northern",
+      "name": "Northern",
+      "color": "#000000"
+    },
+    {
+      "id": "piccadilly",
+      "name": "Piccadilly",
+      "color": "#003688"
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "color": "#0098D4"
+    },
+    {
+      "id": "waterloo-city",
+      "name": "Waterloo & City",
+      "color": "#95CDBA"
+    },
+    {
+      "id": "dlr",
+      "name": "DLR",
+      "color": "#00A4A7"
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth line",
+      "color": "#6950A1"
+    },
+    {
+      "id": "liberty",
+      "name": "Liberty line",
+      "color": "#5D6061"
+    },
+    {
+      "id": "lioness",
+      "name": "Lioness line",
+      "color": "#FAA61A"
+    },
+    {
+      "id": "mildmay",
+      "name": "Mildmay line",
+      "color": "#0077AD"
+    },
+    {
+      "id": "suffragette",
+      "name": "Suffragette line",
+      "color": "#76B82A"
+    },
+    {
+      "id": "weaver",
+      "name": "Weaver line",
+      "color": "#823B62"
+    },
+    {
+      "id": "windrush",
+      "name": "Windrush line",
+      "color": "#EE2E24"
+    }
   ],
   "stations": [
-    { "id": "acton-town", "name": "Acton Town", "lines": ["piccadilly"] },
-    { "id": "alperton", "name": "Alperton", "lines": ["piccadilly"] },
-    { "id": "angel", "name": "Angel", "lines": ["northern"] },
-    { "id": "archway", "name": "Archway", "lines": ["northern"] },
-    { "id": "arnos-grove", "name": "Arnos Grove", "lines": ["piccadilly"] },
-    { "id": "arsenal", "name": "Arsenal", "lines": ["piccadilly"] },
-    { "id": "baker-street", "name": "Baker Street", "lines": ["bakerloo", "jubilee"] },
-    { "id": "balham", "name": "Balham", "lines": ["northern"] },
-    { "id": "bank", "name": "Bank", "lines": ["central", "northern", "waterloo-city"] },
-    { "id": "barkingside", "name": "Barkingside", "lines": ["central"] },
-    { "id": "barons-court", "name": "Barons Court", "lines": ["piccadilly"] },
-    { "id": "battersea-power-station", "name": "Battersea Power Station", "lines": ["northern"] },
-    { "id": "belsize-park", "name": "Belsize Park", "lines": ["northern"] },
-    { "id": "bermondsey", "name": "Bermondsey", "lines": ["jubilee"] },
-    { "id": "bethnal-green", "name": "Bethnal Green", "lines": ["central"] },
-    { "id": "blackhorse-road", "name": "Blackhorse Road", "lines": ["victoria"] },
-    { "id": "bond-street", "name": "Bond Street", "lines": ["central", "jubilee"] },
-    { "id": "borough", "name": "Borough", "lines": ["northern"] },
-    { "id": "boston-manor", "name": "Boston Manor", "lines": ["piccadilly"] },
-    { "id": "bounds-green", "name": "Bounds Green", "lines": ["piccadilly"] },
-    { "id": "brent-cross", "name": "Brent Cross", "lines": ["northern"] },
-    { "id": "brixton", "name": "Brixton", "lines": ["victoria"] },
-    { "id": "buckhurst-hill", "name": "Buckhurst Hill", "lines": ["central"] },
-    { "id": "burnt-oak", "name": "Burnt Oak", "lines": ["northern"] },
-    { "id": "caledonian-road", "name": "Caledonian Road", "lines": ["piccadilly"] },
-    { "id": "camden-town", "name": "Camden Town", "lines": ["northern"] },
-    { "id": "canada-water", "name": "Canada Water", "lines": ["jubilee"] },
-    { "id": "canary-wharf", "name": "Canary Wharf", "lines": ["jubilee"] },
-    { "id": "canning-town", "name": "Canning Town", "lines": ["jubilee"] },
-    { "id": "canons-park", "name": "Canons Park", "lines": ["jubilee"] },
-    { "id": "chalk-farm", "name": "Chalk Farm", "lines": ["northern"] },
-    { "id": "chancery-lane", "name": "Chancery Lane", "lines": ["central"] },
-    { "id": "charing-cross", "name": "Charing Cross", "lines": ["bakerloo", "northern"] },
-    { "id": "chigwell", "name": "Chigwell", "lines": ["central"] },
-    { "id": "clapham-common", "name": "Clapham Common", "lines": ["northern"] },
-    { "id": "clapham-north", "name": "Clapham North", "lines": ["northern"] },
-    { "id": "clapham-south", "name": "Clapham South", "lines": ["northern"] },
-    { "id": "cockfosters", "name": "Cockfosters", "lines": ["piccadilly"] },
-    { "id": "colindale", "name": "Colindale", "lines": ["northern"] },
-    { "id": "colliers-wood", "name": "Colliers Wood", "lines": ["northern"] },
-    { "id": "covent-garden", "name": "Covent Garden", "lines": ["piccadilly"] },
-    { "id": "debden", "name": "Debden", "lines": ["central"] },
-    { "id": "dollis-hill", "name": "Dollis Hill", "lines": ["jubilee"] },
-    { "id": "ealing-broadway", "name": "Ealing Broadway", "lines": ["central"] },
-    { "id": "ealing-common", "name": "Ealing Common", "lines": ["piccadilly"] },
-    { "id": "earls-court", "name": "Earl's Court", "lines": ["piccadilly"] },
-    { "id": "east-acton", "name": "East Acton", "lines": ["central"] },
-    { "id": "east-finchley", "name": "East Finchley", "lines": ["northern"] },
-    { "id": "eastcote", "name": "Eastcote", "lines": ["piccadilly"] },
-    { "id": "edgware", "name": "Edgware", "lines": ["northern"] },
-    { "id": "edgware-road", "name": "Edgware Road", "lines": ["bakerloo"] },
-    { "id": "elephant-castle", "name": "Elephant & Castle", "lines": ["bakerloo", "northern"] },
-    { "id": "embankment", "name": "Embankment", "lines": ["bakerloo", "northern"] },
-    { "id": "epping", "name": "Epping", "lines": ["central"] },
-    { "id": "euston", "name": "Euston", "lines": ["northern", "victoria"] },
-    { "id": "fairlop", "name": "Fairlop", "lines": ["central"] },
-    { "id": "finchley-central", "name": "Finchley Central", "lines": ["northern"] },
-    { "id": "finchley-road", "name": "Finchley Road", "lines": ["jubilee"] },
-    { "id": "finsbury-park", "name": "Finsbury Park", "lines": ["piccadilly", "victoria"] },
-    { "id": "gants-hill", "name": "Gants Hill", "lines": ["central"] },
-    { "id": "gloucester-road", "name": "Gloucester Road", "lines": ["piccadilly"] },
-    { "id": "golders-green", "name": "Golders Green", "lines": ["northern"] },
-    { "id": "goodge-street", "name": "Goodge Street", "lines": ["northern"] },
-    { "id": "grange-hill", "name": "Grange Hill", "lines": ["central"] },
-    { "id": "green-park", "name": "Green Park", "lines": ["jubilee", "piccadilly", "victoria"] },
-    { "id": "greenford", "name": "Greenford", "lines": ["central"] },
-    { "id": "hainault", "name": "Hainault", "lines": ["central"] },
-    { "id": "hammersmith", "name": "Hammersmith", "lines": ["piccadilly"] },
-    { "id": "hampstead", "name": "Hampstead", "lines": ["northern"] },
-    { "id": "hanger-lane", "name": "Hanger Lane", "lines": ["central"] },
-    { "id": "harlesden", "name": "Harlesden", "lines": ["bakerloo"] },
-    { "id": "harrow-wealdstone", "name": "Harrow & Wealdstone", "lines": ["bakerloo"] },
-    { "id": "hatton-cross", "name": "Hatton Cross", "lines": ["piccadilly"] },
-    { "id": "heathrow-terminal-4", "name": "Heathrow Terminal 4", "lines": ["piccadilly"] },
-    { "id": "heathrow-terminal-5", "name": "Heathrow Terminal 5", "lines": ["piccadilly"] },
-    { "id": "heathrow-terminals-2-3", "name": "Heathrow Terminals 2 & 3", "lines": ["piccadilly"] },
-    { "id": "hendon-central", "name": "Hendon Central", "lines": ["northern"] },
-    { "id": "high-barnet", "name": "High Barnet", "lines": ["northern"] },
-    { "id": "highbury-islington", "name": "Highbury & Islington", "lines": ["victoria"] },
-    { "id": "highgate", "name": "Highgate", "lines": ["northern"] },
-    { "id": "hillingdon", "name": "Hillingdon", "lines": ["piccadilly"] },
-    { "id": "holborn", "name": "Holborn", "lines": ["central", "piccadilly"] },
-    { "id": "holland-park", "name": "Holland Park", "lines": ["central"] },
-    { "id": "holloway-road", "name": "Holloway Road", "lines": ["piccadilly"] },
-    { "id": "hounslow-central", "name": "Hounslow Central", "lines": ["piccadilly"] },
-    { "id": "hounslow-east", "name": "Hounslow East", "lines": ["piccadilly"] },
-    { "id": "hounslow-west", "name": "Hounslow West", "lines": ["piccadilly"] },
-    { "id": "hyde-park-corner", "name": "Hyde Park Corner", "lines": ["piccadilly"] },
-    { "id": "ickenham", "name": "Ickenham", "lines": ["piccadilly"] },
-    { "id": "kennington", "name": "Kennington", "lines": ["northern"] },
-    { "id": "kensal-green", "name": "Kensal Green", "lines": ["bakerloo"] },
-    { "id": "kentish-town", "name": "Kentish Town", "lines": ["northern"] },
-    { "id": "kenton", "name": "Kenton", "lines": ["bakerloo"] },
-    { "id": "kilburn", "name": "Kilburn", "lines": ["jubilee"] },
-    { "id": "kilburn-park", "name": "Kilburn Park", "lines": ["bakerloo"] },
-    { "id": "kingsbury", "name": "Kingsbury", "lines": ["jubilee"] },
-    { "id": "kings-cross-st-pancras", "name": "King's Cross St Pancras", "lines": ["northern", "piccadilly", "victoria"] },
-    { "id": "knightsbridge", "name": "Knightsbridge", "lines": ["piccadilly"] },
-    { "id": "lambeth-north", "name": "Lambeth North", "lines": ["bakerloo"] },
-    { "id": "lancaster-gate", "name": "Lancaster Gate", "lines": ["central"] },
-    { "id": "leicester-square", "name": "Leicester Square", "lines": ["northern", "piccadilly"] },
-    { "id": "leyton", "name": "Leyton", "lines": ["central"] },
-    { "id": "leytonstone", "name": "Leytonstone", "lines": ["central"] },
-    { "id": "liverpool-street", "name": "Liverpool Street", "lines": ["central"] },
-    { "id": "london-bridge", "name": "London Bridge", "lines": ["jubilee", "northern"] },
-    { "id": "loughton", "name": "Loughton", "lines": ["central"] },
-    { "id": "maida-vale", "name": "Maida Vale", "lines": ["bakerloo"] },
-    { "id": "manor-house", "name": "Manor House", "lines": ["piccadilly"] },
-    { "id": "marble-arch", "name": "Marble Arch", "lines": ["central"] },
-    { "id": "marylebone", "name": "Marylebone", "lines": ["bakerloo"] },
-    { "id": "mile-end", "name": "Mile End", "lines": ["central"] },
-    { "id": "mill-hill-east", "name": "Mill Hill East", "lines": ["northern"] },
-    { "id": "moorgate", "name": "Moorgate", "lines": ["northern"] },
-    { "id": "morden", "name": "Morden", "lines": ["northern"] },
-    { "id": "mornington-crescent", "name": "Mornington Crescent", "lines": ["northern"] },
-    { "id": "neasden", "name": "Neasden", "lines": ["jubilee"] },
-    { "id": "newbury-park", "name": "Newbury Park", "lines": ["central"] },
-    { "id": "nine-elms", "name": "Nine Elms", "lines": ["northern"] },
-    { "id": "north-acton", "name": "North Acton", "lines": ["central"] },
-    { "id": "north-ealing", "name": "North Ealing", "lines": ["piccadilly"] },
-    { "id": "north-greenwich", "name": "North Greenwich", "lines": ["jubilee"] },
-    { "id": "north-wembley", "name": "North Wembley", "lines": ["bakerloo"] },
-    { "id": "northfields", "name": "Northfields", "lines": ["piccadilly"] },
-    { "id": "northolt", "name": "Northolt", "lines": ["central"] },
-    { "id": "notting-hill-gate", "name": "Notting Hill Gate", "lines": ["central"] },
-    { "id": "oakwood", "name": "Oakwood", "lines": ["piccadilly"] },
-    { "id": "old-street", "name": "Old Street", "lines": ["northern"] },
-    { "id": "osterley", "name": "Osterley", "lines": ["piccadilly"] },
-    { "id": "oval", "name": "Oval", "lines": ["northern"] },
-    { "id": "oxford-circus", "name": "Oxford Circus", "lines": ["bakerloo", "central", "victoria"] },
-    { "id": "paddington", "name": "Paddington", "lines": ["bakerloo"] },
-    { "id": "park-royal", "name": "Park Royal", "lines": ["piccadilly"] },
-    { "id": "perivale", "name": "Perivale", "lines": ["central"] },
-    { "id": "piccadilly-circus", "name": "Piccadilly Circus", "lines": ["bakerloo", "piccadilly"] },
-    { "id": "pimlico", "name": "Pimlico", "lines": ["victoria"] },
-    { "id": "queens-park", "name": "Queen's Park", "lines": ["bakerloo"] },
-    { "id": "queensbury", "name": "Queensbury", "lines": ["jubilee"] },
-    { "id": "queensway", "name": "Queensway", "lines": ["central"] },
-    { "id": "rayners-lane", "name": "Rayners Lane", "lines": ["piccadilly"] },
-    { "id": "redbridge", "name": "Redbridge", "lines": ["central"] },
-    { "id": "regents-park", "name": "Regent's Park", "lines": ["bakerloo"] },
-    { "id": "roding-valley", "name": "Roding Valley", "lines": ["central"] },
-    { "id": "ruislip", "name": "Ruislip", "lines": ["piccadilly"] },
-    { "id": "ruislip-gardens", "name": "Ruislip Gardens", "lines": ["central"] },
-    { "id": "ruislip-manor", "name": "Ruislip Manor", "lines": ["piccadilly"] },
-    { "id": "russell-square", "name": "Russell Square", "lines": ["piccadilly"] },
-    { "id": "seven-sisters", "name": "Seven Sisters", "lines": ["victoria"] },
-    { "id": "shepherds-bush", "name": "Shepherd's Bush", "lines": ["central"] },
-    { "id": "snaresbrook", "name": "Snaresbrook", "lines": ["central"] },
-    { "id": "south-ealing", "name": "South Ealing", "lines": ["piccadilly"] },
-    { "id": "south-harrow", "name": "South Harrow", "lines": ["piccadilly"] },
-    { "id": "south-kensington", "name": "South Kensington", "lines": ["piccadilly"] },
-    { "id": "south-kenton", "name": "South Kenton", "lines": ["bakerloo"] },
-    { "id": "south-ruislip", "name": "South Ruislip", "lines": ["central"] },
-    { "id": "south-wimbledon", "name": "South Wimbledon", "lines": ["northern"] },
-    { "id": "south-woodford", "name": "South Woodford", "lines": ["central"] },
-    { "id": "southgate", "name": "Southgate", "lines": ["piccadilly"] },
-    { "id": "southwark", "name": "Southwark", "lines": ["jubilee"] },
-    { "id": "st-johns-wood", "name": "St. John's Wood", "lines": ["jubilee"] },
-    { "id": "st-pauls", "name": "St. Paul's", "lines": ["central"] },
-    { "id": "stanmore", "name": "Stanmore", "lines": ["jubilee"] },
-    { "id": "stockwell", "name": "Stockwell", "lines": ["northern", "victoria"] },
-    { "id": "stonebridge-park", "name": "Stonebridge Park", "lines": ["bakerloo"] },
-    { "id": "stratford", "name": "Stratford", "lines": ["central", "jubilee"] },
-    { "id": "sudbury-hill", "name": "Sudbury Hill", "lines": ["piccadilly"] },
-    { "id": "sudbury-town", "name": "Sudbury Town", "lines": ["piccadilly"] },
-    { "id": "swiss-cottage", "name": "Swiss Cottage", "lines": ["jubilee"] },
-    { "id": "theydon-bois", "name": "Theydon Bois", "lines": ["central"] },
-    { "id": "tooting-bec", "name": "Tooting Bec", "lines": ["northern"] },
-    { "id": "tooting-broadway", "name": "Tooting Broadway", "lines": ["northern"] },
-    { "id": "tottenham-court-road", "name": "Tottenham Court Road", "lines": ["central", "northern"] },
-    { "id": "tottenham-hale", "name": "Tottenham Hale", "lines": ["victoria"] },
-    { "id": "totteridge-whetstone", "name": "Totteridge & Whetstone", "lines": ["northern"] },
-    { "id": "tufnell-park", "name": "Tufnell Park", "lines": ["northern"] },
-    { "id": "turnham-green", "name": "Turnham Green", "lines": ["piccadilly"] },
-    { "id": "turnpike-lane", "name": "Turnpike Lane", "lines": ["piccadilly"] },
-    { "id": "uxbridge", "name": "Uxbridge", "lines": ["piccadilly"] },
-    { "id": "vauxhall", "name": "Vauxhall", "lines": ["victoria"] },
-    { "id": "victoria", "name": "Victoria", "lines": ["victoria"] },
-    { "id": "walthamstow-central", "name": "Walthamstow Central", "lines": ["victoria"] },
-    { "id": "wanstead", "name": "Wanstead", "lines": ["central"] },
-    { "id": "warren-street", "name": "Warren Street", "lines": ["northern", "victoria"] },
-    { "id": "warwick-avenue", "name": "Warwick Avenue", "lines": ["bakerloo"] },
-    { "id": "waterloo", "name": "Waterloo", "lines": ["bakerloo", "jubilee", "northern", "waterloo-city"] },
-    { "id": "wembley-central", "name": "Wembley Central", "lines": ["bakerloo"] },
-    { "id": "wembley-park", "name": "Wembley Park", "lines": ["jubilee"] },
-    { "id": "west-acton", "name": "West Acton", "lines": ["central"] },
-    { "id": "west-finchley", "name": "West Finchley", "lines": ["northern"] },
-    { "id": "west-ham", "name": "West Ham", "lines": ["jubilee"] },
-    { "id": "west-hampstead", "name": "West Hampstead", "lines": ["jubilee"] },
-    { "id": "west-ruislip", "name": "West Ruislip", "lines": ["central"] },
-    { "id": "westminster", "name": "Westminster", "lines": ["jubilee"] },
-    { "id": "white-city", "name": "White City", "lines": ["central"] },
-    { "id": "willesden-green", "name": "Willesden Green", "lines": ["jubilee"] },
-    { "id": "willesden-junction", "name": "Willesden Junction", "lines": ["bakerloo"] },
-    { "id": "wood-green", "name": "Wood Green", "lines": ["piccadilly"] },
-    { "id": "woodford", "name": "Woodford", "lines": ["central"] },
-    { "id": "woodside-park", "name": "Woodside Park", "lines": ["northern"] }
+    {
+      "id": "abbey-road",
+      "name": "Abbey Road",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "abbey-wood",
+      "name": "Abbey Wood",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "acton-central",
+      "name": "Acton Central",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "acton-main-line",
+      "name": "Acton Main Line",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "acton-town",
+      "name": "Acton Town",
+      "lines": [
+        "district",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "aldgate",
+      "name": "Aldgate",
+      "lines": [
+        "circle",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "aldgate-east",
+      "name": "Aldgate East",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "all-saints",
+      "name": "All Saints",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "alperton",
+      "name": "Alperton",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "amersham",
+      "name": "Amersham",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "anerley",
+      "name": "Anerley",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "angel",
+      "name": "Angel",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "archway",
+      "name": "Archway",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "arnos-grove",
+      "name": "Arnos Grove",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "baker-street",
+      "name": "Baker Street",
+      "lines": [
+        "bakerloo",
+        "circle",
+        "hammersmith-city",
+        "jubilee",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "balham",
+      "name": "Balham",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "bank",
+      "name": "Bank",
+      "lines": [
+        "central",
+        "dlr",
+        "northern",
+        "waterloo-city"
+      ]
+    },
+    {
+      "id": "barbican",
+      "name": "Barbican",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "barking",
+      "name": "Barking",
+      "lines": [
+        "district",
+        "hammersmith-city",
+        "suffragette"
+      ]
+    },
+    {
+      "id": "barking-riverside",
+      "name": "Barking Riverside",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "barkingside",
+      "name": "Barkingside",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "barons-court",
+      "name": "Barons Court",
+      "lines": [
+        "district",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "battersea-power-station",
+      "name": "Battersea Power Station",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "bayswater",
+      "name": "Bayswater",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "beckton",
+      "name": "Beckton",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "beckton-park",
+      "name": "Beckton Park",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "becontree",
+      "name": "Becontree",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "belsize-park",
+      "name": "Belsize Park",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "bermondsey",
+      "name": "Bermondsey",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "bethnal-green",
+      "name": "Bethnal Green",
+      "lines": [
+        "central",
+        "weaver"
+      ]
+    },
+    {
+      "id": "blackfriars",
+      "name": "Blackfriars",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "blackhorse-road",
+      "name": "Blackhorse Road",
+      "lines": [
+        "suffragette",
+        "victoria"
+      ]
+    },
+    {
+      "id": "blackwall",
+      "name": "Blackwall",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "bond-street",
+      "name": "Bond Street",
+      "lines": [
+        "central",
+        "elizabeth",
+        "jubilee"
+      ]
+    },
+    {
+      "id": "borough",
+      "name": "Borough",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "boston-manor",
+      "name": "Boston Manor",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "bounds-green",
+      "name": "Bounds Green",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "bow-church",
+      "name": "Bow Church",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "bow-road",
+      "name": "Bow Road",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "brent-cross",
+      "name": "Brent Cross",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "brentwood",
+      "name": "Brentwood",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "brixton",
+      "name": "Brixton",
+      "lines": [
+        "victoria"
+      ]
+    },
+    {
+      "id": "brockley",
+      "name": "Brockley",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "bromley-by-bow",
+      "name": "Bromley-by-Bow",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "brondesbury",
+      "name": "Brondesbury",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "brondesbury-park",
+      "name": "Brondesbury Park",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "bruce-grove",
+      "name": "Bruce Grove",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "buckhurst-hill",
+      "name": "Buckhurst Hill",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "burnt-oak",
+      "name": "Burnt Oak",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "bush-hill-park",
+      "name": "Bush Hill Park",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "bushey",
+      "name": "Bushey",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "caledonian-road",
+      "name": "Caledonian Road",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "caledonian-road-and-barnsbury",
+      "name": "Caledonian Road & Barnsbury",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "cambridge-heath-london",
+      "name": "Cambridge Heath (London)",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "camden-road",
+      "name": "Camden Road",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "camden-town",
+      "name": "Camden Town",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "canada-water",
+      "name": "Canada Water",
+      "lines": [
+        "jubilee",
+        "windrush"
+      ]
+    },
+    {
+      "id": "canary-wharf",
+      "name": "Canary Wharf",
+      "lines": [
+        "dlr",
+        "elizabeth",
+        "jubilee"
+      ]
+    },
+    {
+      "id": "canning-town",
+      "name": "Canning Town",
+      "lines": [
+        "dlr",
+        "jubilee"
+      ]
+    },
+    {
+      "id": "cannon-street",
+      "name": "Cannon Street",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "canonbury",
+      "name": "Canonbury",
+      "lines": [
+        "mildmay",
+        "windrush"
+      ]
+    },
+    {
+      "id": "canons-park",
+      "name": "Canons Park",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "carpenders-park",
+      "name": "Carpenders Park",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "chadwell-heath",
+      "name": "Chadwell Heath",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "chalfont-and-latimer",
+      "name": "Chalfont & Latimer",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "chalk-farm",
+      "name": "Chalk Farm",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "chancery-lane",
+      "name": "Chancery Lane",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "charing-cross",
+      "name": "Charing Cross",
+      "lines": [
+        "bakerloo",
+        "northern"
+      ]
+    },
+    {
+      "id": "chesham",
+      "name": "Chesham",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "cheshunt",
+      "name": "Cheshunt",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "chigwell",
+      "name": "Chigwell",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "chingford",
+      "name": "Chingford",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "chiswick-park",
+      "name": "Chiswick Park",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "chorleywood",
+      "name": "Chorleywood",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "clapham-common",
+      "name": "Clapham Common",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "clapham-high-street",
+      "name": "Clapham High Street",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "clapham-junction",
+      "name": "Clapham Junction",
+      "lines": [
+        "mildmay",
+        "windrush"
+      ]
+    },
+    {
+      "id": "clapham-north",
+      "name": "Clapham North",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "clapham-south",
+      "name": "Clapham South",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "clapton",
+      "name": "Clapton",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "cockfosters",
+      "name": "Cockfosters",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "colindale",
+      "name": "Colindale",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "colliers-wood",
+      "name": "Colliers Wood",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "covent-garden",
+      "name": "Covent Garden",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "crossharbour",
+      "name": "Crossharbour",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "crouch-hill",
+      "name": "Crouch Hill",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "croxley",
+      "name": "Croxley",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Crystal Palace",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "custom-house",
+      "name": "Custom House",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "custom-house-for-excel",
+      "name": "Custom House (for ExCel)",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "cutty-sark-for-maritime-greenwich",
+      "name": "Cutty Sark (for Maritime Greenwich)",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "cyprus",
+      "name": "Cyprus",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "dagenham-east",
+      "name": "Dagenham East",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "dagenham-heathway",
+      "name": "Dagenham Heathway",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "dalston-junction",
+      "name": "Dalston Junction",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "dalston-kingsland",
+      "name": "Dalston Kingsland",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "debden",
+      "name": "Debden",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "denmark-hill",
+      "name": "Denmark Hill",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "deptford-bridge",
+      "name": "Deptford Bridge",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "devons-road",
+      "name": "Devons Road",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "dollis-hill",
+      "name": "Dollis Hill",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "ealing-broadway",
+      "name": "Ealing Broadway",
+      "lines": [
+        "central",
+        "district",
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "ealing-common",
+      "name": "Ealing Common",
+      "lines": [
+        "district",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "earls-court",
+      "name": "Earl's Court",
+      "lines": [
+        "district",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "east-acton",
+      "name": "East Acton",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "east-finchley",
+      "name": "East Finchley",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "east-ham",
+      "name": "East Ham",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "east-india",
+      "name": "East India",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "east-putney",
+      "name": "East Putney",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "eastcote",
+      "name": "Eastcote",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "edgware",
+      "name": "Edgware",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "edgware-road",
+      "name": "Edgware Road",
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "edmonton-green",
+      "name": "Edmonton Green",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "elephant-castle",
+      "name": "Elephant & Castle",
+      "lines": [
+        "bakerloo",
+        "northern"
+      ]
+    },
+    {
+      "id": "elm-park",
+      "name": "Elm Park",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "elverson-road",
+      "name": "Elverson Road",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "embankment",
+      "name": "Embankment",
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district",
+        "northern"
+      ]
+    },
+    {
+      "id": "emerson-park",
+      "name": "Emerson Park",
+      "lines": [
+        "liberty"
+      ]
+    },
+    {
+      "id": "enfield-town",
+      "name": "Enfield Town",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "epping",
+      "name": "Epping",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "euston",
+      "name": "Euston",
+      "lines": [
+        "northern",
+        "victoria"
+      ]
+    },
+    {
+      "id": "euston-square",
+      "name": "Euston Square",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "fairlop",
+      "name": "Fairlop",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "farringdon",
+      "name": "Farringdon",
+      "lines": [
+        "circle",
+        "elizabeth",
+        "hammersmith-city",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "finchley-central",
+      "name": "Finchley Central",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "finchley-road",
+      "name": "Finchley Road",
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "finchley-road-and-frognal",
+      "name": "Finchley Road & Frognal",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "finsbury-park",
+      "name": "Finsbury Park",
+      "lines": [
+        "piccadilly",
+        "victoria"
+      ]
+    },
+    {
+      "id": "forest-gate",
+      "name": "Forest Gate",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "forest-hill",
+      "name": "Forest Hill",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "fulham-broadway",
+      "name": "Fulham Broadway",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "gallions-reach",
+      "name": "Gallions Reach",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "gants-hill",
+      "name": "Gants Hill",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "gidea-park",
+      "name": "Gidea Park",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "gloucester-road",
+      "name": "Gloucester Road",
+      "lines": [
+        "circle",
+        "district",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "golders-green",
+      "name": "Golders Green",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "goldhawk-road",
+      "name": "Goldhawk Road",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "goodge-street",
+      "name": "Goodge Street",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "goodmayes",
+      "name": "Goodmayes",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "gospel-oak",
+      "name": "Gospel Oak",
+      "lines": [
+        "mildmay",
+        "suffragette"
+      ]
+    },
+    {
+      "id": "grange-hill",
+      "name": "Grange Hill",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "great-portland-street",
+      "name": "Great Portland Street",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "green-park",
+      "name": "Green Park",
+      "lines": [
+        "jubilee",
+        "piccadilly",
+        "victoria"
+      ]
+    },
+    {
+      "id": "greenford",
+      "name": "Greenford",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "greenwich",
+      "name": "Greenwich",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "gunnersbury",
+      "name": "Gunnersbury",
+      "lines": [
+        "district",
+        "mildmay"
+      ]
+    },
+    {
+      "id": "hackney-central",
+      "name": "Hackney Central",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "hackney-downs",
+      "name": "Hackney Downs",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "hackney-wick",
+      "name": "Hackney Wick",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "haggerston",
+      "name": "Haggerston",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "hainault",
+      "name": "Hainault",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "hammersmith",
+      "name": "Hammersmith",
+      "lines": [
+        "circle",
+        "district",
+        "hammersmith-city",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "hampstead",
+      "name": "Hampstead",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "hampstead-heath",
+      "name": "Hampstead Heath",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "hanger-lane",
+      "name": "Hanger Lane",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "hanwell",
+      "name": "Hanwell",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "harlesden",
+      "name": "Harlesden",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ]
+    },
+    {
+      "id": "harold-wood",
+      "name": "Harold Wood",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "harringay-green-lanes",
+      "name": "Harringay Green Lanes",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "harrow-on-the-hill",
+      "name": "Harrow-on-the-Hill",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "harrow-wealdstone",
+      "name": "Harrow & Wealdstone",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ]
+    },
+    {
+      "id": "hatch-end",
+      "name": "Hatch End",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "hatton-cross",
+      "name": "Hatton Cross",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "hayes-and-harlington",
+      "name": "Hayes & Harlington",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "headstone-lane",
+      "name": "Headstone Lane",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "heathrow-terminal-4",
+      "name": "Heathrow Terminal 4",
+      "lines": [
+        "elizabeth",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "heathrow-terminal-5",
+      "name": "Heathrow Terminal 5",
+      "lines": [
+        "elizabeth",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "heathrow-terminals-2-3",
+      "name": "Heathrow Terminals 2 & 3",
+      "lines": [
+        "elizabeth",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "hendon-central",
+      "name": "Hendon Central",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "heron-quays",
+      "name": "Heron Quays",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "high-barnet",
+      "name": "High Barnet",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "high-street-kensington",
+      "name": "High Street Kensington",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "highams-park",
+      "name": "Highams Park",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "highbury-islington",
+      "name": "Highbury & Islington",
+      "lines": [
+        "mildmay",
+        "victoria",
+        "windrush"
+      ]
+    },
+    {
+      "id": "highgate",
+      "name": "Highgate",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "hillingdon",
+      "name": "Hillingdon",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "holborn",
+      "name": "Holborn",
+      "lines": [
+        "central",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "holland-park",
+      "name": "Holland Park",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "holloway-road",
+      "name": "Holloway Road",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "homerton",
+      "name": "Homerton",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "honor-oak-park",
+      "name": "Honor Oak Park",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "hornchurch",
+      "name": "Hornchurch",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "hounslow-central",
+      "name": "Hounslow Central",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "hounslow-east",
+      "name": "Hounslow East",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "hounslow-west",
+      "name": "Hounslow West",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "hoxton",
+      "name": "Hoxton",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "hyde-park-corner",
+      "name": "Hyde Park Corner",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "ickenham",
+      "name": "Ickenham",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "ilford",
+      "name": "Ilford",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "imperial-wharf",
+      "name": "Imperial Wharf",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "island-gardens",
+      "name": "Island Gardens",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "iver",
+      "name": "Iver",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "kennington",
+      "name": "Kennington",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "kensal-green",
+      "name": "Kensal Green",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ]
+    },
+    {
+      "id": "kensal-rise",
+      "name": "Kensal Rise",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "kensington-olympia",
+      "name": "Kensington (Olympia)",
+      "lines": [
+        "district",
+        "mildmay"
+      ]
+    },
+    {
+      "id": "kentish-town",
+      "name": "Kentish Town",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "kentish-town-west",
+      "name": "Kentish Town West",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "kenton",
+      "name": "Kenton",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ]
+    },
+    {
+      "id": "kew-gardens",
+      "name": "Kew Gardens",
+      "lines": [
+        "district",
+        "mildmay"
+      ]
+    },
+    {
+      "id": "kilburn",
+      "name": "Kilburn",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "kilburn-high-road",
+      "name": "Kilburn High Road",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "kilburn-park",
+      "name": "Kilburn Park",
+      "lines": [
+        "bakerloo"
+      ]
+    },
+    {
+      "id": "king-george-v",
+      "name": "King George V",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "kings-cross-st-pancras",
+      "name": "King's Cross St Pancras",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan",
+        "northern",
+        "piccadilly",
+        "victoria"
+      ]
+    },
+    {
+      "id": "kingsbury",
+      "name": "Kingsbury",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "knightsbridge",
+      "name": "Knightsbridge",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "ladbroke-grove",
+      "name": "Ladbroke Grove",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "lambeth-north",
+      "name": "Lambeth North",
+      "lines": [
+        "bakerloo"
+      ]
+    },
+    {
+      "id": "lancaster-gate",
+      "name": "Lancaster Gate",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "langdon-park",
+      "name": "Langdon Park",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "langley-berks",
+      "name": "Langley (Berks)",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "latimer-road",
+      "name": "Latimer Road",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "leicester-square",
+      "name": "Leicester Square",
+      "lines": [
+        "northern",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "lewisham",
+      "name": "Lewisham",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "leyton",
+      "name": "Leyton",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "leyton-midland-road",
+      "name": "Leyton Midland Road",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "leytonstone",
+      "name": "Leytonstone",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "leytonstone-high-road",
+      "name": "Leytonstone High Road",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "limehouse",
+      "name": "Limehouse",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "liverpool-street",
+      "name": "Liverpool Street",
+      "lines": [
+        "central",
+        "circle",
+        "elizabeth",
+        "hammersmith-city",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "london-bridge",
+      "name": "London Bridge",
+      "lines": [
+        "jubilee",
+        "northern"
+      ]
+    },
+    {
+      "id": "london-city-airport",
+      "name": "London City Airport",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "london-euston",
+      "name": "London Euston",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "london-fields",
+      "name": "London Fields",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "london-liverpool-street",
+      "name": "London Liverpool Street",
+      "lines": [
+        "elizabeth",
+        "weaver"
+      ]
+    },
+    {
+      "id": "london-paddington",
+      "name": "London Paddington",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "loughton",
+      "name": "Loughton",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "maida-vale",
+      "name": "Maida Vale",
+      "lines": [
+        "bakerloo"
+      ]
+    },
+    {
+      "id": "manor-house",
+      "name": "Manor House",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "manor-park",
+      "name": "Manor Park",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "mansion-house",
+      "name": "Mansion House",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "marble-arch",
+      "name": "Marble Arch",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "maryland",
+      "name": "Maryland",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "marylebone",
+      "name": "Marylebone",
+      "lines": [
+        "bakerloo"
+      ]
+    },
+    {
+      "id": "mile-end",
+      "name": "Mile End",
+      "lines": [
+        "central",
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "mill-hill-east",
+      "name": "Mill Hill East",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "monument",
+      "name": "Monument",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "moor-park",
+      "name": "Moor Park",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "moorgate",
+      "name": "Moorgate",
+      "lines": [
+        "circle",
+        "hammersmith-city",
+        "metropolitan",
+        "northern"
+      ]
+    },
+    {
+      "id": "morden",
+      "name": "Morden",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "mornington-crescent",
+      "name": "Mornington Crescent",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "mudchute",
+      "name": "Mudchute",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "neasden",
+      "name": "Neasden",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "new-cross-ell",
+      "name": "New Cross ELL",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "new-cross-gate",
+      "name": "New Cross Gate",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "newbury-park",
+      "name": "Newbury Park",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "nine-elms",
+      "name": "Nine Elms",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "north-acton",
+      "name": "North Acton",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "north-ealing",
+      "name": "North Ealing",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "north-greenwich",
+      "name": "North Greenwich",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "north-harrow",
+      "name": "North Harrow",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "north-wembley",
+      "name": "North Wembley",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ]
+    },
+    {
+      "id": "northfields",
+      "name": "Northfields",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "northolt",
+      "name": "Northolt",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "northwick-park",
+      "name": "Northwick Park",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "northwood",
+      "name": "Northwood",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "northwood-hills",
+      "name": "Northwood Hills",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "norwood-junction",
+      "name": "Norwood Junction",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "notting-hill-gate",
+      "name": "Notting Hill Gate",
+      "lines": [
+        "central",
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "oakwood",
+      "name": "Oakwood",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "old-street",
+      "name": "Old Street",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "osterley",
+      "name": "Osterley",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "oval",
+      "name": "Oval",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "oxford-circus",
+      "name": "Oxford Circus",
+      "lines": [
+        "bakerloo",
+        "central",
+        "victoria"
+      ]
+    },
+    {
+      "id": "paddington",
+      "name": "Paddington",
+      "lines": [
+        "bakerloo",
+        "circle",
+        "district",
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "paddington-h-and-c-line-underground",
+      "name": "Paddington (H&C Line)-Underground",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "park-royal",
+      "name": "Park Royal",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "parsons-green",
+      "name": "Parsons Green",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "peckham-rye",
+      "name": "Peckham Rye",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "penge-west",
+      "name": "Penge West",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "perivale",
+      "name": "Perivale",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "piccadilly-circus",
+      "name": "Piccadilly Circus",
+      "lines": [
+        "bakerloo",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "pimlico",
+      "name": "Pimlico",
+      "lines": [
+        "victoria"
+      ]
+    },
+    {
+      "id": "pinner",
+      "name": "Pinner",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "plaistow",
+      "name": "Plaistow",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "pontoon-dock",
+      "name": "Pontoon Dock",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "poplar",
+      "name": "Poplar",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "preston-road",
+      "name": "Preston Road",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "prince-regent",
+      "name": "Prince Regent",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "pudding-mill-lane",
+      "name": "Pudding Mill Lane",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "putney-bridge",
+      "name": "Putney Bridge",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "queens-park",
+      "name": "Queen's Park",
+      "lines": [
+        "bakerloo"
+      ]
+    },
+    {
+      "id": "queens-park-london",
+      "name": "Queens Park (London)",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "queens-road-peckham",
+      "name": "Queens Road Peckham",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "queensbury",
+      "name": "Queensbury",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "queensway",
+      "name": "Queensway",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "ravenscourt-park",
+      "name": "Ravenscourt Park",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "rayners-lane",
+      "name": "Rayners Lane",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "rectory-road",
+      "name": "Rectory Road",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "redbridge",
+      "name": "Redbridge",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "regents-park",
+      "name": "Regent's Park",
+      "lines": [
+        "bakerloo"
+      ]
+    },
+    {
+      "id": "richmond",
+      "name": "Richmond",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "richmond-london",
+      "name": "Richmond (London)",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "rickmansworth",
+      "name": "Rickmansworth",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "roding-valley",
+      "name": "Roding Valley",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "romford",
+      "name": "Romford",
+      "lines": [
+        "elizabeth",
+        "liberty"
+      ]
+    },
+    {
+      "id": "rotherhithe",
+      "name": "Rotherhithe",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "royal-albert",
+      "name": "Royal Albert",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "royal-oak",
+      "name": "Royal Oak",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "royal-victoria",
+      "name": "Royal Victoria",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "ruislip",
+      "name": "Ruislip",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "ruislip-gardens",
+      "name": "Ruislip Gardens",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "ruislip-manor",
+      "name": "Ruislip Manor",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "russell-square",
+      "name": "Russell Square",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "seven-kings",
+      "name": "Seven Kings",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "seven-sisters",
+      "name": "Seven Sisters",
+      "lines": [
+        "victoria",
+        "weaver"
+      ]
+    },
+    {
+      "id": "shadwell",
+      "name": "Shadwell",
+      "lines": [
+        "dlr",
+        "windrush"
+      ]
+    },
+    {
+      "id": "shenfield",
+      "name": "Shenfield",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "shepherds-bush",
+      "name": "Shepherd's Bush",
+      "lines": [
+        "central",
+        "mildmay"
+      ]
+    },
+    {
+      "id": "shepherds-bush-market",
+      "name": "Shepherd's Bush Market",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "shoreditch-high-street",
+      "name": "Shoreditch High Street",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "silver-street",
+      "name": "Silver Street",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "sloane-square",
+      "name": "Sloane Square",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "snaresbrook",
+      "name": "Snaresbrook",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "south-acton",
+      "name": "South Acton",
+      "lines": [
+        "mildmay"
+      ]
+    },
+    {
+      "id": "south-ealing",
+      "name": "South Ealing",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "south-hampstead",
+      "name": "South Hampstead",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "south-harrow",
+      "name": "South Harrow",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "south-kensington",
+      "name": "South Kensington",
+      "lines": [
+        "circle",
+        "district",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "south-kenton",
+      "name": "South Kenton",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ]
+    },
+    {
+      "id": "south-quay",
+      "name": "South Quay",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "south-ruislip",
+      "name": "South Ruislip",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "south-tottenham",
+      "name": "South Tottenham",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "south-wimbledon",
+      "name": "South Wimbledon",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "south-woodford",
+      "name": "South Woodford",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "southall",
+      "name": "Southall",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "southbury",
+      "name": "Southbury",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "southfields",
+      "name": "Southfields",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "southgate",
+      "name": "Southgate",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "southwark",
+      "name": "Southwark",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "st-james-street-london",
+      "name": "St James Street (London)",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "st-jamess-park",
+      "name": "St. James's Park",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "st-johns-wood",
+      "name": "St. John's Wood",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "st-pauls",
+      "name": "St. Paul's",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "stamford-brook",
+      "name": "Stamford Brook",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "stamford-hill",
+      "name": "Stamford Hill",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "stanmore",
+      "name": "Stanmore",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "star-lane",
+      "name": "Star Lane",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "stepney-green",
+      "name": "Stepney Green",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "stockwell",
+      "name": "Stockwell",
+      "lines": [
+        "northern",
+        "victoria"
+      ]
+    },
+    {
+      "id": "stoke-newington",
+      "name": "Stoke Newington",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "stonebridge-park",
+      "name": "Stonebridge Park",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ]
+    },
+    {
+      "id": "stratford",
+      "name": "Stratford",
+      "lines": [
+        "central",
+        "dlr",
+        "jubilee"
+      ]
+    },
+    {
+      "id": "stratford-high-street",
+      "name": "Stratford High Street",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "stratford-international",
+      "name": "Stratford International",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "stratford-london",
+      "name": "Stratford (London)",
+      "lines": [
+        "elizabeth",
+        "mildmay"
+      ]
+    },
+    {
+      "id": "sudbury-hill",
+      "name": "Sudbury Hill",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "sudbury-town",
+      "name": "Sudbury Town",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "surrey-quays",
+      "name": "Surrey Quays",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "swiss-cottage",
+      "name": "Swiss Cottage",
+      "lines": [
+        "jubilee"
+      ]
+    },
+    {
+      "id": "sydenham",
+      "name": "Sydenham",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "temple",
+      "name": "Temple",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "theobalds-grove",
+      "name": "Theobalds Grove",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "theydon-bois",
+      "name": "Theydon Bois",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "tooting-bec",
+      "name": "Tooting Bec",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "tooting-broadway",
+      "name": "Tooting Broadway",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "tottenham-court-road",
+      "name": "Tottenham Court Road",
+      "lines": [
+        "central",
+        "elizabeth",
+        "northern"
+      ]
+    },
+    {
+      "id": "tottenham-hale",
+      "name": "Tottenham Hale",
+      "lines": [
+        "victoria"
+      ]
+    },
+    {
+      "id": "totteridge-whetstone",
+      "name": "Totteridge & Whetstone",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "tower-gateway",
+      "name": "Tower Gateway",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "tower-hill",
+      "name": "Tower Hill",
+      "lines": [
+        "circle",
+        "district"
+      ]
+    },
+    {
+      "id": "tufnell-park",
+      "name": "Tufnell Park",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "turkey-street",
+      "name": "Turkey Street",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "turnham-green",
+      "name": "Turnham Green",
+      "lines": [
+        "district",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "turnpike-lane",
+      "name": "Turnpike Lane",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "upminster",
+      "name": "Upminster",
+      "lines": [
+        "district",
+        "liberty"
+      ]
+    },
+    {
+      "id": "upminster-bridge",
+      "name": "Upminster Bridge",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "upney",
+      "name": "Upney",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "upper-holloway",
+      "name": "Upper Holloway",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "upton-park",
+      "name": "Upton Park",
+      "lines": [
+        "district",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "uxbridge",
+      "name": "Uxbridge",
+      "lines": [
+        "metropolitan",
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "vauxhall",
+      "name": "Vauxhall",
+      "lines": [
+        "victoria"
+      ]
+    },
+    {
+      "id": "victoria",
+      "name": "Victoria",
+      "lines": [
+        "circle",
+        "district",
+        "victoria"
+      ]
+    },
+    {
+      "id": "walthamstow-central",
+      "name": "Walthamstow Central",
+      "lines": [
+        "victoria",
+        "weaver"
+      ]
+    },
+    {
+      "id": "walthamstow-queens-road",
+      "name": "Walthamstow Queens Road",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "wandsworth-road",
+      "name": "Wandsworth Road",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "wanstead",
+      "name": "Wanstead",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "wanstead-park",
+      "name": "Wanstead Park",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "wapping",
+      "name": "Wapping",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "warren-street",
+      "name": "Warren Street",
+      "lines": [
+        "northern",
+        "victoria"
+      ]
+    },
+    {
+      "id": "warwick-avenue",
+      "name": "Warwick Avenue",
+      "lines": [
+        "bakerloo"
+      ]
+    },
+    {
+      "id": "waterloo",
+      "name": "Waterloo",
+      "lines": [
+        "bakerloo",
+        "jubilee",
+        "northern",
+        "waterloo-city"
+      ]
+    },
+    {
+      "id": "watford",
+      "name": "Watford",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "watford-high-street",
+      "name": "Watford High Street",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "watford-junction",
+      "name": "Watford Junction",
+      "lines": [
+        "lioness"
+      ]
+    },
+    {
+      "id": "wembley-central",
+      "name": "Wembley Central",
+      "lines": [
+        "bakerloo",
+        "lioness"
+      ]
+    },
+    {
+      "id": "wembley-park",
+      "name": "Wembley Park",
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "west-acton",
+      "name": "West Acton",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "west-brompton",
+      "name": "West Brompton",
+      "lines": [
+        "district",
+        "mildmay"
+      ]
+    },
+    {
+      "id": "west-croydon",
+      "name": "West Croydon",
+      "lines": [
+        "windrush"
+      ]
+    },
+    {
+      "id": "west-drayton",
+      "name": "West Drayton",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "west-ealing",
+      "name": "West Ealing",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "west-finchley",
+      "name": "West Finchley",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "west-ham",
+      "name": "West Ham",
+      "lines": [
+        "district",
+        "dlr",
+        "hammersmith-city",
+        "jubilee"
+      ]
+    },
+    {
+      "id": "west-hampstead",
+      "name": "West Hampstead",
+      "lines": [
+        "jubilee",
+        "mildmay"
+      ]
+    },
+    {
+      "id": "west-harrow",
+      "name": "West Harrow",
+      "lines": [
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "west-india-quay",
+      "name": "West India Quay",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "west-kensington",
+      "name": "West Kensington",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "west-ruislip",
+      "name": "West Ruislip",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "west-silvertown",
+      "name": "West Silvertown",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "westbourne-park",
+      "name": "Westbourne Park",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "westferry",
+      "name": "Westferry",
+      "lines": [
+        "dlr"
+      ]
+    },
+    {
+      "id": "westminster",
+      "name": "Westminster",
+      "lines": [
+        "circle",
+        "district",
+        "jubilee"
+      ]
+    },
+    {
+      "id": "white-city",
+      "name": "White City",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "white-hart-lane",
+      "name": "White Hart Lane",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "whitechapel",
+      "name": "Whitechapel",
+      "lines": [
+        "district",
+        "elizabeth",
+        "hammersmith-city",
+        "windrush"
+      ]
+    },
+    {
+      "id": "willesden-green",
+      "name": "Willesden Green",
+      "lines": [
+        "jubilee",
+        "metropolitan"
+      ]
+    },
+    {
+      "id": "willesden-junction",
+      "name": "Willesden Junction",
+      "lines": [
+        "bakerloo",
+        "lioness",
+        "mildmay"
+      ]
+    },
+    {
+      "id": "wimbledon",
+      "name": "Wimbledon",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "wimbledon-park",
+      "name": "Wimbledon Park",
+      "lines": [
+        "district"
+      ]
+    },
+    {
+      "id": "wood-green",
+      "name": "Wood Green",
+      "lines": [
+        "piccadilly"
+      ]
+    },
+    {
+      "id": "wood-lane",
+      "name": "Wood Lane",
+      "lines": [
+        "circle",
+        "hammersmith-city"
+      ]
+    },
+    {
+      "id": "wood-street",
+      "name": "Wood Street",
+      "lines": [
+        "weaver"
+      ]
+    },
+    {
+      "id": "woodford",
+      "name": "Woodford",
+      "lines": [
+        "central"
+      ]
+    },
+    {
+      "id": "woodgrange-park",
+      "name": "Woodgrange Park",
+      "lines": [
+        "suffragette"
+      ]
+    },
+    {
+      "id": "woodside-park",
+      "name": "Woodside Park",
+      "lines": [
+        "northern"
+      ]
+    },
+    {
+      "id": "woolwich",
+      "name": "Woolwich",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
+      "id": "woolwich-arsenal",
+      "name": "Woolwich Arsenal",
+      "lines": [
+        "dlr"
+      ]
+    }
   ],
   "segments": [
     {
       "line": "bakerloo",
       "stations": [
-        "harrow-wealdstone", "kenton", "south-kenton", "north-wembley",
-        "wembley-central", "stonebridge-park", "harlesden", "willesden-junction",
-        "kensal-green", "queens-park", "kilburn-park", "maida-vale",
-        "warwick-avenue", "paddington", "edgware-road", "marylebone",
-        "baker-street", "regents-park", "oxford-circus", "piccadilly-circus",
-        "charing-cross", "embankment", "waterloo", "lambeth-north",
+        "harrow-wealdstone",
+        "kenton",
+        "south-kenton",
+        "north-wembley",
+        "wembley-central",
+        "stonebridge-park",
+        "harlesden",
+        "willesden-junction",
+        "kensal-green",
+        "queens-park",
+        "kilburn-park",
+        "maida-vale",
+        "warwick-avenue",
+        "paddington",
+        "edgware-road",
+        "marylebone",
+        "baker-street",
+        "regents-park",
+        "oxford-circus",
+        "piccadilly-circus",
+        "charing-cross",
+        "embankment",
+        "waterloo",
+        "lambeth-north",
         "elephant-castle"
       ]
     },
     {
       "line": "central",
       "stations": [
-        "west-ruislip", "ruislip-gardens", "south-ruislip", "northolt",
-        "greenford", "perivale", "hanger-lane", "north-acton"
-      ]
-    },
-    {
-      "line": "central",
-      "stations": ["ealing-broadway", "west-acton", "north-acton"]
-    },
-    {
-      "line": "central",
-      "stations": [
-        "north-acton", "east-acton", "white-city", "shepherds-bush",
-        "holland-park", "notting-hill-gate", "queensway", "lancaster-gate",
-        "marble-arch", "bond-street", "oxford-circus", "tottenham-court-road",
-        "holborn", "chancery-lane", "st-pauls", "bank", "liverpool-street",
-        "bethnal-green", "mile-end", "stratford", "leyton", "leytonstone"
+        "epping",
+        "theydon-bois",
+        "debden",
+        "loughton",
+        "buckhurst-hill",
+        "woodford"
       ]
     },
     {
       "line": "central",
       "stations": [
-        "leytonstone", "snaresbrook", "south-woodford", "woodford",
-        "buckhurst-hill", "loughton", "debden", "theydon-bois", "epping"
+        "hainault",
+        "fairlop",
+        "barkingside",
+        "newbury-park",
+        "gants-hill",
+        "redbridge",
+        "wanstead",
+        "leytonstone"
       ]
     },
     {
       "line": "central",
       "stations": [
-        "leytonstone", "wanstead", "redbridge", "gants-hill",
-        "newbury-park", "barkingside", "fairlop", "hainault"
+        "hainault",
+        "grange-hill",
+        "chigwell",
+        "roding-valley",
+        "woodford"
       ]
     },
     {
       "line": "central",
-      "stations": ["hainault", "grange-hill", "chigwell", "roding-valley", "woodford"]
+      "stations": [
+        "leytonstone",
+        "leyton",
+        "stratford",
+        "mile-end",
+        "bethnal-green",
+        "liverpool-street",
+        "bank",
+        "st-pauls",
+        "chancery-lane",
+        "holborn",
+        "tottenham-court-road",
+        "oxford-circus",
+        "bond-street",
+        "marble-arch",
+        "lancaster-gate",
+        "queensway",
+        "notting-hill-gate",
+        "holland-park",
+        "shepherds-bush",
+        "white-city",
+        "east-acton",
+        "north-acton"
+      ]
+    },
+    {
+      "line": "central",
+      "stations": [
+        "north-acton",
+        "hanger-lane",
+        "perivale",
+        "greenford",
+        "northolt",
+        "south-ruislip",
+        "ruislip-gardens",
+        "west-ruislip"
+      ]
+    },
+    {
+      "line": "central",
+      "stations": [
+        "north-acton",
+        "west-acton",
+        "ealing-broadway"
+      ]
+    },
+    {
+      "line": "central",
+      "stations": [
+        "woodford",
+        "south-woodford",
+        "snaresbrook",
+        "leytonstone"
+      ]
+    },
+    {
+      "line": "circle",
+      "stations": [
+        "edgware-road",
+        "paddington",
+        "bayswater",
+        "notting-hill-gate",
+        "high-street-kensington",
+        "gloucester-road",
+        "south-kensington",
+        "sloane-square",
+        "victoria",
+        "st-jamess-park",
+        "westminster",
+        "embankment",
+        "temple",
+        "blackfriars",
+        "mansion-house",
+        "cannon-street",
+        "monument",
+        "tower-hill",
+        "aldgate",
+        "liverpool-street",
+        "moorgate",
+        "barbican",
+        "farringdon",
+        "kings-cross-st-pancras",
+        "euston-square",
+        "great-portland-street",
+        "baker-street",
+        "edgware-road"
+      ]
+    },
+    {
+      "line": "circle",
+      "stations": [
+        "edgware-road",
+        "paddington-h-and-c-line-underground",
+        "royal-oak",
+        "westbourne-park",
+        "ladbroke-grove",
+        "latimer-road",
+        "wood-lane",
+        "shepherds-bush-market",
+        "goldhawk-road",
+        "hammersmith"
+      ]
+    },
+    {
+      "line": "district",
+      "stations": [
+        "earls-court",
+        "kensington-olympia"
+      ]
+    },
+    {
+      "line": "district",
+      "stations": [
+        "earls-court",
+        "west-brompton",
+        "fulham-broadway",
+        "parsons-green",
+        "putney-bridge",
+        "east-putney",
+        "southfields",
+        "wimbledon-park",
+        "wimbledon"
+      ]
+    },
+    {
+      "line": "district",
+      "stations": [
+        "earls-court",
+        "west-kensington",
+        "barons-court",
+        "hammersmith",
+        "ravenscourt-park",
+        "stamford-brook",
+        "turnham-green"
+      ]
+    },
+    {
+      "line": "district",
+      "stations": [
+        "edgware-road",
+        "paddington",
+        "bayswater",
+        "notting-hill-gate",
+        "high-street-kensington",
+        "earls-court"
+      ]
+    },
+    {
+      "line": "district",
+      "stations": [
+        "turnham-green",
+        "chiswick-park",
+        "acton-town",
+        "ealing-common",
+        "ealing-broadway"
+      ]
+    },
+    {
+      "line": "district",
+      "stations": [
+        "turnham-green",
+        "gunnersbury",
+        "kew-gardens",
+        "richmond"
+      ]
+    },
+    {
+      "line": "district",
+      "stations": [
+        "upminster",
+        "upminster-bridge",
+        "hornchurch",
+        "elm-park",
+        "dagenham-east",
+        "dagenham-heathway",
+        "becontree",
+        "upney",
+        "barking",
+        "east-ham",
+        "upton-park",
+        "plaistow",
+        "west-ham",
+        "bromley-by-bow",
+        "bow-road",
+        "mile-end",
+        "stepney-green",
+        "whitechapel",
+        "aldgate-east",
+        "tower-hill",
+        "monument",
+        "cannon-street",
+        "mansion-house",
+        "blackfriars",
+        "temple",
+        "embankment",
+        "westminster",
+        "st-jamess-park",
+        "victoria",
+        "sloane-square",
+        "south-kensington",
+        "gloucester-road",
+        "earls-court"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "beckton",
+        "gallions-reach",
+        "cyprus",
+        "beckton-park",
+        "royal-albert",
+        "prince-regent",
+        "custom-house-for-excel",
+        "royal-victoria",
+        "canning-town"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "canning-town",
+        "east-india",
+        "blackwall",
+        "poplar"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "canning-town",
+        "star-lane",
+        "west-ham",
+        "abbey-road",
+        "stratford-high-street",
+        "stratford"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "lewisham",
+        "elverson-road",
+        "deptford-bridge",
+        "greenwich",
+        "cutty-sark-for-maritime-greenwich",
+        "island-gardens",
+        "mudchute",
+        "crossharbour",
+        "south-quay",
+        "heron-quays",
+        "canary-wharf",
+        "west-india-quay"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "poplar",
+        "all-saints",
+        "langdon-park",
+        "devons-road",
+        "bow-church",
+        "pudding-mill-lane",
+        "stratford"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "poplar",
+        "west-india-quay",
+        "canary-wharf"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "poplar",
+        "westferry"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "shadwell",
+        "bank"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "shadwell",
+        "tower-gateway"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "stratford",
+        "stratford-international"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "west-india-quay",
+        "westferry"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "westferry",
+        "canary-wharf"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "westferry",
+        "limehouse",
+        "shadwell"
+      ]
+    },
+    {
+      "line": "dlr",
+      "stations": [
+        "woolwich-arsenal",
+        "king-george-v",
+        "london-city-airport",
+        "pontoon-dock",
+        "west-silvertown",
+        "canning-town"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "acton-main-line",
+        "london-paddington"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "acton-main-line",
+        "paddington"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "hayes-and-harlington",
+        "southall",
+        "hanwell",
+        "west-ealing",
+        "ealing-broadway",
+        "acton-main-line"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "heathrow-terminal-4",
+        "heathrow-terminals-2-3"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "heathrow-terminal-5",
+        "heathrow-terminals-2-3"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "heathrow-terminals-2-3",
+        "hayes-and-harlington"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "langley-berks",
+        "iver",
+        "west-drayton",
+        "hayes-and-harlington"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "london-liverpool-street",
+        "stratford-london"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "paddington",
+        "bond-street",
+        "tottenham-court-road",
+        "farringdon",
+        "liverpool-street",
+        "whitechapel"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "stratford-london",
+        "maryland",
+        "forest-gate",
+        "manor-park",
+        "ilford",
+        "seven-kings",
+        "goodmayes",
+        "chadwell-heath",
+        "romford",
+        "gidea-park",
+        "harold-wood",
+        "brentwood",
+        "shenfield"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "whitechapel",
+        "canary-wharf",
+        "custom-house",
+        "woolwich",
+        "abbey-wood"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "whitechapel",
+        "stratford-london"
+      ]
+    },
+    {
+      "line": "hammersmith-city",
+      "stations": [
+        "barking",
+        "east-ham",
+        "upton-park",
+        "plaistow",
+        "west-ham",
+        "bromley-by-bow",
+        "bow-road",
+        "mile-end",
+        "stepney-green",
+        "whitechapel",
+        "aldgate-east",
+        "liverpool-street",
+        "moorgate",
+        "barbican",
+        "farringdon",
+        "kings-cross-st-pancras",
+        "euston-square",
+        "great-portland-street",
+        "baker-street",
+        "edgware-road",
+        "paddington-h-and-c-line-underground",
+        "royal-oak",
+        "westbourne-park",
+        "ladbroke-grove",
+        "latimer-road",
+        "wood-lane",
+        "shepherds-bush-market",
+        "goldhawk-road",
+        "hammersmith"
+      ]
     },
     {
       "line": "jubilee",
       "stations": [
-        "stanmore", "canons-park", "queensbury", "kingsbury",
-        "wembley-park", "neasden", "dollis-hill", "willesden-green",
-        "kilburn", "west-hampstead", "finchley-road", "swiss-cottage",
-        "st-johns-wood", "baker-street", "bond-street", "green-park",
-        "westminster", "waterloo", "southwark", "london-bridge",
-        "bermondsey", "canada-water", "canary-wharf", "north-greenwich",
-        "canning-town", "west-ham", "stratford"
+        "stratford",
+        "west-ham",
+        "canning-town",
+        "north-greenwich",
+        "canary-wharf",
+        "canada-water",
+        "bermondsey",
+        "london-bridge",
+        "southwark",
+        "waterloo",
+        "westminster",
+        "green-park",
+        "bond-street",
+        "baker-street",
+        "st-johns-wood",
+        "swiss-cottage",
+        "finchley-road",
+        "west-hampstead",
+        "kilburn",
+        "willesden-green",
+        "dollis-hill",
+        "neasden",
+        "wembley-park",
+        "kingsbury",
+        "queensbury",
+        "canons-park",
+        "stanmore"
+      ]
+    },
+    {
+      "line": "liberty",
+      "stations": [
+        "upminster",
+        "emerson-park",
+        "romford"
+      ]
+    },
+    {
+      "line": "lioness",
+      "stations": [
+        "watford-junction",
+        "watford-high-street",
+        "bushey",
+        "carpenders-park",
+        "hatch-end",
+        "headstone-lane",
+        "harrow-wealdstone",
+        "kenton",
+        "south-kenton",
+        "north-wembley",
+        "wembley-central",
+        "stonebridge-park",
+        "harlesden",
+        "willesden-junction",
+        "kensal-green",
+        "queens-park-london",
+        "kilburn-high-road",
+        "south-hampstead",
+        "london-euston"
+      ]
+    },
+    {
+      "line": "metropolitan",
+      "stations": [
+        "aldgate",
+        "liverpool-street",
+        "moorgate",
+        "barbican",
+        "farringdon",
+        "kings-cross-st-pancras",
+        "euston-square",
+        "great-portland-street",
+        "baker-street",
+        "finchley-road",
+        "wembley-park",
+        "preston-road",
+        "northwick-park",
+        "harrow-on-the-hill"
+      ]
+    },
+    {
+      "line": "metropolitan",
+      "stations": [
+        "amersham",
+        "chalfont-and-latimer"
+      ]
+    },
+    {
+      "line": "metropolitan",
+      "stations": [
+        "chalfont-and-latimer",
+        "chesham"
+      ]
+    },
+    {
+      "line": "metropolitan",
+      "stations": [
+        "chalfont-and-latimer",
+        "chorleywood",
+        "rickmansworth",
+        "moor-park"
+      ]
+    },
+    {
+      "line": "metropolitan",
+      "stations": [
+        "harrow-on-the-hill",
+        "west-harrow",
+        "rayners-lane",
+        "eastcote",
+        "ruislip-manor",
+        "ruislip",
+        "ickenham",
+        "hillingdon",
+        "uxbridge"
+      ]
+    },
+    {
+      "line": "metropolitan",
+      "stations": [
+        "moor-park",
+        "croxley",
+        "watford"
+      ]
+    },
+    {
+      "line": "metropolitan",
+      "stations": [
+        "moor-park",
+        "northwood",
+        "northwood-hills",
+        "pinner",
+        "north-harrow",
+        "harrow-on-the-hill"
+      ]
+    },
+    {
+      "line": "metropolitan",
+      "stations": [
+        "wembley-park",
+        "willesden-green",
+        "finchley-road"
+      ]
+    },
+    {
+      "line": "mildmay",
+      "stations": [
+        "clapham-junction",
+        "imperial-wharf",
+        "west-brompton",
+        "kensington-olympia",
+        "shepherds-bush",
+        "willesden-junction"
+      ]
+    },
+    {
+      "line": "mildmay",
+      "stations": [
+        "richmond-london",
+        "kew-gardens",
+        "gunnersbury",
+        "south-acton",
+        "acton-central",
+        "willesden-junction"
+      ]
+    },
+    {
+      "line": "mildmay",
+      "stations": [
+        "willesden-junction",
+        "kensal-rise",
+        "brondesbury-park",
+        "brondesbury",
+        "west-hampstead",
+        "finchley-road-and-frognal",
+        "hampstead-heath",
+        "gospel-oak",
+        "kentish-town-west",
+        "camden-road",
+        "caledonian-road-and-barnsbury",
+        "highbury-islington",
+        "canonbury",
+        "dalston-kingsland",
+        "hackney-central",
+        "homerton",
+        "hackney-wick",
+        "stratford-london"
       ]
     },
     {
       "line": "northern",
       "stations": [
-        "morden", "south-wimbledon", "colliers-wood", "tooting-broadway",
-        "tooting-bec", "balham", "clapham-south", "clapham-common",
-        "clapham-north", "stockwell", "oval", "kennington"
-      ]
-    },
-    {
-      "line": "northern",
-      "stations": ["battersea-power-station", "nine-elms", "kennington"]
-    },
-    {
-      "line": "northern",
-      "stations": [
-        "kennington", "waterloo", "embankment", "charing-cross",
-        "leicester-square", "tottenham-court-road", "goodge-street",
-        "warren-street", "euston", "mornington-crescent", "camden-town"
+        "camden-town",
+        "euston"
       ]
     },
     {
       "line": "northern",
       "stations": [
-        "kennington", "elephant-castle", "borough", "london-bridge",
-        "bank", "moorgate", "old-street", "angel",
-        "kings-cross-st-pancras", "euston", "camden-town"
+        "camden-town",
+        "mornington-crescent",
+        "euston"
       ]
     },
     {
       "line": "northern",
       "stations": [
-        "camden-town", "chalk-farm", "belsize-park", "hampstead",
-        "golders-green", "brent-cross", "hendon-central", "colindale",
-        "burnt-oak", "edgware"
+        "edgware",
+        "burnt-oak",
+        "colindale",
+        "hendon-central",
+        "brent-cross",
+        "golders-green",
+        "hampstead",
+        "belsize-park",
+        "chalk-farm",
+        "camden-town"
       ]
     },
     {
       "line": "northern",
       "stations": [
-        "camden-town", "tufnell-park", "kentish-town", "archway",
-        "highgate", "east-finchley", "finchley-central",
-        "west-finchley", "woodside-park", "totteridge-whetstone",
-        "high-barnet"
+        "euston",
+        "kings-cross-st-pancras",
+        "angel",
+        "old-street",
+        "moorgate",
+        "bank",
+        "london-bridge",
+        "borough",
+        "elephant-castle",
+        "kennington"
       ]
     },
     {
       "line": "northern",
-      "stations": ["finchley-central", "mill-hill-east"]
+      "stations": [
+        "euston",
+        "warren-street",
+        "goodge-street",
+        "tottenham-court-road",
+        "leicester-square",
+        "charing-cross",
+        "embankment",
+        "waterloo",
+        "kennington"
+      ]
+    },
+    {
+      "line": "northern",
+      "stations": [
+        "finchley-central",
+        "east-finchley",
+        "highgate",
+        "archway",
+        "tufnell-park",
+        "kentish-town",
+        "camden-town"
+      ]
+    },
+    {
+      "line": "northern",
+      "stations": [
+        "high-barnet",
+        "totteridge-whetstone",
+        "woodside-park",
+        "west-finchley",
+        "finchley-central"
+      ]
+    },
+    {
+      "line": "northern",
+      "stations": [
+        "kennington",
+        "nine-elms",
+        "battersea-power-station"
+      ]
+    },
+    {
+      "line": "northern",
+      "stations": [
+        "kennington",
+        "oval",
+        "stockwell",
+        "clapham-north",
+        "clapham-common",
+        "clapham-south",
+        "balham",
+        "tooting-bec",
+        "tooting-broadway",
+        "colliers-wood",
+        "south-wimbledon",
+        "morden"
+      ]
+    },
+    {
+      "line": "northern",
+      "stations": [
+        "mill-hill-east",
+        "finchley-central"
+      ]
     },
     {
       "line": "piccadilly",
       "stations": [
-        "cockfosters", "oakwood", "southgate", "arnos-grove",
-        "bounds-green", "wood-green", "turnpike-lane", "manor-house",
-        "finsbury-park", "arsenal", "holloway-road", "caledonian-road",
-        "kings-cross-st-pancras", "russell-square", "holborn",
-        "covent-garden", "leicester-square", "piccadilly-circus",
-        "green-park", "hyde-park-corner", "knightsbridge",
-        "south-kensington", "gloucester-road", "earls-court",
-        "barons-court", "hammersmith", "turnham-green", "acton-town"
+        "acton-town",
+        "ealing-common",
+        "north-ealing",
+        "park-royal",
+        "alperton",
+        "sudbury-town",
+        "sudbury-hill",
+        "south-harrow",
+        "rayners-lane",
+        "eastcote",
+        "ruislip-manor",
+        "ruislip",
+        "ickenham",
+        "hillingdon",
+        "uxbridge"
       ]
     },
     {
       "line": "piccadilly",
       "stations": [
-        "acton-town", "ealing-common", "north-ealing", "park-royal",
-        "alperton", "sudbury-town", "sudbury-hill", "south-harrow",
-        "rayners-lane", "eastcote", "ruislip-manor", "ruislip",
-        "ickenham", "hillingdon", "uxbridge"
+        "cockfosters",
+        "oakwood",
+        "southgate",
+        "arnos-grove",
+        "bounds-green",
+        "wood-green",
+        "turnpike-lane",
+        "manor-house",
+        "finsbury-park",
+        "arsenal",
+        "holloway-road",
+        "caledonian-road",
+        "kings-cross-st-pancras",
+        "russell-square",
+        "holborn",
+        "covent-garden",
+        "leicester-square",
+        "piccadilly-circus",
+        "green-park",
+        "hyde-park-corner",
+        "knightsbridge",
+        "south-kensington",
+        "gloucester-road",
+        "earls-court",
+        "barons-court",
+        "hammersmith",
+        "turnham-green",
+        "acton-town"
       ]
     },
     {
       "line": "piccadilly",
       "stations": [
-        "acton-town", "south-ealing", "northfields", "boston-manor",
-        "osterley", "hounslow-east", "hounslow-central", "hounslow-west",
-        "hatton-cross", "heathrow-terminals-2-3", "heathrow-terminal-5"
+        "hatton-cross",
+        "heathrow-terminal-4"
       ]
     },
     {
       "line": "piccadilly",
-      "stations": ["hatton-cross", "heathrow-terminal-4"]
+      "stations": [
+        "hatton-cross",
+        "heathrow-terminals-2-3",
+        "heathrow-terminal-5"
+      ]
+    },
+    {
+      "line": "piccadilly",
+      "stations": [
+        "heathrow-terminal-4",
+        "heathrow-terminals-2-3"
+      ]
+    },
+    {
+      "line": "piccadilly",
+      "stations": [
+        "heathrow-terminals-2-3",
+        "hatton-cross",
+        "hounslow-west",
+        "hounslow-central",
+        "hounslow-east",
+        "osterley",
+        "boston-manor",
+        "northfields",
+        "south-ealing",
+        "acton-town"
+      ]
+    },
+    {
+      "line": "suffragette",
+      "stations": [
+        "barking-riverside",
+        "barking",
+        "woodgrange-park",
+        "wanstead-park",
+        "leytonstone-high-road",
+        "leyton-midland-road",
+        "walthamstow-queens-road",
+        "blackhorse-road",
+        "south-tottenham",
+        "harringay-green-lanes",
+        "crouch-hill",
+        "upper-holloway",
+        "gospel-oak"
+      ]
     },
     {
       "line": "victoria",
       "stations": [
-        "brixton", "stockwell", "vauxhall", "pimlico", "victoria",
-        "green-park", "oxford-circus", "warren-street", "euston",
-        "kings-cross-st-pancras", "highbury-islington", "finsbury-park",
-        "seven-sisters", "tottenham-hale", "blackhorse-road",
-        "walthamstow-central"
+        "walthamstow-central",
+        "blackhorse-road",
+        "tottenham-hale",
+        "seven-sisters",
+        "finsbury-park",
+        "highbury-islington",
+        "kings-cross-st-pancras",
+        "euston",
+        "warren-street",
+        "oxford-circus",
+        "green-park",
+        "victoria",
+        "pimlico",
+        "vauxhall",
+        "stockwell",
+        "brixton"
       ]
     },
     {
       "line": "waterloo-city",
-      "stations": ["waterloo", "bank"]
+      "stations": [
+        "bank",
+        "waterloo"
+      ]
+    },
+    {
+      "line": "weaver",
+      "stations": [
+        "cheshunt",
+        "theobalds-grove",
+        "turkey-street",
+        "southbury",
+        "edmonton-green"
+      ]
+    },
+    {
+      "line": "weaver",
+      "stations": [
+        "chingford",
+        "highams-park",
+        "wood-street",
+        "walthamstow-central",
+        "st-james-street-london",
+        "clapton",
+        "hackney-downs"
+      ]
+    },
+    {
+      "line": "weaver",
+      "stations": [
+        "edmonton-green",
+        "silver-street",
+        "white-hart-lane",
+        "bruce-grove",
+        "seven-sisters",
+        "stamford-hill",
+        "stoke-newington",
+        "rectory-road",
+        "hackney-downs"
+      ]
+    },
+    {
+      "line": "weaver",
+      "stations": [
+        "enfield-town",
+        "bush-hill-park",
+        "edmonton-green"
+      ]
+    },
+    {
+      "line": "weaver",
+      "stations": [
+        "hackney-downs",
+        "london-fields",
+        "cambridge-heath-london",
+        "bethnal-green",
+        "london-liverpool-street"
+      ]
+    },
+    {
+      "line": "windrush",
+      "stations": [
+        "clapham-junction",
+        "wandsworth-road",
+        "clapham-high-street",
+        "denmark-hill",
+        "peckham-rye",
+        "queens-road-peckham",
+        "surrey-quays"
+      ]
+    },
+    {
+      "line": "windrush",
+      "stations": [
+        "crystal-palace",
+        "sydenham"
+      ]
+    },
+    {
+      "line": "windrush",
+      "stations": [
+        "new-cross-ell",
+        "surrey-quays"
+      ]
+    },
+    {
+      "line": "windrush",
+      "stations": [
+        "surrey-quays",
+        "canada-water",
+        "rotherhithe",
+        "wapping",
+        "shadwell",
+        "whitechapel",
+        "shoreditch-high-street",
+        "hoxton",
+        "haggerston",
+        "dalston-junction",
+        "canonbury",
+        "highbury-islington"
+      ]
+    },
+    {
+      "line": "windrush",
+      "stations": [
+        "sydenham",
+        "forest-hill",
+        "honor-oak-park",
+        "brockley",
+        "new-cross-gate",
+        "surrey-quays"
+      ]
+    },
+    {
+      "line": "windrush",
+      "stations": [
+        "west-croydon",
+        "norwood-junction",
+        "anerley",
+        "penge-west",
+        "sydenham"
+      ]
     }
   ]
 }
