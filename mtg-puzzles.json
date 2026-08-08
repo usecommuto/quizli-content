@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "puzzles": [
     {
       "id": "mtg-001",
@@ -135,11 +135,6 @@
       "id": "mtg-027",
       "start": "green-park",
       "dest": "bank"
-    },
-    {
-      "id": "mtg-028",
-      "start": "heathrow-terminals-2-3",
-      "dest": "stratford"
     },
     {
       "id": "mtg-029",
@@ -907,24 +902,9 @@
       "dest": "pimlico"
     },
     {
-      "id": "mtg-182",
-      "start": "richmond",
-      "dest": "stratford"
-    },
-    {
-      "id": "mtg-183",
-      "start": "wimbledon",
-      "dest": "bank"
-    },
-    {
       "id": "mtg-184",
       "start": "clapham-junction",
       "dest": "canary-wharf"
-    },
-    {
-      "id": "mtg-185",
-      "start": "watford-junction",
-      "dest": "euston"
     },
     {
       "id": "mtg-186",
@@ -935,11 +915,6 @@
       "id": "mtg-187",
       "start": "hainault",
       "dest": "clapham-junction"
-    },
-    {
-      "id": "mtg-188",
-      "start": "liverpool-street",
-      "dest": "chingford"
     },
     {
       "id": "mtg-189",
@@ -962,29 +937,14 @@
       "dest": "richmond"
     },
     {
-      "id": "mtg-193",
-      "start": "richmond",
-      "dest": "bank"
-    },
-    {
       "id": "mtg-194",
       "start": "wimbledon",
-      "dest": "stratford"
-    },
-    {
-      "id": "mtg-195",
-      "start": "romford",
       "dest": "stratford"
     },
     {
       "id": "mtg-196",
       "start": "woolwich-arsenal",
       "dest": "harrow-on-the-hill"
-    },
-    {
-      "id": "mtg-197",
-      "start": "clapham-junction",
-      "dest": "stratford"
     },
     {
       "id": "mtg-198",

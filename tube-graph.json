@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 5,
   "lines": [
     {
       "id": "bakerloo",
@@ -229,6 +229,8 @@
       "name": "Bank",
       "lines": [
         "central",
+        "circle",
+        "district",
         "dlr",
         "northern",
         "waterloo-city"
@@ -462,6 +464,13 @@
       "name": "Buckhurst Hill",
       "lines": [
         "central"
+      ]
+    },
+    {
+      "id": "burnham-berks",
+      "name": "Burnham (Berks)",
+      "lines": [
+        "elizabeth"
       ]
     },
     {
@@ -756,14 +765,8 @@
       "id": "custom-house",
       "name": "Custom House",
       "lines": [
+        "dlr",
         "elizabeth"
-      ]
-    },
-    {
-      "id": "custom-house-for-excel",
-      "name": "Custom House (for ExCel)",
-      "lines": [
-        "dlr"
       ]
     },
     {
@@ -993,6 +996,7 @@
       "id": "euston",
       "name": "Euston",
       "lines": [
+        "lioness",
         "northern",
         "victoria"
       ]
@@ -1740,7 +1744,8 @@
         "circle",
         "elizabeth",
         "hammersmith-city",
-        "metropolitan"
+        "metropolitan",
+        "weaver"
       ]
     },
     {
@@ -1759,32 +1764,10 @@
       ]
     },
     {
-      "id": "london-euston",
-      "name": "London Euston",
-      "lines": [
-        "lioness"
-      ]
-    },
-    {
       "id": "london-fields",
       "name": "London Fields",
       "lines": [
         "weaver"
-      ]
-    },
-    {
-      "id": "london-liverpool-street",
-      "name": "London Liverpool Street",
-      "lines": [
-        "elizabeth",
-        "weaver"
-      ]
-    },
-    {
-      "id": "london-paddington",
-      "name": "London Paddington",
-      "lines": [
-        "elizabeth"
       ]
     },
     {
@@ -1799,6 +1782,13 @@
       "name": "Maida Vale",
       "lines": [
         "bakerloo"
+      ]
+    },
+    {
+      "id": "maidenhead",
+      "name": "Maidenhead",
+      "lines": [
+        "elizabeth"
       ]
     },
     {
@@ -1858,14 +1848,6 @@
       "name": "Mill Hill East",
       "lines": [
         "northern"
-      ]
-    },
-    {
-      "id": "monument",
-      "name": "Monument",
-      "lines": [
-        "circle",
-        "district"
       ]
     },
     {
@@ -2072,14 +2054,7 @@
         "bakerloo",
         "circle",
         "district",
-        "elizabeth"
-      ]
-    },
-    {
-      "id": "paddington-h-and-c-line-underground",
-      "name": "Paddington (H&C Line)-Underground",
-      "lines": [
-        "circle",
+        "elizabeth",
         "hammersmith-city"
       ]
     },
@@ -2194,13 +2169,7 @@
       "id": "queens-park",
       "name": "Queen's Park",
       "lines": [
-        "bakerloo"
-      ]
-    },
-    {
-      "id": "queens-park-london",
-      "name": "Queens Park (London)",
-      "lines": [
+        "bakerloo",
         "lioness"
       ]
     },
@@ -2241,6 +2210,13 @@
       ]
     },
     {
+      "id": "reading",
+      "name": "Reading",
+      "lines": [
+        "elizabeth"
+      ]
+    },
+    {
       "id": "rectory-road",
       "name": "Rectory Road",
       "lines": [
@@ -2265,13 +2241,7 @@
       "id": "richmond",
       "name": "Richmond",
       "lines": [
-        "district"
-      ]
-    },
-    {
-      "id": "richmond-london",
-      "name": "Richmond (London)",
-      "lines": [
+        "district",
         "mildmay"
       ]
     },
@@ -2422,6 +2392,13 @@
       "lines": [
         "circle",
         "district"
+      ]
+    },
+    {
+      "id": "slough",
+      "name": "Slough",
+      "lines": [
+        "elizabeth"
       ]
     },
     {
@@ -2640,7 +2617,9 @@
       "lines": [
         "central",
         "dlr",
-        "jubilee"
+        "elizabeth",
+        "jubilee",
+        "mildmay"
       ]
     },
     {
@@ -2655,14 +2634,6 @@
       "name": "Stratford International",
       "lines": [
         "dlr"
-      ]
-    },
-    {
-      "id": "stratford-london",
-      "name": "Stratford (London)",
-      "lines": [
-        "elizabeth",
-        "mildmay"
       ]
     },
     {
@@ -2698,6 +2669,13 @@
       "name": "Sydenham",
       "lines": [
         "windrush"
+      ]
+    },
+    {
+      "id": "taplow",
+      "name": "Taplow",
+      "lines": [
+        "elizabeth"
       ]
     },
     {
@@ -2801,6 +2779,13 @@
       "name": "Turnpike Lane",
       "lines": [
         "piccadilly"
+      ]
+    },
+    {
+      "id": "twyford",
+      "name": "Twyford",
+      "lines": [
+        "elizabeth"
       ]
     },
     {
@@ -3343,7 +3328,7 @@
         "blackfriars",
         "mansion-house",
         "cannon-street",
-        "monument",
+        "bank",
         "tower-hill",
         "aldgate",
         "liverpool-street",
@@ -3361,7 +3346,7 @@
       "line": "circle",
       "stations": [
         "edgware-road",
-        "paddington-h-and-c-line-underground",
+        "paddington",
         "royal-oak",
         "westbourne-park",
         "ladbroke-grove",
@@ -3458,7 +3443,7 @@
         "whitechapel",
         "aldgate-east",
         "tower-hill",
-        "monument",
+        "bank",
         "cannon-street",
         "mansion-house",
         "blackfriars",
@@ -3482,7 +3467,7 @@
         "beckton-park",
         "royal-albert",
         "prince-regent",
-        "custom-house-for-excel",
+        "custom-house",
         "royal-victoria",
         "canning-town"
       ]
@@ -3609,13 +3594,6 @@
       "line": "elizabeth",
       "stations": [
         "acton-main-line",
-        "london-paddington"
-      ]
-    },
-    {
-      "line": "elizabeth",
-      "stations": [
-        "acton-main-line",
         "paddington"
       ]
     },
@@ -3654,17 +3632,8 @@
     {
       "line": "elizabeth",
       "stations": [
-        "langley-berks",
-        "iver",
-        "west-drayton",
-        "hayes-and-harlington"
-      ]
-    },
-    {
-      "line": "elizabeth",
-      "stations": [
-        "london-liverpool-street",
-        "stratford-london"
+        "liverpool-street",
+        "stratford"
       ]
     },
     {
@@ -3681,7 +3650,22 @@
     {
       "line": "elizabeth",
       "stations": [
-        "stratford-london",
+        "reading",
+        "twyford",
+        "maidenhead",
+        "taplow",
+        "burnham-berks",
+        "slough",
+        "langley-berks",
+        "iver",
+        "west-drayton",
+        "hayes-and-harlington"
+      ]
+    },
+    {
+      "line": "elizabeth",
+      "stations": [
+        "stratford",
         "maryland",
         "forest-gate",
         "manor-park",
@@ -3710,7 +3694,7 @@
       "line": "elizabeth",
       "stations": [
         "whitechapel",
-        "stratford-london"
+        "stratford"
       ]
     },
     {
@@ -3736,7 +3720,7 @@
         "great-portland-street",
         "baker-street",
         "edgware-road",
-        "paddington-h-and-c-line-underground",
+        "paddington",
         "royal-oak",
         "westbourne-park",
         "ladbroke-grove",
@@ -3805,10 +3789,10 @@
         "harlesden",
         "willesden-junction",
         "kensal-green",
-        "queens-park-london",
+        "queens-park",
         "kilburn-high-road",
         "south-hampstead",
-        "london-euston"
+        "euston"
       ]
     },
     {
@@ -3908,7 +3892,7 @@
     {
       "line": "mildmay",
       "stations": [
-        "richmond-london",
+        "richmond",
         "kew-gardens",
         "gunnersbury",
         "south-acton",
@@ -3936,7 +3920,7 @@
         "hackney-central",
         "homerton",
         "hackney-wick",
-        "stratford-london"
+        "stratford"
       ]
     },
     {
@@ -4239,7 +4223,7 @@
         "london-fields",
         "cambridge-heath-london",
         "bethnal-green",
-        "london-liverpool-street"
+        "liverpool-street"
       ]
     },
     {
