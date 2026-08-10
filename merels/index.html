@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Apps — Quizli & Merels</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font: 16px/1.6 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+         background: #F6F1E7; color: #2C2824; min-height: 100vh;
+         display: flex; flex-direction: column; align-items: center;
+         padding: 3.5rem 1.25rem; }
+  .head { text-align: center; margin-bottom: 2.75rem; }
+  h1 { font-family: Georgia, serif; font-size: 2.1rem; letter-spacing: .01em; }
+  .head p { color: #6b645c; margin-top: .4rem; }
+  .grid { display: grid; gap: 1.25rem; width: 100%; max-width: 40rem; }
+  .app { display: flex; gap: 1.1rem; align-items: center; background: #fffdf8;
+         border: 1px solid #e4dccb; border-radius: 20px; padding: 1.5rem; }
+  .icon { width: 76px; height: 76px; border-radius: 18px; flex: none;
+          display: flex; align-items: center; justify-content: center;
+          font-family: Georgia, serif; font-weight: 700; color: #fff; font-size: 1.9rem; }
+  .icon.quizli { background: #C8522E; }
+  .icon.merels { background: #5B7C9B; position: relative; }
+  /* simple mill mark for Merels */
+  .icon.merels span { width: 44px; height: 6px; background: #fff; border-radius: 3px;
+    box-shadow: 0 -13px 0 #fff, 0 13px 0 #fff; }
+  .app .body { flex: 1 1 auto; min-width: 0; }
+  .app h2 { font-size: 1.25rem; font-family: Georgia, serif; }
+  .app .tag { color: #6b645c; font-size: .95rem; margin: .15rem 0 .9rem; }
+  .btn { display: inline-block; text-decoration: none; font-weight: 700; font-size: .95rem;
+         padding: .6rem 1.25rem; border-radius: 12px; color: #fff; }
+  .btn.quizli { background: #C8522E; } .btn.quizli:hover { background: #A8421E; }
+  .btn.merels { background: #5B7C9B; } .btn.merels:hover { background: #476383; }
+  .btn.soon { background: #d8cfbe; color: #6b645c; pointer-events: none; }
+  .footer { margin-top: 3rem; font-size: 13px; color: #8a8175; text-align: center; }
+  .footer a { color: #5B7C9B; text-decoration: none; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #201E1D; color: #EDE6D8; }
+    .app { background: #2b2926; border-color: #3a3733; }
+    .app .tag, .head p { color: #b3ab9e; }
+    .btn.soon { background: #3a3733; color: #b3ab9e; }
+    .footer a { color: #B1C6D8; }
+  }
+</style>
+</head>
+<body>
+  <div class="head">
+    <h1>Our Apps</h1>
+    <p>Small, calm daily games for iPhone.</p>
+  </div>
+
+  <div class="grid">
+    <div class="app">
+      <div class="icon quizli">Q</div>
+      <div class="body">
+        <h2>Quizli</h2>
+        <p class="tag">Daily London trivia — five new questions every day, compare with friends.</p>
+        <a class="btn quizli" href="https://apps.apple.com/app/id6782616529">Download on the App Store</a>
+      </div>
+    </div>
+
+    <div class="app">
+      <div class="icon merels"><span></span></div>
+      <div class="body">
+        <h2>Merels</h2>
+        <p class="tag">Daily Nine Men's Morris — line up three, outsmart the board, keep your streak.</p>
+        <!-- When Merels is live, swap href to https://apps.apple.com/app/id<MERELS_ID> and class to "btn merels" -->
+        <a class="btn soon">Coming soon to the App Store</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Merels: <a href="privacy/">Privacy</a> · <a href="support/">Support</a>
+  </div>
+</body>
+</html>
