@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merels — Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font: 16px/1.6 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+         background: #F6F1E7; color: #2C2824; padding: 2rem 1.25rem; max-width: 42rem; margin: 0 auto; }
+  h1 { font-family: Georgia, serif; font-size: 2rem; margin-bottom: .25rem; }
+  .subtitle { color: #6b645c; margin-bottom: 2rem; }
+  .card { background: #fffdf8; border: 1px solid #e4dccb; border-radius: 16px; padding: 1.5rem;
+          text-align: center; margin-bottom: 2.25rem; }
+  .card p { color: #4A4A4A; margin-bottom: 1rem; }
+  .btn { display: inline-block; background: #5B7C9B; color: #fff; text-decoration: none;
+         font-weight: 700; padding: .85rem 2rem; border-radius: 14px; }
+  .btn:hover { background: #476383; }
+  h2 { font-family: Georgia, serif; font-size: 1.3rem; margin-bottom: 1rem; }
+  details { margin-bottom: .75rem; }
+  summary { font-weight: 600; cursor: pointer; padding: 1rem; background: #fffdf8;
+            border: 1px solid #e4dccb; border-radius: 12px; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "+ "; color: #5B7C9B; font-weight: 800; }
+  details[open] summary::before { content: "− "; }
+  details[open] summary { border-radius: 12px 12px 0 0; border-bottom: none; }
+  .answer { color: #4A4A4A; padding: 1rem; background: #fffdf8; border: 1px solid #e4dccb;
+            border-top: none; border-radius: 0 0 12px 12px; }
+  a { color: #5B7C9B; }
+  .footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #e4dccb;
+            font-size: 13px; color: #6b645c; text-align: center; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #201E1D; color: #EDE6D8; }
+    .card, summary, .answer { background: #2b2926; border-color: #3a3733; }
+    .card p, .answer { color: #cfc7ba; } a { color: #B1C6D8; } .btn { background: #5B7C9B; }
+  }
+</style>
+</head>
+<body>
+  <h1>Support</h1>
+  <p class="subtitle">Need help with Merels? Check the FAQs below or get in touch.</p>
+
+  <div class="card">
+    <p>Can't find what you need? Send an email and we'll get back to you as soon as we can.</p>
+    <a class="btn" href="mailto:willis124578@gmail.com?subject=Merels%20Support">Email Us</a>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <details>
+    <summary>How does the daily puzzle work?</summary>
+    <div class="answer">Every day there's a new board, the same for everyone. Line up three of your
+      pieces — a "mill" — within the move limit to capture a piece and win. Solve it to keep your
+      streak going. It resets at midnight your local time.</div>
+  </details>
+
+  <details>
+    <summary>What happens if I miss a day?</summary>
+    <div class="answer">Your streak counts consecutive days you solved <em>on the day itself</em>.
+      Miss a day and the streak resets. Replaying an older day from the archive doesn't repair a
+      broken streak.</div>
+  </details>
+
+  <details>
+    <summary>If I delete the app, do I lose my streak and stats?</summary>
+    <div class="answer">If you're signed in to iCloud, your streak, stats and puzzle progress sync
+      privately through your iCloud account, so they're restored when you reinstall or move to a
+      new device. Premium is tied to your Apple ID and is restored automatically (or with "Restore
+      purchases").</div>
+  </details>
+
+  <details>
+    <summary>What is Merels Premium?</summary>
+    <div class="answer">An optional subscription (monthly or yearly) that removes ads and unlocks all
+      150 puzzles plus the full daily archive. The daily puzzle and the first ten puzzles are free
+      forever. It auto-renews until cancelled; cancel anytime from your Apple ID settings.</div>
+  </details>
+
+  <details>
+    <summary>How do I restore my purchase?</summary>
+    <div class="answer">Open Settings (the cog on the home screen) or the Premium screen and tap
+      "Restore". This restores any Premium subscription linked to your Apple ID.</div>
+  </details>
+
+  <details>
+    <summary>How do hints work?</summary>
+    <div class="answer">Each puzzle gives you two free hints that point to a good move. After that you
+      can watch a short ad to unlock one more. Premium members skip the ad.</div>
+  </details>
+
+  <details>
+    <summary>Can I play offline?</summary>
+    <div class="answer">Yes — Merels works fully offline. The daily puzzle and all puzzles are
+      generated on your device. (Ads and iCloud sync need a connection, but the game doesn't.)</div>
+  </details>
+
+  <details>
+    <summary>How do you win against the computer?</summary>
+    <div class="answer">Place all nine pieces, then slide them to neighbouring points. Line up three
+      to capture one of the computer's pieces. You win by reducing it to two pieces — or by leaving
+      it with no legal move.</div>
+  </details>
+
+  <details>
+    <summary>Is my data private?</summary>
+    <div class="answer">Your progress stays on your device and in your own iCloud account — we don't
+      run accounts or collect it. Ads are served by Google AdMob. See our full
+      <a href="../privacy/">Privacy Policy</a>.</div>
+  </details>
+
+  <details>
+    <summary>The app isn't loading or is crashing</summary>
+    <div class="answer">Close and reopen the app, then restart your iPhone if needed. Make sure you're
+      on the latest version from the App Store. If it persists, email us with your device and iOS
+      version.</div>
+  </details>
+
+  <div class="footer">
+    <a href="../privacy/">Privacy Policy</a> · Merels — Daily Nine Men's Morris
+  </div>
+</body>
+</html>
