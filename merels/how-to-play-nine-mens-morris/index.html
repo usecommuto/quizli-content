@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Play Nine Men's Morris — Rules, Board &amp; Strategy</title>
+<meta name="description" content="Learn how to play Nine Men's Morris (also called Merels or Mills): the board, placing and moving pieces, how to form a mill and capture, how to win, rule variations and beginner strategy — with clear diagrams.">
+<link rel="canonical" href="https://merels.app/how-to-play-nine-mens-morris/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Play Nine Men's Morris — Rules, Board & Strategy">
+<meta property="og:description" content="A clear, complete guide to Nine Men's Morris (Merels / Mills): rules, diagrams, how to form a mill, how to win, and beginner strategy.">
+<meta property="og:url" content="https://merels.app/how-to-play-nine-mens-morris/">
+<meta property="og:site_name" content="Merels">
+<!-- Add a 1200x630 raster at /og-how-to-play.png then uncomment:
+<meta property="og:image" content="https://merels.app/og-how-to-play.png"> -->
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root { color-scheme: light dark;
+    --bg:#F6F1E7; --ink:#2C2824; --mute:#6b645c; --card:#fffdf8; --line:#e4dccb;
+    --accent:#5B7C9B; --accent-ink:#476383; --board:#2C2824; --piece:#5B7C9B; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#201E1D; --ink:#EDE6D8; --mute:#b3ab9e; --card:#2b2926; --line:#3a3733;
+      --accent:#B1C6D8; --accent-ink:#8FB0C8; --board:#c9bfae; --piece:#B1C6D8; }
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font:17px/1.65 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+    background:var(--bg); color:var(--ink); -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:720px; margin:0 auto; padding:0 1.25rem; }
+  h1,h2,h3 { font-family:Georgia, "Times New Roman", serif; line-height:1.2; letter-spacing:.005em; }
+  h1 { font-size:2.35rem; margin:.2rem 0 .5rem; }
+  h2 { font-size:1.55rem; margin:2.6rem 0 .8rem; padding-top:.3rem; }
+  h3 { font-size:1.2rem; margin:1.6rem 0 .4rem; }
+  p, ul, ol { margin:.7rem 0; }
+  ul, ol { padding-left:1.3rem; } li { margin:.35rem 0; }
+  a { color:var(--accent-ink); text-decoration:none; } a:hover { text-decoration:underline; }
+  strong { font-weight:700; }
+  .lede { font-size:1.15rem; color:var(--mute); margin-top:.3rem; }
+  .aka { font-size:.95rem; color:var(--mute); margin-top:.9rem; }
+  header.masthead { border-bottom:1px solid var(--line); }
+  .nav { display:flex; align-items:center; gap:.6rem; padding:1rem 0; font-size:.95rem; }
+  .mark { width:26px; height:26px; border-radius:7px; background:var(--accent);
+    display:inline-flex; align-items:center; justify-content:center; flex:none; }
+  .mark span { width:15px; height:3px; background:#fff; border-radius:2px;
+    box-shadow:0 -5px 0 #fff, 0 5px 0 #fff; }
+  .nav b { font-family:Georgia,serif; font-weight:700; font-size:1.05rem; }
+  .nav .sp { flex:1; }
+  /* CTA */
+  .cta { background:var(--card); border:1px solid var(--line); border-radius:18px;
+    padding:1.3rem 1.4rem; margin:1.4rem 0; display:flex; gap:1.1rem; align-items:center; flex-wrap:wrap; }
+  .cta .icon { width:60px; height:60px; border-radius:15px; background:var(--accent); flex:none;
+    display:flex; align-items:center; justify-content:center; }
+  .cta .icon span { width:32px; height:5px; background:#fff; border-radius:3px;
+    box-shadow:0 -11px 0 #fff, 0 11px 0 #fff; }
+  .cta .txt { flex:1 1 240px; }
+  .cta .txt b { font-family:Georgia,serif; font-size:1.15rem; display:block; }
+  .cta .txt small { color:var(--mute); }
+  .btn { display:inline-block; background:var(--accent); color:#fff; font-weight:700; font-size:.95rem;
+    padding:.65rem 1.3rem; border-radius:12px; white-space:nowrap; }
+  .btn:hover { background:var(--accent-ink); text-decoration:none; }
+  .btn.soon { background:#d8cfbe; color:#6b645c; cursor:default; }
+  @media (prefers-color-scheme: dark){ .btn.soon{ background:#3a3733; color:#b3ab9e; } }
+  /* Facts */
+  .facts { display:grid; grid-template-columns:repeat(2,1fr); gap:.6rem; margin:1.4rem 0;
+    background:var(--card); border:1px solid var(--line); border-radius:16px; padding:1.1rem 1.2rem; }
+  .facts div { font-size:.95rem; } .facts b { display:block; font-size:.78rem; text-transform:uppercase;
+    letter-spacing:.06em; color:var(--mute); margin-bottom:.1rem; }
+  /* Figures */
+  figure { margin:1.4rem auto; text-align:center; }
+  figure svg { width:100%; max-width:300px; height:auto; }
+  figure svg .frame { fill:none; stroke:var(--board); stroke-width:3; stroke-linejoin:round; }
+  figure svg .pts { fill:var(--board); }
+  figure svg .mill { stroke:var(--accent); stroke-width:6; stroke-linecap:round; }
+  figure svg .pieces { fill:var(--piece); stroke:#fff; stroke-width:2; }
+  figcaption { font-size:.9rem; color:var(--mute); margin-top:.5rem; }
+  .callout { background:var(--card); border:1px solid var(--line); border-left:3px solid var(--accent);
+    border-radius:10px; padding:.9rem 1.1rem; margin:1.1rem 0; font-size:.98rem; }
+  .faq h3 { margin-top:1.3rem; } .faq p { margin-top:.2rem; }
+  footer { border-top:1px solid var(--line); margin-top:3rem; padding:1.6rem 0 2.5rem;
+    font-size:.9rem; color:var(--mute); text-align:center; }
+  footer a { color:var(--accent-ink); } footer .row { margin-top:.4rem; }
+  hr.soft { border:none; border-top:1px solid var(--line); margin:2rem 0; }
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Merels","item":"https://merels.app/"},
+        {"@type":"ListItem","position":2,"name":"How to Play Nine Men's Morris","item":"https://merels.app/how-to-play-nine-mens-morris/"}
+      ]
+    },
+    {
+      "@type":"HowTo",
+      "name":"How to Play Nine Men's Morris",
+      "description":"The complete rules of Nine Men's Morris (Merels / Mills): set up the board, place and move your nine pieces, form mills to capture, and win by reducing your opponent to two pieces.",
+      "totalTime":"PT10M",
+      "supply":[{"@type":"HowToSupply","name":"Nine Men's Morris board (24 points)"},{"@type":"HowToSupply","name":"9 pieces per player"}],
+      "step":[
+        {"@type":"HowToStep","name":"Set up the board","text":"Use a board of three nested squares joined at the midpoints, giving 24 points where lines meet. The board starts empty."},
+        {"@type":"HowToStep","name":"Place your nine pieces","text":"Players take turns placing one piece at a time on any empty point until all eighteen pieces are on the board."},
+        {"@type":"HowToStep","name":"Move to adjacent points","text":"Once all pieces are placed, players take turns sliding one piece along a line to an adjacent empty point."},
+        {"@type":"HowToStep","name":"Form a mill to capture","text":"Line up three of your own pieces along a marked line to form a mill, then remove one of your opponent's pieces."},
+        {"@type":"HowToStep","name":"Win the game","text":"Win by reducing your opponent to two pieces, or by leaving them with no legal move."}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"What is Nine Men's Morris?","acceptedAnswer":{"@type":"Answer","text":"Nine Men's Morris is a classic two-player strategy board game, also known as Merels or Mills. Each player has nine pieces and tries to form 'mills' (three in a row) to capture the opponent's pieces, winning by reducing them to two pieces."}},
+        {"@type":"Question","name":"How do you win Nine Men's Morris?","acceptedAnswer":{"@type":"Answer","text":"You win by reducing your opponent to two pieces (they can no longer form a mill), or by leaving them with no legal move on their turn."}},
+        {"@type":"Question","name":"What is a mill?","acceptedAnswer":{"@type":"Answer","text":"A mill is three of your own pieces in a row along one of the board's marked lines. Each time you form a mill, you remove one of your opponent's pieces."}},
+        {"@type":"Question","name":"Can you break and re-form a mill?","acceptedAnswer":{"@type":"Answer","text":"Yes. You may move a piece out of a mill and, on a later turn, move it back to re-form the mill, capturing another piece each time. Setting up two mills that share a piece (a 'running mill') is a powerful tactic."}},
+        {"@type":"Question","name":"What is flying in Nine Men's Morris?","acceptedAnswer":{"@type":"Answer","text":"In the common variation, when a player is down to three pieces they may 'fly' — move a piece to any empty point on the board instead of only to an adjacent point. Some rule sets leave flying out."}},
+        {"@type":"Question","name":"What is Nine Men's Morris also called?","acceptedAnswer":{"@type":"Answer","text":"It is also known as Merels (or Merrills), Mills, Nine Man Morris, Mühle in German, and Cowboy Checkers in some regions."}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <nav class="nav">
+      <a class="mark" href="https://merels.app/" aria-label="Merels home"><span></span></a>
+      <b>Merels</b>
+      <span class="sp"></span>
+      <a href="/nine-mens-morris-online/">Play the app</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>How to Play Nine Men's Morris</h1>
+  <p class="lede">A complete, beginner-friendly guide to one of the oldest board games in the world — the rules, the board, how to form a mill, how to win, and the strategy that separates good players from great ones.</p>
+  <p class="aka">Also known as <strong>Merels</strong>, <strong>Mills</strong>, <strong>Nine Man Morris</strong>, <strong>Merrills</strong>, <em>Mühle</em>, or "Cowboy Checkers".</p>
+
+  <!-- TOP CTA. At launch: change text to "Get it on the App Store" and add
+       href="https://apps.apple.com/app/id6782616500" (remove class "soon"). -->
+  <div class="cta">
+    <div class="icon"><span></span></div>
+    <div class="txt">
+      <b>Merels — Daily Nine Men's Morris</b>
+      <small>A daily puzzle, play vs the computer, and 150 hand-made puzzles. Free on iPhone.</small>
+    </div>
+    <a class="btn soon">Coming soon to the App Store</a>
+  </div>
+
+  <div class="facts">
+    <div><b>Players</b>2</div>
+    <div><b>Pieces each</b>9</div>
+    <div><b>Board</b>24 points</div>
+    <div><b>Goal</b>Reduce opponent to 2</div>
+    <div><b>Age range</b>8+</div>
+    <div><b>Play time</b>5–15 min</div>
+  </div>
+
+  <h2>The object of the game</h2>
+  <p>Nine Men's Morris is a game of lining up three. Each turn you try to form a <strong>mill</strong> — three of your own pieces in a straight line along the board's marked paths. Every mill you make lets you remove one of your opponent's pieces. Grind them down to <strong>two pieces</strong>, or trap them with <strong>no legal move</strong>, and you win.</p>
+
+  <h2>The board</h2>
+  <figure>
+    <svg viewBox="0 0 300 300" role="img" aria-label="Nine Men's Morris board: three nested squares joined at the midpoints, with 24 points where the lines meet.">
+      <g class="frame">
+        <rect x="30" y="30" width="240" height="240"/>
+        <rect x="70" y="70" width="160" height="160"/>
+        <rect x="110" y="110" width="80" height="80"/>
+        <line x1="150" y1="30" x2="150" y2="110"/>
+        <line x1="150" y1="190" x2="150" y2="270"/>
+        <line x1="30" y1="150" x2="110" y2="150"/>
+        <line x1="190" y1="150" x2="270" y2="150"/>
+      </g>
+      <g class="pts">
+        <circle cx="30" cy="30" r="7"/><circle cx="150" cy="30" r="7"/><circle cx="270" cy="30" r="7"/>
+        <circle cx="270" cy="150" r="7"/><circle cx="270" cy="270" r="7"/><circle cx="150" cy="270" r="7"/>
+        <circle cx="30" cy="270" r="7"/><circle cx="30" cy="150" r="7"/>
+        <circle cx="70" cy="70" r="7"/><circle cx="150" cy="70" r="7"/><circle cx="230" cy="70" r="7"/>
+        <circle cx="230" cy="150" r="7"/><circle cx="230" cy="230" r="7"/><circle cx="150" cy="230" r="7"/>
+        <circle cx="70" cy="230" r="7"/><circle cx="70" cy="150" r="7"/>
+        <circle cx="110" cy="110" r="7"/><circle cx="150" cy="110" r="7"/><circle cx="190" cy="110" r="7"/>
+        <circle cx="190" cy="150" r="7"/><circle cx="190" cy="190" r="7"/><circle cx="150" cy="190" r="7"/>
+        <circle cx="110" cy="190" r="7"/><circle cx="110" cy="150" r="7"/>
+      </g>
+    </svg>
+    <figcaption>The board: three nested squares linked at the midpoints, giving <strong>24 points</strong> where lines cross or meet. Pieces sit on the points, not the squares.</figcaption>
+  </figure>
+  <p>Pieces only travel along the drawn lines. The four "T-junction" points in the middle of each side connect to <strong>four</strong> neighbours — these are the most valuable squares on the board (more on that under strategy).</p>
+
+  <h2>The three phases of play</h2>
+  <p>A full game moves through up to three phases. The winner is usually decided in the first two.</p>
+
+  <h3>Phase 1 — Placing (the opening)</h3>
+  <p>The board starts empty. Players take turns placing <strong>one piece at a time</strong> on any empty point, until all eighteen pieces (nine each) are down. Even in this phase, if you complete a mill you immediately capture an opponent's piece — so the opening is already a fight.</p>
+
+  <h3>Phase 2 — Moving</h3>
+  <p>Once every piece is placed, a turn means <strong>sliding one of your pieces along a line to an adjacent empty point</strong>. You can't jump, and you can't move diagonally — only where a line actually connects two points. This is where mills are opened and re-formed.</p>
+
+  <h3>Phase 3 — Flying (a common variation)</h3>
+  <p>When a player is reduced to their <strong>last three pieces</strong>, many rule sets let them "<strong>fly</strong>": move a piece to <em>any</em> empty point, not just an adjacent one. It's a last-chance lifeline for the losing side. Some traditional rules leave flying out entirely — agree which version you're playing before you start.</p>
+
+  <h2>Mills and capturing</h2>
+  <figure>
+    <svg viewBox="0 0 300 300" role="img" aria-label="A mill: three blue pieces in a row along the top line of the board.">
+      <g class="frame">
+        <rect x="30" y="30" width="240" height="240"/>
+        <rect x="70" y="70" width="160" height="160"/>
+        <rect x="110" y="110" width="80" height="80"/>
+        <line x1="150" y1="30" x2="150" y2="110"/>
+        <line x1="150" y1="190" x2="150" y2="270"/>
+        <line x1="30" y1="150" x2="110" y2="150"/>
+        <line x1="190" y1="150" x2="270" y2="150"/>
+      </g>
+      <line class="mill" x1="30" y1="30" x2="270" y2="30"/>
+      <g class="pts">
+        <circle cx="270" cy="150" r="7"/><circle cx="270" cy="270" r="7"/><circle cx="150" cy="270" r="7"/>
+        <circle cx="30" cy="270" r="7"/><circle cx="30" cy="150" r="7"/>
+        <circle cx="70" cy="70" r="7"/><circle cx="150" cy="70" r="7"/><circle cx="230" cy="70" r="7"/>
+        <circle cx="230" cy="150" r="7"/><circle cx="230" cy="230" r="7"/><circle cx="150" cy="230" r="7"/>
+        <circle cx="70" cy="230" r="7"/><circle cx="70" cy="150" r="7"/>
+        <circle cx="110" cy="110" r="7"/><circle cx="150" cy="110" r="7"/><circle cx="190" cy="110" r="7"/>
+        <circle cx="190" cy="150" r="7"/><circle cx="190" cy="190" r="7"/><circle cx="150" cy="190" r="7"/>
+        <circle cx="110" cy="190" r="7"/><circle cx="110" cy="150" r="7"/>
+      </g>
+      <g class="pieces">
+        <circle cx="30" cy="30" r="13"/><circle cx="150" cy="30" r="13"/><circle cx="270" cy="30" r="13"/>
+      </g>
+    </svg>
+    <figcaption>A <strong>mill</strong>: three of your pieces in a row along one marked line. Form one and you remove an opponent's piece.</figcaption>
+  </figure>
+  <p>When you complete a mill, you take <strong>one of your opponent's pieces off the board</strong>. Two important rules:</p>
+  <ul>
+    <li>You normally <strong>cannot remove a piece that is part of a mill</strong> — unless every one of your opponent's pieces is in a mill, in which case any may be taken.</li>
+    <li>A single move only ever captures <strong>one</strong> piece, even if it happens to complete two mills at once.</li>
+  </ul>
+  <div class="callout"><strong>The best move in the game:</strong> a mill can be broken and re-formed. Slide a piece out of a mill on one turn, then back on a later turn, and you score again every time. Build two mills that share a swinging piece — a "<strong>running mill</strong>" — and you capture a piece every single turn.</div>
+
+  <h2>How to win</h2>
+  <p>You win the moment either of these happens to your opponent:</p>
+  <ol>
+    <li>They are reduced to <strong>two pieces</strong> — with only two, they can never form a mill again.</li>
+    <li>They have <strong>no legal move</strong> on their turn (every one of their pieces is blocked).</li>
+  </ol>
+  <p>If neither side can make progress, players may agree a <strong>draw</strong>. Some rule sets also declare a draw if the same position repeats three times.</p>
+
+  <h2>Beginner strategy</h2>
+  <ul>
+    <li><strong>Grab the crosses.</strong> The four side-midpoint points touch four lines each. Owning them gives you the most ways to build and block.</li>
+    <li><strong>Think in double threats.</strong> Aim to threaten two mills at once so your opponent can only stop one.</li>
+    <li><strong>Build a running mill.</strong> Two mills sharing one piece let you swing that piece back and forth, capturing every turn — usually game-winning.</li>
+    <li><strong>Don't over-commit in the opening.</strong> A mill formed early is great, but scattering pieces to chase it can leave you blocked in the moving phase.</li>
+    <li><strong>Keep your pieces mobile.</strong> Being reduced to no legal move loses instantly — leave yourself room to breathe.</li>
+  </ul>
+
+  <h2>A short history</h2>
+  <p>Nine Men's Morris is genuinely ancient. Boards have been found <strong>cut into the roofing slabs of an Egyptian temple</strong> at Kurna, scratched into Roman ruins, and carved onto cathedral steps and cloister benches across medieval Europe, where monks and townsfolk played it to pass the time. It appears in Shakespeare (<em>A Midsummer Night's Dream</em> — "the nine men's morris is filled up with mud"), and versions of the "three-in-a-row plus capture" idea show up in cultures all over the world. Three thousand years on, it's still one of the most satisfying two-player games ever devised — which is exactly why we turned it into a daily puzzle.</p>
+
+  <h2 class="faq-h">Frequently asked questions</h2>
+  <div class="faq">
+    <h3>What's the difference between Nine Men's Morris and Merels?</h3>
+    <p>None — they're the same game. "Merels" (sometimes "Merrills") and "Mills" are older names; "Nine Men's Morris" refers to the nine-piece version. There are also smaller relatives like Three, Six and Twelve Men's Morris.</p>
+    <h3>Who goes first, and is it an advantage?</h3>
+    <p>Players usually choose or toss for the first placement. Going first is a modest edge in the opening, but good play by the second player equalises it — with perfect play the game is a draw.</p>
+    <h3>Can you capture a piece that's in a mill?</h3>
+    <p>Not usually. You must take a piece that isn't part of a mill — unless all of your opponent's pieces are in mills, in which case any piece may be captured.</p>
+    <h3>Do you have to form a mill if you can?</h3>
+    <p>No. Forming a mill is optional, though it's almost always worth doing. There's also no obligation to break a mill.</p>
+    <h3>Is there a solved, perfect strategy?</h3>
+    <p>Nine Men's Morris has been solved by computer: with perfect play by both sides it ends in a draw. In practice, against a human, tactics like double threats and running mills win games.</p>
+  </div>
+
+  <hr class="soft">
+
+  <!-- BOTTOM CTA. Same swap as the top one at launch. -->
+  <div class="cta">
+    <div class="icon"><span></span></div>
+    <div class="txt">
+      <b>Play Nine Men's Morris on iPhone</b>
+      <small>Merels turns it into a daily puzzle you can share, plus a full game vs the computer and 150 hand-made puzzles.</small>
+    </div>
+    <a class="btn soon">Coming soon to the App Store</a>
+  </div>
+  <p style="text-align:center; font-size:.95rem;"><a href="/nine-mens-morris-online/">More on playing Nine Men's Morris online &amp; on your phone →</a></p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Merels — Daily Nine Men's Morris for iPhone.</div>
+    <div class="row"><a href="https://merels.app/">Home</a> · <a href="/how-to-play-nine-mens-morris/">How to play</a> · <a href="/nine-mens-morris-online/">Play the app</a> · <a href="https://merels.app/privacy/">Privacy</a> · <a href="https://merels.app/support/">Support</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
