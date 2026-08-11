@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://quizli.app/merels/sitemap.xml
